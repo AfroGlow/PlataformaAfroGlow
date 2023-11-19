@@ -1,0 +1,21 @@
+.container-cover-one {
+    background: url(bg-1-game-1.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+@media screen and (max-width:485px) {
+    .container-tutorial-one {
+        height: 115vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .container-tutorial-one {
+        height: 125vh;
+    }
+}
