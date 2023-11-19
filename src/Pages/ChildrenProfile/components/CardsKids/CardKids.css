@@ -1,0 +1,49 @@
+.cardsKid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardKid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.cardsKid img {
+    width: 300px;
+}
+.cardsKid button {
+    background-color: #AD4AFF;
+    color: #FFF;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 20px;
+    margin-top: 6px;
+    font-size: 0.9rem;
+}
+.cardsKid .icon-arrow {
+    width: 10px;
+    margin-left: 8px;
+}
+@media screen and (min-width:710px) {
+    .cardsKid {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 1178px;
+        margin: 0 auto;
+    }
+}
+
+@media  screen and (min-width:800px) {
+    .cardsKid img {
+        width: 350px;
+    }
+    .cardsKid button {
+        padding: 8px 25px;
+        margin-top: 12px;
+        font-size: 1rem;
+    }
+}

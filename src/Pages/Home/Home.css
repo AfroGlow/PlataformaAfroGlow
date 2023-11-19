@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    font-family: 'Baloo 2', sans-serif;
+}
+ .welcomeHome{
+    background: url(fundoRoxo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 2rem 0;
+}
+
+.welcomeContainerOne {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeWelcomeParagraph{
+    font-size: 1.9rem;
+    color: #F2B705;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.homeWelcomeText{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.homeWelcomeText span {
+    color: #F2B705;
+}
+
+.homeWelcomeImg{
+    width: 375px;
+    height: 350px;
+}
+
+.homeWelcomeButton{
+    background-color: #F2B705;
+    border-radius: 20px;
+    border: 0;
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.homeWelcomeButton a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mainHome{
+    background: url(Bg-session-kids.png) center center no-repeat;
+    background-size: cover;
+}
+
+.cardsHomeTasks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.tasksCard {
+    margin-top: 50px;
+    width: 370px;
+    height: 260px;
+}
+
+.tasksCard h3 {
+    color: #FFFFFF;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.carousel-limit {
+    max-width: 87%;
+    margin: 35px auto;
+}
+
+.watchYoutube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.watchYoutubeCard {
+    border-radius: 40px;
+    transform: translateX(40px);
+}
+
+.AIscpace {
+    background: url(BackgroundHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    width: 100%;
+    height: 100vh;   
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AIscpaceText h3 {
+    font-size: 2.9rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Baloo 2', sans-serif;
+    margin-bottom: 20px;
+}
+
+.AIscpace img {
+    width: 500px;
+    height: 400px;
+}
+
+.AIscpaceText ul li {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.buttonIA {
+    background-color: #75E5BD;
+    border: none;
+    width: 303.48px;
+    height: 68.96px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.buttonIA a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.plans h2 {
+    color: #000000;
+    font-size: 3rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+}
+
+.plansCards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.plansCardContent {
+    border: solid 1px #AD4AFF;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plansValue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFBF00;
+}
+.plansValueMoney {
+    font-size: 2rem;
+}
+
+.plansValueMoney span {
+    font-size: 16px;
+}
+
+.plansValue {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plansContentOption {
+    display: flex;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.plansContentOption p {
+    color: #000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plansCardContent button {
+    background-color: #F2B705;
+    border: none;
+    width: 166.97px;
+    height: 42.31px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.plansCardContent button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.socialMedia {
+    background: url(BackgroundHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.socialMediaContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.socialMediaContent h3 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.socialMediaContent h3 span {
+    color: #FFBF00;
+}
+
+.socialMediaIcons a {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 1280px) {
+    .homeWelcomeText {
+        font-size: 2rem;
+    }
+
+    .homeWelcomeImg{
+        width: 300px;
+        height: 265px;
+    }
+
+    .AIscpaceText h3 {
+        font-size: 2rem;
+    }
+    
+    .AIscpaceText ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .watchYoutube img {
+        width: 200px;
+        height: 300px;
+    }
+    .watchYoutubeCard {
+        height: 200px;
+        width: 350px;
+        margin-right: 20px;
+    }
+    .AIscpace {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AIscpace img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .buttonIA {
+        width: 203.48px;
+        height: 68.96px;
+    }
+}
+
+@media (max-width: 960px) {
+    .homeWelcomeText {
+        font-size: 2rem;
+    }
+
+    .homeWelcomeParagraph{
+        font-size: 1.8rem;
+    }
+
+    .homeWelcomeImg{
+        width: 300px;
+        height: 265px;
+    }
+
+    .homeWelcomeButton{
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    .welcomeHome{
+        gap: 20px;
+    }
+
+    .AIscpace img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .buttonIA {
+        width: 153.48px;
+        height: 48.96px;
+    }
+
+    .buttonIA a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 705px) {
+    .watchYoutube img {
+        width: 150px;
+        height: 200px;
+    }
+    .watchYoutubeCard {
+        height: 200px;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .AIscpaceText h3{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .AIscpaceText ul li{
+        font-size: 0.9rem;
+    }
+
+    .AIscpace img {
+        margin-bottom: 100px;
+    }
+
+    .tasksCard img {
+        width: 330px;
+        height: 220px;
+    }
+
+    
+}
+
+@media (max-width: 605px) {
+    .watchYoutube img {
+        display: none;
+    }
+
+    .watchYoutubeCard {
+        transform: translateX(0);
+    }
+
+    
+    .socialMediaContent h3 {
+        font-size: 1.5rem;
+    }    
+
+    .plans h2 {
+        font-size: 2rem;
+    }
+
+    .socialMediaIcons a img {
+        width: 40px;
+    }
+
+    .avatarSocialMedia {
+        width: 80%;
+    }
+}
+
+@media (max-width: 405px) {
+    .homeWelcomeText {
+        font-size: 1.8rem;
+    }
+
+    .homeWelcomeParagraph{
+        font-size: 1.8rem;
+    }
+
+    .homeWelcomeImg{
+        width: 200px;
+        height: 245px;
+    }
+
+    .homeWelcomeButton{
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    
+   
+
+}
