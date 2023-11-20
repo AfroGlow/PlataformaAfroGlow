@@ -1,5 +1,5 @@
 import "./StepByStep.css"
-import TextStepByStep from "../ResponsibleProfile/Tutorials/components/TextStepByStep/TextStepByStep"
+import TextStepByStep from "../components/TextStepByStep/TextStepByStep"
 
 const StepByStepVideo2 = () => {
     return (

@@ -1,17 +1,9 @@
-import Responsible from "./Pages/ResponsibleProfile/Responsible"
-import StepByStepVideo2 from "./Pages/StepByStep/StepByStepVideo2"
-
-
-
-
+import RouterApp from "./routers"
 
 function App() {
 
     return (
-        <body>
-         
-          <StepByStepVideo2 />
-        </body>
+       <RouterApp />
       
       )
 

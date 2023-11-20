@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom"
 import "./CardsVideos.css"
-function CardsVideos({ props_img, props_alt, props_p, props_p2 }) {
+
+function CardsVideos({ props_img, props_alt, props_p, props_p2, props_video}) {
 
     return (
         <div className="card-video">
@@ -7,7 +9,7 @@ function CardsVideos({ props_img, props_alt, props_p, props_p2 }) {
             <p>{props_p}</p>
             <div className="time-tutorials">
                 <div className='button-assistir'>
-                    <button>Assistir</button>
+                  <Link to={props_video}> <button>Assistir</button> </Link> 
                 </div>
                 <div className="button-tutorials">
                     <img

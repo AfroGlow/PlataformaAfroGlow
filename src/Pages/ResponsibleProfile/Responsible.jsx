@@ -1,8 +1,9 @@
 import "./Responsible.css"
-import CardsVideos from "./Tutorials/components/CardsVideos/CardsVideos"
-import CardsTop from "./Tutorials/components/CardsTop/CardsTop"
-import HeaderResponsible from "./Tutorials/components/HeaderResponsible/HeaderResponsible"
-import LeftSideResponsible from "./Tutorials/components/LeftSideResponsible/LeftSideResponsible"
+import CardsVideos from "../components/CardsVideos/CardsVideos"
+import CardsTop from "../components/CardsTop/CardsTop"
+import HeaderResponsible from "../components/HeaderResponsible/HeaderResponsible"
+import LeftSideResponsible from "../components/LeftSideResponsible/LeftSideResponsible"
+
 
 
 const Responsible = () => {
@@ -39,13 +40,13 @@ const Responsible = () => {
                         </div>
 
                         <div className="cards-videos-1">
-                            <CardsVideos props_img={'../public/video1.svg'} props_p={'Aprenda tudo sobre os primeiros cuidados na hora de lavar o cabelo da sua estrela!'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video1.svg'} props_p={'Aprenda tudo sobre os primeiros cuidados na hora de lavar o cabelo da sua estrela!'} props_alt={'criança'} props_video={"/video1"}
                                 props_p2={'10 minutos'} />
-                            <CardsVideos props_img={'../public/video2.svg'} props_p={'Hora de saber como lavar o cabelo do seu pequeno da melhor forma.'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video2.svg'} props_p={'Hora de saber como lavar o cabelo do seu pequeno da melhor forma.'} props_alt={'criança'} props_video={"/video2"}
                                 props_p2={'10 minutos'} />
-                            <CardsVideos props_img={'../public/video3.svg'} props_p={'Venha aprender como hidratar os pequenos cachinhos da forma mais prazerosa.'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video3.svg'} props_p={'Venha aprender como hidratar os pequenos cachinhos da forma mais prazerosa.'} props_alt={'criança'} props_video={"/video3"}
                                 props_p2={'10 minutos'} />
-                            <CardsVideos props_img={'../public/video4.svg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video4.svg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança'} props_video={"/video4"}
                                 props_p2={'10 minutos'} />
                         </div>
                         <div className="title-tutorials">
