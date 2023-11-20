@@ -1,0 +1,151 @@
+body{
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.containerSection{
+    display: flex;
+    justify-content:space-between;
+    background-color: #f5f5f5;
+    overflow: hidden;
+
+}
+
+.forms-left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    width: 80vh;
+    margin: 2rem 3rem;
+    padding: 0.2em;
+}
+
+
+.forms-register{
+    width: 70vh;
+    padding: 0.2rem;
+
+}
+
+.btn-register{
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+
+.paragrafS{
+    font-size: 0.8rem;
+}
+
+.link{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--purple-medium);
+}
+
+.link:hover{
+    color: var(--purple-primary);
+}
+
+
+@media (max-width:1091px) {
+    .img-rigth{
+        display: none;
+    }
+}
+
+
+@media (max-width:1085px) {
+    
+    .forms-left{
+        width: 80vh;
+        margin: auto;
+    }
+
+    .forms-register{
+        width: 100%;
+    }
+
+}
+@media (max-width:530px) {
+    .info-register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .forms-left{
+        width: 60vh;
+
+    }
+
+    .forms-register{
+        width: 100%;
+    }
+ 
+}
+
+@media (max-width:490px) {
+    
+    .info-register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .forms-left{
+        width: 50vh;
+
+    }
+
+
+    .forms-register{
+        width: 100%;
+    }
+
+    .btn-register{
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+
+    }
+
+@media (max-width:390px) {
+
+    .info-register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .forms-left{
+        width: 40vh;
+
+    }
+
+    .forms-register{
+        width: 100%;
+    }
+
+    .btn-register{
+        flex-direction: column;
+    
+    }
+
+    .btn-register p ,span{
+        font-size: 0.7em;
+    }
+
+    .btn-register span{
+        font-size: 0.8em;
+    }
+}
