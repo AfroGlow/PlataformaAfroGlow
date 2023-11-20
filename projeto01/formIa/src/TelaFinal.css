@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
+
+  .tituloImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+  }
+   .tituloImgP{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2rem;
+    width: 100%;
+  }
+
+   h4{
+      font-size: 2.7rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+       font-family: 'Montserrat', sans-serif;
+      
+  }
+
+  p{
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.btnAmarelo{
+    padding: 1.3rem;
+    width: 15rem;
+    background-color: #F2B705;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+
+  .alinharBtn{
+    display: flex;
+    justify-content: right;
+    margin-right: 7rem;
+
+  }
+
+  .alinharBox{
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    float: right;
+  }
+  .pBox{
+    margin-left: 3rem;
+    width: 100%;
+  }
+
+  .inputsGrupo{
+    margin-top: 3rem;
+    margin-left: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  } 
+
+
+  @media (max-width: 600px) {
+
+
+  
+  .tituloImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+   .tituloImgP{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2rem;
+    width: 100%;
+  }
+
+   h4{
+      font-size: 2.7rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+       font-family: 'Montserrat', sans-serif;
+      
+  }
+
+  p{
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.btnAmarelo{
+    padding: 1.3rem;
+    width: 15rem;
+    background-color: #F2B705;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+
+  .alinharBtn{
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+
+  }
+
+  .alinharBox{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .pBox{
+    margin-left: 0;
+    float: none;
+  }
+  .inputsGrupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    
+  } }
