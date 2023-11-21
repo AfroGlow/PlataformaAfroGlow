@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom"
 import "./LeftSideResponsible.css"
+
+
 function LeftSideResponsible() {
 
     return (
@@ -7,13 +10,12 @@ function LeftSideResponsible() {
                 src="house-icone.svg"
             />
             <p>Home</p>
+            <Link to='/midias'>
             <img
-                src="midia-icone.svg"
-            />
+                src="midia-icone.svg"/>
+                </Link>
             <p>Mídias</p>
-            <img
-                src="notas-icone.svg"
-            />
+                <img src="notas-icone.svg" alt="Ícone de notas" />
             <p>Notas</p>
             <img
                 src="ia-icone.svg"

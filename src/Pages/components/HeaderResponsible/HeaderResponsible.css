@@ -54,6 +54,6 @@
     .responsible-header h2,
     .responsible-header a {
         margin: 0.5rem 0; 
-        text-align: center; /* Centralizado o texto */
+        text-align: center; 
     }
 }

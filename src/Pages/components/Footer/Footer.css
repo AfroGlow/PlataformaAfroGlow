@@ -21,9 +21,53 @@
  .footer-hr hr {
     border-color: #000;
    width: 65rem;
-   margin-left: 80px;
+   margin-left: 60px;
    border-width: 3px;
  }
+
+ .footer-icons{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+ }
+
+ .footer-down{
+  display: flex;
+  flex-direction: row;
+  gap: 25rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
