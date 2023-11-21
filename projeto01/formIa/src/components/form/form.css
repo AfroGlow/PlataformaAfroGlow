@@ -16,7 +16,38 @@ input{
  margin-bottom: 2rem;
 }
 
+.input-radio-form {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 3px solid #ae4aff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
 
+  .custom-radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilo para quando o radio está marcado */
+  .input-radio-form:checked {
+    background-color: #AD4AFF;
+   
+    
+   
+  }
+  
+  /* Estilo para quando o radio não está marcado */
+  .input-radio-form:not(:checked) {
+    background-color: transparent;
+  }
+  
 
  div label{
     color: rgb(0, 0, 0);

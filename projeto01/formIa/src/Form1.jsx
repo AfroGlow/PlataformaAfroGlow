@@ -21,10 +21,10 @@ function Form1() {
 
 
   <div className='background-form'>
-     <Form props_img={'./img.svg'} props_label={"Liso (sem ondulação)"} />
-     <Form props_img={'./imgperfil2.svg'} props_label={"Ondulado (em forma de S)"} />
-     <Form props_img={'./imgperfil3.svg'} props_label={"Cacheado (encaracolado)"} />
-     <Form props_img={'./imgperfil4.svg'} props_label={"Crespo (cachos fechados)"} />
+     <Form props_img={'./imgperfil2.svg'} props_label={"Liso (sem ondulação)"} />
+     <Form props_img={'./imgperfil3.svg'} props_label={"Ondulado (em forma de S)"} />
+     <Form props_img={'./imgperfil4.svg'} props_label={"Cacheado (encaracolado)"} />
+     <Form props_img={'./img.svg'} props_label={"Crespo (cachos fechados)"} />
   </div>
  
   <div className='alinhaCentro'>

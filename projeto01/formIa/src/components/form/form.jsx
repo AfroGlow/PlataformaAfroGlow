@@ -11,8 +11,11 @@ function Form ({props_img,props_label}){
            <img src="../public/fundoBg.svg"  alt="" />
            <img src={props_img} className='img-form' alt="" />
        </div>
+       <div className='custom-radio'>
        <input type="radio" className='input-radio-form' name="input-form" id="" />
-       <label htmlFor="input-form">{props_label}</label>
+        <label htmlFor="input-form">{props_label}</label>
+       </div>
+      
    
     </div>
     
