@@ -15,11 +15,16 @@ function LeftSideResponsible() {
                 src="midia-icone.svg"/>
                 </Link>
             <p>Mídias</p>
+            <Link to='/midias'>
                 <img src="notas-icone.svg" alt="Ícone de notas" />
+                </Link>
             <p>Notas</p>
+
+            <Link to='/midias'>
             <img
                 src="ia-icone.svg"
             />
+            </Link>
             <p className="IA">I A</p>
         </div>
     )
