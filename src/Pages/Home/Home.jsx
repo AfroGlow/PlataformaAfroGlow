@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import CarouselComent from '../../components/CarouselComent/CarouselComent'
 
 
 const Home = () => {
@@ -69,7 +70,7 @@ const Home = () => {
 
       <div className="watchYoutube">
         <img src="AvatarMasculino.svg" alt="avatar masculino, roupa amarela" />
-        <iframe className='watchYoutubeCard' width="560" height="315" src="https://www.youtube.com/embed/Lhk1GDXb9d8?si=ZzATXc9FOyt-GysW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className='watchYoutubeCard' width="560" height="315" src="https://www.youtube.com/embed/RWWJ4qEfRnY?si=H-DeEL5v6jeLIP4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <img src="AvatarFeminino.svg" alt="avatar feminino, roupa amarela" />
       </div>
 
@@ -203,8 +204,14 @@ const Home = () => {
         </div>
       </div>
 
-      
+      <div className="feedback">
+        <h2>Depoimentos</h2>
+        <CarouselComent />
+        <img src="barRoxa.svg" alt="" className='barFooter'/>
+      </div>
       </main>
+
+      
       <Footer />
     </> 
   )

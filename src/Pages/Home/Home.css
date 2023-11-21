@@ -17,6 +17,15 @@
     padding: 2rem 0;
 }
 
+.navbar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
 .welcomeContainerOne {
     display: flex;
     flex-direction: column;
@@ -56,9 +65,19 @@
     font-weight: 600;
 }
 
+.homeWelcomeButton:hover {
+    background-color: rgba(255, 204, 51, 0.897);
+    transition: 1.3s;
+}
+
 .homeWelcomeButton a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.homeWelcomeButton a:hover {
+    transition: 1.3s;
+    color: #050505;
 }
 
 .mainHome{
@@ -148,6 +167,11 @@
     margin-top: 20px;
 }
 
+.buttonIA:hover {
+    background-color: #75e5bebd;
+    
+}
+
 .buttonIA a {
     text-decoration: none;
     color: #FFFFFF;
@@ -231,10 +255,20 @@
     text-align: center;
 }
 
+.plansCardContent button:hover {
+    background-color: rgba(255, 204, 51, 0.897);
+    transition: 1.3s;
+}
+
 .plansCardContent button a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
+}
+
+.plansCardContent button a:hover {
+    transition: 1.3s;
+    color: #000;
 }
 
 .socialMedia {
@@ -274,6 +308,23 @@
     margin-left: 20px;
 }
 
+.barFooter {
+   width: 100%;
+}
+
+.feedback {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.feedback h2{
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
 
 @media (max-width: 1280px) {
     .homeWelcomeText {
@@ -304,6 +355,11 @@
         width: 350px;
         margin-right: 20px;
     }
+
+    .welcomeHome {
+        margin-top: 100px;
+    }
+
     .AIscpace {
         flex-wrap: wrap;
         align-items: center;
