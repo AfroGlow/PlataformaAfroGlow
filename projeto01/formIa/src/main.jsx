@@ -6,6 +6,7 @@ import Form2 from './Form2.jsx'
 import Form3 from './Form3.jsx'
 import Form1 from './Form1.jsx'
 import TelaFinal from './telaFinal.jsx'
+import ImageClassification from './components/ImageClassification/index.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,6 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
          <Route path="/" element={<Layout />}>
+         
+         <Route path="ia" element={<ImageClassification />} />
           <Route index element={<Form1 />} />
           <Route path="Form2" element={<Form2 />} />
           <Route path="Form3" element={<Form3 />} />
