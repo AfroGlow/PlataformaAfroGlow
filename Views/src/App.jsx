@@ -1,10 +1,10 @@
-import TutorialTwo from "./Pages/GameTwo/TutorialTwo/TutorialTwo"
+import ChildrenProfile from "./Pages/ChildrenProfile/ChildrenProfile"
 
 function App() {
 
   return (
     <body>
-      <TutorialTwo />
+      <ChildrenProfile />
     </body>
   )
 }

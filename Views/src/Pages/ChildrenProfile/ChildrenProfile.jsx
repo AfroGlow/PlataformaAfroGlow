@@ -1,7 +1,7 @@
-import "./Children.css";
+import "./ChildrenProfile.css";
 import CardKids from "./components/CardsKids/CardKids";
 
-const Children = () => {
+const ChildrenProfile = () => {
   return (
     <div className="container-kids">
       <header className="header-kids">
@@ -67,4 +67,4 @@ const Children = () => {
   );
 };
 
-export default Children;
+export default ChildrenProfile;
