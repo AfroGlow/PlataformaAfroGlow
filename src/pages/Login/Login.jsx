@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 function Login() {
     return (
-        <body>
+        <body className="bg-login">
             <section className="login-container">
                 <div className="img-left">
                     <img src={ImgEsq} alt="" className="image-left" />
@@ -20,11 +20,11 @@ function Login() {
                     </div>
                     <div className="forms-login">
                     <Input label={'E-mail'} labelFor={'email'} type={'text'} id={'email'} PlaceH={'Email'} />
-                    <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Crie uma senha'} />
+                    <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Digite sua senha'} />
                     </div>
                     <div className="btn-login">
-                    <p className="login-paragraf">Ainda não possui uma conta<Link to={'/'} className="link"><span className="link-login"> Cadastro</span></Link></p>
-                    <Link to="/perfil" cla><UniversalButton Link propsBtn={'Fazer login'} /></Link>
+                    <p className="login-paragraf">Ainda não possui uma conta<Link to={'/'} className="link-router"><span className="link-login"> Cadastro</span></Link></p>
+                    <Link to="/perfil" className="link-router"><UniversalButton Link propsBtn={'Fazer login'} /></Link>
                     </div>
                 </div>
             </section>

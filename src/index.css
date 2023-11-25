@@ -6,10 +6,9 @@
     box-sizing: border-box;
     border: none;
     font-family: var(--font-family-body);
-    font-size: 16px;
   }
 
-  .link{
+  .link-router{
     text-decoration: none;
   }
 
@@ -29,6 +28,7 @@
     font: 800 normal 1.7em var(--font-family-subtitle);
     padding: 0;
     margin: 0;
+    color: #000000;
 }
   
     :root{

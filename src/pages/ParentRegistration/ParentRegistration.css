@@ -1,13 +1,8 @@
-body{
-    background-color: #f5f5f5;
-    overflow: hidden;
-}
 
 .containerSection{
     display: flex;
     justify-content:space-between;
-    background-color: #f5f5f5;
-    overflow: hidden;
+    background-color: var(--offwhite);
 
 }
 
@@ -24,19 +19,19 @@ body{
 
 .forms-register{
     width: 70vh;
-    padding: 0.2rem;
+    padding: 0.2em;
 
 }
 
 .btn-register{
-    margin-top: 0.6rem;
+    margin-top: 0.6em;
     display: flex;
     gap: 0.7em;
     align-items: center;
 }
 
 .paragrafS{
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 .link{
@@ -50,47 +45,14 @@ body{
 }
 
 
-@media (max-width:1091px) {
+@media (max-width:1090px) {
     .img-rigth{
         display: none;
     }
 }
 
-
-@media (max-width:1085px) {
-    
-    .forms-left{
-        width: 80vh;
-        margin: auto;
-    }
-
-    .forms-register{
-        width: 100%;
-    }
-
-}
 @media (max-width:530px) {
-    .info-register{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-   
-    .forms-left{
-        width: 60vh;
 
-    }
-
-    .forms-register{
-        width: 100%;
-    }
- 
-}
-
-@media (max-width:490px) {
-    
     .info-register{
         display: flex;
         flex-direction: column;
@@ -100,7 +62,7 @@ body{
     }
 
     .forms-left{
-        width: 50vh;
+        width: 70vh;
 
     }
 
@@ -111,41 +73,11 @@ body{
 
     .btn-register{
         justify-content: space-between;
-        flex-direction: column;
     
     }
 
-    }
-
-@media (max-width:390px) {
-
-    .info-register{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .forms-left{
-        width: 40vh;
-
-    }
-
-    .forms-register{
-        width: 100%;
-    }
-
-    .btn-register{
-        flex-direction: column;
-    
-    }
-
-    .btn-register p ,span{
+    .btn p, span{
         font-size: 0.7em;
     }
 
-    .btn-register span{
-        font-size: 0.8em;
-    }
 }

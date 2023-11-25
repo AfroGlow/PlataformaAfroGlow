@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 2em;
   }
   
   .profiles{
@@ -33,8 +33,8 @@
     position: relative;
     top: 7rem;
     align-items: center;
-    margin: 2rem;
-    gap: 2rem;
+    margin: 2em;
+    gap: 2em;
   }
   
   
@@ -59,7 +59,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2em;
     background-color: #FFFFFF;
     width: 25rem;
     height: 30rem;

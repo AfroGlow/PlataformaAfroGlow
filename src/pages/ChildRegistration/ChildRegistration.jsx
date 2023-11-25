@@ -5,10 +5,10 @@ import UniversalButton from "../../Components/Button/Button"
 import { Link } from "react-router-dom"
 import InputSelect from "../../Components/Input/InputSelect"
 
-function ChildRegistration() {
+function CadastroC() {
     return (
         <body className="bg-register">
-            <section className="container">
+            <section className="container-register">
                     <div className="info">
                         <img src={LogoA} alt="" className="logo" />
                         <h2 className="title-register">Para finalizar, preencha os dados da criança</h2>
@@ -19,11 +19,11 @@ function ChildRegistration() {
                         <InputSelect/>
                     </div>
                     <div className="btn-register">
-                    <Link to="/perfil" className="link"><UniversalButton Link propsBtn={'Cadastre-se'} /></Link>
+                    <Link to="/login" className="link-router"><UniversalButton Link propsBtn={'Cadastre-se'} /></Link>
                     </div>
             </section>
         </body>
     )
 }
 
-export default ChildRegistration
+export default CadastroC
