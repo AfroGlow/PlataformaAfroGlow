@@ -1,0 +1,133 @@
+.bg-edit-child {
+    width: 100vh;
+    background-color: #F5f5f5;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.container-edit-child {
+    width: 70%;
+    border: 2px solid #c78cf7;
+    top: 3rem;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 1px 2px 2px 2px inset #e2bfff;
+    position: relative;
+    top: 2.5rem;
+
+}
+
+.title-edit-chil{
+    text-align: center;
+}
+
+
+.edit-profile-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.forms-edit {
+    width: 55%;
+    padding: 2rem;
+}
+
+.subtitle-edit {
+    font-size: 1.3rem;
+}
+
+.form-label {
+    color: black;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-top: 0.2rem;
+}
+
+
+.modes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.btn-mode {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+}
+
+.btn-dark,.btn-clear {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    background-color: transparent;
+    border: 3px solid#F2B705;
+    font-weight: 700;
+    font-size: 1rem;
+    gap: 0.3rem;
+}
+
+@media (max-width:1085px) {
+    .container-edit-child {
+        width: 90%;
+    }
+
+    .forms-edit {
+        width: 80%;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:868px) {
+    .container-edit-child {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .forms-edit {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .edit-profile-child {
+        gap: 0.4rem;
+    }
+
+    .btn-dark,.btn-clear{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media(max-width:542px){
+
+    .edit-profile-child {
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .btn-dark,.btn-clear{
+        font-size: 1rem;
+    }
+
+    .btn-mode {
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
+    }
+    
+}
+
