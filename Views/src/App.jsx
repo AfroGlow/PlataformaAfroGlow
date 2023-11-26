@@ -1,10 +1,10 @@
-import TutorialFive from "./Pages/GameFive/TutorialFive/TutorialFive"
+import About from "./Pages/AboutUs/About"
 
 function App() {
 
   return (
     <body>
-      <TutorialFive />
+      <About />
     </body>
   )
 }

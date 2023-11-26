@@ -1,0 +1,52 @@
+.cards-team {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.cards-team img {
+    width: 170px;
+}
+.member-data {
+    gap: 10px;
+}
+.member-data h3 {
+    font-size: 1.8rem;
+}
+.icons-contact-team {
+    display: flex;
+    gap: 10px;
+}
+.member-data img {
+    width: 28px;
+}
+.member-data h4 {
+    font-size: 1.2rem;
+    color: #008E9B;
+    font-weight: bold;
+    max-width: 200px;
+}
+
+@media screen and (max-width: 430px){
+    .cards-team img {
+        width: 150px;
+    }
+    .member-data {
+        gap: 10px;
+    }
+    .member-data h3 {
+        font-size: 1.5rem;
+    }
+    .icons-contact-team {
+        display: flex;
+        gap: 10px;
+    }
+    .member-data img {
+        width: 28px;
+    }
+    .member-data h4 {
+        font-size: 1rem;
+        color: #008E9B;
+        font-weight: bold;
+        max-width: 200px;
+    }
+}

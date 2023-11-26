@@ -1,0 +1,118 @@
+.titles-about {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.container-mvv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-mvv img {
+    width: 120px;
+}
+.MVV  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 60px;
+}
+.box-mvv {
+    display: flex;
+    gap: 30px;
+}
+.missionVisionValues {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+.missionVisionValues h3 {
+    font-size:29px;
+}
+.missionVisionValues span {
+    font-weight: bold; 
+}
+.missionVisionValues .text-spacing {
+    gap: 17px;
+}
+.missionVisionValues p {
+    font-size: 19px;
+}
+.container-sides-developers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.developers-left, .developers-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+@media screen and (max-width: 960px){
+    .container-mvv img {
+        width: 90px;
+    }
+    .missionVisionValues {
+        max-width: 600px;
+    }
+    .missionVisionValues h3 {
+        font-size: 1.5rem;
+    }
+    .missionVisionValues p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 910px) {
+    .container-sides-developers {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .developers-left, .developers-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+    .missionVisionValues {
+        max-width: 480px;
+    }
+    .missionVisionValues .text-spacing {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 588px){
+    .container-mvv img {
+        width: 75px;
+    }
+    .box-mvv {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .missionVisionValues {
+        max-width: 420px;
+    }
+    .missionVisionValues .text-spacing {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 410px){
+    .box-mvv {
+        gap: 15px;
+    }
+    .missionVisionValues {
+        max-width: 350px;
+    }
+    .missionVisionValues .text-spacing {
+        gap: 7px;
+    }
+}
