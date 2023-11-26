@@ -1,16 +1,16 @@
-.container-tutorial-one {
-    background: url(bg-2-game-1.jpg) center no-repeat;
+.container-tutorial-three {
+    background: url(bg-3-game-3.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 @media screen and (max-width:485px) {
-    .container-tutorial-one {
+    .container-tutorial-three {
         height: 115vh;
     }
 }
 @media screen and (max-width:450px) {
-    .container-tutorial-one {
+    .container-tutorial-three{
         height: 125vh;
     }
 }

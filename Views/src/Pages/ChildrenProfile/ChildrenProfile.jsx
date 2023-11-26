@@ -47,7 +47,7 @@ const ChildrenProfile = () => {
             </div>
           </div>
       </article>
-      <section className="teste">
+      <section className="container-avatars">
       <article className="space-avatars">
         <img className="avatar-special" src="avatar 1.png" alt="" />
         <img src="avatar 2.png" alt="" />
@@ -63,6 +63,8 @@ const ChildrenProfile = () => {
       <h1>Jogos</h1>
         <CardKids />
     </section>
+    <footer className="footer-children">
+    </footer>
     </div>
   );
 };

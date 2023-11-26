@@ -1,0 +1,107 @@
+.container-tutorials-secondary {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back-games{
+    top: 1.8rem;
+    left: 2rem;
+    position: fixed;
+}
+.container-cards-tutorials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 90px;
+}
+.card-tutorials {
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-tutorials span {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.card-tutorials img {
+    width: 4rem;
+    margin-bottom: 1.4rem;
+}
+.card-tutorials p {
+    max-width: 230px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.container-tutorials button {
+    margin-top: 40px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:755px) {
+    .container-cards-tutorials {
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 20px;
+    }
+    .container-tutorials button {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:485px) {
+    .back-games{
+        top: 1rem;
+        left: 1rem;
+        position: fixed;
+    }
+}
+@media screen and (max-width:450px){
+    .container-cards-tutorials {
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width:420px){
+    .container-cards-tutorials {
+        margin-top: 180px;
+    }
+}
+
+.container-tutorial-five {
+    background: url(bg-2-game-5.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container-tutorial-five .card-tutorials {
+    border: 1px solid #6F4941;
+}
+.container-tutorial-five button{
+    background-color: #F7C42A;
+    color: #F6F1F1;
+    border: 1px solid #F7C42A;
+}
+@media screen and (max-width:485px) {
+    .container-tutorial-five {
+        height: 115vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .container-tutorial-five {
+        height: 125vh;
+    }
+}

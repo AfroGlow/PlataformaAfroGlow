@@ -1,5 +1,5 @@
-.container-cover-one {
-    background: url(bg-1-game-1.jpg) center no-repeat;
+.container-cover-five{
+    background: url(bg-1-game-5.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -8,4 +8,10 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
+}
+.container-cover-five p {
+    color: #6F4941;
+}
+.container-cover-five h3 {
+    color: #0A66C2;
 }

@@ -1,0 +1,24 @@
+.container-tutorial-four {
+    background: url(bg-1-game-4.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container-tutorial-four .card-tutorials {
+    border: 1px solid #F83BF6;
+}
+.container-tutorial-four button{
+    background-color: #F557F4;
+    color: #F6F1F1;
+    border: 1px solid #F83BF6;
+}
+@media screen and (max-width:485px) {
+    .container-tutorial-four {
+        height: 115vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .container-tutorial-four{
+        height: 125vh;
+    }
+}
