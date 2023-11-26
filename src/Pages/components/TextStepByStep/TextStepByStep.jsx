@@ -67,6 +67,8 @@ function TextStepByStep({ props_img_title, props_alt_title,props_p_title, props_
 
                 <div className="button-steps">
                     <ButtonSteps />
+
+                    
                     <img src="../anotacao-icone.svg" alt="" />
                 </div>
 

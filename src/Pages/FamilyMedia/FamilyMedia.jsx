@@ -53,7 +53,7 @@ function FamilyMedia() {
 
             </div>
             <div className="footer-media">
-            <Footer />
+                <Footer />
             </div>
         </div>
     )
