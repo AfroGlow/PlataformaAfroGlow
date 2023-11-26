@@ -1,11 +1,11 @@
 .container-kids {
-    background: url(Bg-session-kids.png) center no-repeat;
+    background: url(Bg-session-kids.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .container-avatars {
-    background: url(Bg-session-kids.png) center center no-repeat;
+    background: url(Bg-session-kids.jpg) center center no-repeat;
     background-size: cover;
 }
 .header-kids {
@@ -50,6 +50,7 @@
 .space-avatars img {
     width: 60px;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 .container-kids h1 {
     text-align: center;
@@ -62,6 +63,44 @@
     background-color: #75E5BD;
     height: 12vh;
     margin-top: 2rem;
+}
+.modalKids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container-modal-kids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.modalKids img {
+    width: 190px;
+}
+.title-modal h1 {
+    font-weight: 600;
+}
+.modalKids p {
+    border: 1px solid #AD4AFF;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px #AD4AFF;
+    margin: 10px 0px;
+}
+.container-hair-and-color {
+    display: flex;
+    gap: 15px;
+}
+.favourite-colour {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ff4ac3;
+}
+.description-avatars {
+    max-width: 380px;
 }
 
 @media  screen and (min-width:800px) {

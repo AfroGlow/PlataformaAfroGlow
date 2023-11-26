@@ -1,7 +1,12 @@
 import "./ChildrenProfile.css";
 import CardKids from "./components/CardsKids/CardKids";
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const ChildrenProfile = () => {
+  const [lgShow, setLgShow] = useState(false);
+
   return (
     <div className="container-kids">
       <header className="header-kids">
@@ -49,7 +54,7 @@ const ChildrenProfile = () => {
       </article>
       <section className="container-avatars">
       <article className="space-avatars">
-        <img className="avatar-special" src="avatar 1.png" alt="" />
+        <img onClick={() => setLgShow(true)} className="avatar-special" src="avatar 1.png" alt="" />
         <img src="avatar 2.png" alt="" />
         <img src="avatar 3.png" alt="" />
         <img src="avatar 4.png" alt="" />
@@ -65,6 +70,44 @@ const ChildrenProfile = () => {
     </section>
     <footer className="footer-children">
     </footer>
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg" className="title-modal">
+            <h1>Vivian</h1>
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="modalKids">
+          <section className="container-modal-kids">
+            <img src="avatar-main.png" alt="" />
+            <div>
+            <div>
+              <h2>Idade:</h2>
+              <p className="description-avatars">8 anos</p>
+            </div>
+            <article className="container-hair-and-color">
+              <div>
+                <h2>Tipo de cabelo:</h2>
+                <p>Cacheado 3C</p>
+              </div>
+              <div>
+                <h2>Cor favorita:</h2>
+                <p>
+                  <div className="favourite-colour">.</div>
+                </p>
+              </div>
+            </article>
+            <div>
+              <p className="description-avatars">Olá sou a vivian, minha cor favorita é rosa e gosto muito de dancar e cantar e umas das minhas musicas favorita é:</p>
+            </div>
+            </div>
+          </section>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 };

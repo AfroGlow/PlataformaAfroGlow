@@ -1,10 +1,10 @@
-import About from "./Pages/AboutUs/About"
+import ChildrenProfile from "./Pages/ChildrenProfile/ChildrenProfile"
 
 function App() {
 
   return (
     <body>
-      <About />
+      <ChildrenProfile />
     </body>
   )
 }
