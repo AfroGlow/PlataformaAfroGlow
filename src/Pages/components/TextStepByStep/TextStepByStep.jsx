@@ -1,7 +1,7 @@
 import "./TextStepByStep.css"
 import HeaderResponsible from "../HeaderResponsible/HeaderResponsible"
 import LeftSideResponsible from "../LeftSideResponsible/LeftSideResponsible"
-import ButtonSteps from "../FilledButton/ButtonSteps"
+import ButtonSteps from "../ButtonSteps/ButtonSteps"
 import Footer from "../Footer/Footer"
 import { Link } from "react-router-dom"
 
