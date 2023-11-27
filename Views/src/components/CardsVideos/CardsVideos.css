@@ -1,0 +1,64 @@
+.button-assistir button {
+    width: 7rem;
+    background-color: #1ACDC7;
+    color: #f2f2f2;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.button-assistir button:hover {
+    background: #0ABBB5;
+    color: #000;
+    transition: 1.3s;
+}
+
+.card-video{
+    width: 16.563rem;
+    height: 26rem;
+    background-color: #efe6f7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-video p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 20px;
+    max-width: 230px;
+    
+}
+
+.card-video .highlight-tutorials{
+    margin-top: 20px;
+}
+
+.icone-relogio img{
+    width: 50px;
+}
+.button-tutorials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.button-tutorials p {
+    margin-bottom: 20px;
+
+}
+.time-tutorials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
