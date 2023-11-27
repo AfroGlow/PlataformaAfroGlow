@@ -1,6 +1,7 @@
 import ChildrenProfile from "./Pages/ChildrenProfile/ChildrenProfile"
 import ImageClassification from "./Pages/ImageClassification/ImageClassification"
 import Partners from "./Pages/Partners/Partners"
+import RouterApp from "./routers"
 
 function App() {
 
@@ -8,7 +9,11 @@ function App() {
     <body>
       <ChildrenProfile />
       <Partners />
+
       <ImageClassification/>
+
+      <RouterApp />
+
     </body>
   )
 }
