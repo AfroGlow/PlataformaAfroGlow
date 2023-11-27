@@ -1,0 +1,21 @@
+
+.inputTelaFinal{
+    width: 37rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #ae4aff96;
+    box-shadow: 2px 2px 4px 2px #ae4aff70;
+}
+
+@media(max-width:600px)  {
+    
+
+
+.inputTelaFinal{
+    width: 23rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #ae4aff96;
+    box-shadow: 2px 2px 4px 2px #ae4aff70;
+}}
+

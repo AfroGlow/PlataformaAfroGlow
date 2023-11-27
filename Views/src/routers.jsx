@@ -21,6 +21,12 @@ function RouterApp() {
           <Route path='/video2' element={< StepByStepVideo2/>}>Tutorial 2</Route> 
           <Route path='/midias' element={< FamilyMedia/>}>Mídias em família</Route> 
           <Route path='/notas' element={< Notes />}>Notas</Route> 
+          <Route path="ia" element={<ImageClassification />} />
+          <Route path="FaleConosco" element={<TelaFaleConosco />} />
+          <Route index element={<Form1 />} />
+          <Route path="Form2" element={<Form2 />} />
+          <Route path="Form3" element={<Form3 />} />
+          <Route path="TelaFinal" element={<TelaFinal />} />
 
           
          </Routes>
