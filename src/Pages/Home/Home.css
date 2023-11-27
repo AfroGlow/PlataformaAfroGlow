@@ -323,8 +323,9 @@
     font-family: 'Baloo 2', sans-serif;
     font-weight: 700;
     text-align: center;
-
 }
+
+
 
 @media (max-width: 1280px) {
     .homeWelcomeText {
@@ -338,6 +339,7 @@
 
     .AIscpaceText h3 {
         font-size: 2rem;
+        margin-top: 50px;
     }
     
     .AIscpaceText ul li {
@@ -416,15 +418,42 @@
     }
 }
 
-@media (max-width: 705px) {
+@media (max-width: 720px) {
+
+    .cardsHomeTasks {
+        gap: 0;
+        padding: 20px;
+        margin-bottom: 70px;
+        margin-left: 30px;
+    }
+    
+    .tasksCard {
+        margin-top: 50px;
+        width: 370px;
+        height: 260px;
+    }
+
+    .homeWelcomeImg{
+        width: 200px;
+        height: 245px;
+    }
+
+    .carousel {
+        display: none;
+    }    
+
+    .watchYoutube img {
+        display: none;
+    }
+    
     .watchYoutube img {
         width: 150px;
         height: 200px;
     }
     .watchYoutubeCard {
-        height: 200px;
-        width: 300px;
-        margin-right: 20px;
+        height: 300px;
+        width: 500px;
+        margin-right: 100px;
     }
 
     .AIscpaceText h3{
@@ -445,7 +474,6 @@
         height: 220px;
     }
 
-    
 }
 
 @media (max-width: 605px) {
@@ -457,7 +485,12 @@
         transform: translateX(0);
     }
 
-    
+    .watchYoutubeCard {
+        height: 300px;
+        width: 400px;
+        margin-right: 0;
+    }
+
     .socialMediaContent h3 {
         font-size: 1.5rem;
     }    
@@ -494,8 +527,15 @@
         height: 50px;
         font-size: 1rem;
     }
-    
-    
-   
+
+    .watchYoutubeCard {
+        height: 300px;
+        width: 340px;
+        margin-right: 0;
+    }
+
+    .cardsHomeTasks {
+        margin-left: 10px;
+    } 
 
 }
