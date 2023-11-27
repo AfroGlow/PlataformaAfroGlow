@@ -1,8 +1,8 @@
 import "./FamilyMedia.css"
-import HeaderResponsible from "../components/HeaderResponsible/HeaderResponsible";
-import LeftSideResponsible from "../components/LeftSideResponsible/LeftSideResponsible";
-import CardsMedia from "../components/CardsMedia/CardsMedia";
-import Footer from "../components/Footer/Footer";
+import HeaderResponsible from "../../components/HeaderResponsible/HeaderResponsible";
+import LeftSideResponsible from "../../components/LeftSideResponsible/LeftSideResponsible";
+import CardsMedia from "../../components/CardsMedia/CardsMedia";
+import Footer from "../../components/Footer/Footer";
 
 function FamilyMedia() {
 

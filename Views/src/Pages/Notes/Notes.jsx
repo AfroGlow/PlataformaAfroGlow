@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Notes.css'; 
-import HeaderResponsible from '../components/HeaderResponsible/HeaderResponsible';
-import LeftSideResponsible from '../components/LeftSideResponsible/LeftSideResponsible';
+import HeaderResponsible from '../../components/HeaderResponsible/HeaderResponsible';
+import LeftSideResponsible from '../../components/LeftSideResponsible/LeftSideResponsible';
 
 const Notes = () => {
   const [items, setItems] = useState(

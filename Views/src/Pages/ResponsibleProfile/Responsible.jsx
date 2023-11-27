@@ -1,8 +1,8 @@
 import "./Responsible.css"
-import CardsVideos from "../components/CardsVideos/CardsVideos"
-import CardsTop from "../components/CardsTop/CardsTop"
-import HeaderResponsible from "../components/HeaderResponsible/HeaderResponsible"
-import LeftSideResponsible from "../components/LeftSideResponsible/LeftSideResponsible"
+import CardsVideos from "../../components/CardsVideos/CardsVideos"
+import CardsTop from "../../components/CardsTop/CardsTop"
+import HeaderResponsible from "../../components/HeaderResponsible/HeaderResponsible"
+import LeftSideResponsible from "../../components/LeftSideResponsible/LeftSideResponsible"
 
 
 
