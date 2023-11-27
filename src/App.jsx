@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div> 
-      <Payments />
+      <Home />
     </div>
   )
 }

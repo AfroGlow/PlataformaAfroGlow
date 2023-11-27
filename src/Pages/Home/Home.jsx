@@ -93,30 +93,30 @@ const Home = () => {
           <div className="plansCardContent">
 
             <div className="plansValue">
-              <p>Plano Inicial</p>
+              <p>Plano Basic</p>
               <p className='plansValueMoney'>Gratuito</p>
             </div>
 
             <div className='plansContent'>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Jogos</p>
+                <p>Acesso a tutoriais</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Tutoriais</p>
+                <p>Acesso limitado os jogos</p>
               </div>
               <div className='plansContentOption'>
                 <img src="block.svg" alt="botão de ok" />
-                <p>Anotações</p>
+                <p>Inteligência Artificial</p>
               </div>
               <div className='plansContentOption'>
                 <img src="block.svg" alt="botão de ok" />
-                <p>Box</p>
+                <p>Podcasts</p>
               </div>
               <div className='plansContentOption'>
                 <img src="block.svg" alt="botão de ok" />
-                <p>Cronograma capilar</p>
+                <p>Notas</p>
               </div>
             </div>
 
@@ -126,30 +126,30 @@ const Home = () => {
           <div className="plansCardContent">
 
             <div className="plansValue">
-              <p>Plano Inicial</p>
+              <p>Plano Premium</p>
               <p className='plansValueMoney'>R$ 19,99<span>/Mês</span></p>
             </div>
 
             <div className='plansContent'>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Jogos</p>
+                <p>Acesso a tutoriais</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Tutoriais</p>
+                <p>Acesso aos jogos</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Anotações</p>
+                <p>Inteligência Artificial</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Box</p>
+                <p>Podcasts</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Cronograma capilar</p>
+                <p>Notas</p>
               </div>
             </div>
 
@@ -159,30 +159,30 @@ const Home = () => {
           <div className="plansCardContent">
 
             <div className="plansValue">
-              <p>Plano Inicial</p>
-              <p className='plansValueMoney'>R$ 199,99<span>/Anual</span></p>
+              <p>Plano Plus</p>
+              <p className='plansValueMoney'>R$ 199,99<span>/Ano</span></p>
             </div>
 
             <div className='plansContent'>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Jogos</p>
+                <p>Acesso a tutoriais</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Tutoriais</p>
+                <p>Acesso aos jogos</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Anotações</p>
+                <p>Inteligência Artificial</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Box</p>
+                <p>Podcasts</p>
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Cronograma capilar</p>
+                <p>Notas</p>
               </div>
             </div>
 
