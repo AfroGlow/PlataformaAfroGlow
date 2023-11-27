@@ -47,13 +47,28 @@ table {
 }
 
 
+.container-family-media{
+    margin-left: 8rem;
+   
+    text-align: justify;
+}
 
+.container-family-media h1{
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.container-family-media p{
+    font-size: 0.9rem;
+}
 
 .cards-media{
-    width: 270px;
+    width: 272px;
     height: 400px;
     border-radius: 10px;
-    background: radial-gradient(circle at 70%, rgba(15, 15, 15, 100%), rgba(15, 15, 15, 7.4%));
+    border: 1px solid
 }
 
 .cards-media img{

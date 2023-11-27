@@ -6,9 +6,10 @@ function LeftSideResponsible() {
 
     return (
         <div className="left-side-tutorials">
+            <Link to='/'> 
             <img
-                src="house-icone.svg"
-            />
+                src="house-icone.svg"/>
+                </Link>
             <p>Home</p>
             <Link to='/midias'>
             <img
