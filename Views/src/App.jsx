@@ -7,10 +7,6 @@ function App() {
 
   return (
     <body>
-      <ChildrenProfile />
-      <Partners />
-
-      <ImageClassification/>
 
       <RouterApp />
 

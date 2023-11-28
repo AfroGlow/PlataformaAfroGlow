@@ -4,7 +4,7 @@ section {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin-top: 8rem;
 }
 
 .img-wrapper {
@@ -30,6 +30,11 @@ img {
   cursor: pointer;
   background-color: #b37fde;
   transition: 0.3s;
+}
+
+.titleAI{
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .wrapper > .title {

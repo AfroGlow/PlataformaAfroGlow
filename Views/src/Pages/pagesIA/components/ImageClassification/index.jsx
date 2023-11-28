@@ -38,7 +38,7 @@ const ImageClassification = () => {
 
     return (
         <section className="wrapper">
-            <h2>Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
+            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
                     <input {...getInputProps()} />

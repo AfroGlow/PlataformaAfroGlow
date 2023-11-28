@@ -13,7 +13,7 @@ function Form ({props_img,props_label}){
        </div>
        <div className='custom-radio'>
        <input type="radio" className='input-radio-form' name="input-form" id="" />
-        <label htmlFor="input-form">{props_label}</label>
+        <label className='label-input-radio' htmlFor="input-form">{props_label}</label>
        </div>
       
    

@@ -40,6 +40,10 @@
 .subtitulo-form3{
   font-weight: 300;
   font-size: 1rem;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin-left: 10rem;
 }
 .subtitulo-form{
   
@@ -47,6 +51,7 @@
   font-size: 1rem;
   color: #AD4AFF;
   font-family: 'Poppins', sans-serif;
+
   
 }
 
@@ -76,4 +81,13 @@
   font-size: 1rem;
   color: #AD4AFF;
   
-} }
+} 
+.subtitulo-form3{
+  font-weight: 300;
+  font-size: 1rem;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin-left: 3rem;
+}
+}
