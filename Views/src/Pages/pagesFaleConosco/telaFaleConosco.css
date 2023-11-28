@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
+
+.title-yellow-faleConosco{
+    color: #F2B705;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    
+}
+
+.subtitle-faleConosco{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-left: 10rem;
+    font-weight: 700;
+}
+
+.align-row-faleConosco{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.align-column-faleConosco{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-purple-faleConosco{
+width: 100%;
+height: 18rem;
+background-color: #AD4AFF;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container-purple-faleConosco img{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.container-purple-faleConosco p{
+    color: white;
+    font-size: 2rem;
+}
+
+.align-btn-faleConosco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.textField-faleConosco{
+    height: 10rem; 
+    border-radius: 1rem;
+    border: solid 2px #F2B705;
+    box-shadow: 2px 2px 4px 2px #F2B705;
+    margin-top: 1rem;
+    resize: none;
+}
+
+.submit-faleConosco{
+    width: 10rem;
+    height: 3rem;
+    background-color: #F2B705;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: inset 3px 3px 4px 0px rgba(0,0,0,0.5);
+
+    
+}
+
+.img-principal-faleConosco{
+    width: 23rem;
+    height: 30rem;
+}
+
+@media(max-width:600px)  {
+    
+    .img-principal-faleConosco{
+       display: none;
+    }
+
+    .title-yellow-faleConosco{
+        color: #F2B705;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 3.8rem;
+        
+    }
+    
+    .subtitle-faleConosco{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        margin-left: 0rem;
+        margin-left: 3.8rem;
+    }
+
+
+    .container-purple-faleConosco{
+        width: 100%;
+        height: 13rem;
+        background-color: #AD4AFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .container-purple-faleConosco img{
+            margin-top: 2rem;
+            margin-left: 1rem;
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+        .container-purple-faleConosco p{
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .textField-faleConosco{
+            height: 7rem; 
+            border-radius: 1rem;
+            border: solid 2px #F2B705;
+            box-shadow: 2px 2px 4px 2px #F2B705;
+            margin-top: 1rem;
+            resize: none;
+        } 
+    }
+    

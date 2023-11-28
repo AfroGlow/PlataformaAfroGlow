@@ -23,12 +23,24 @@ function RouterApp() {
         <Route path="/editchild" element={<EditProfileChild />}>Editar Perfil Criança</Route>
         <Route path="/editparents" element={<EditProfileParents />}>Editar Perfil Pais</Route>
         <Route path="*" element={<Nopage />}>Editar Perfil</Route>
+          <Route path='/responsibleprofile' element={< Responsible/>}>Perfil Responsável</Route> 
+          <Route path='/video1' element={< StepByStepVideo1/>}>Tutorial 1</Route> 
+          <Route path='/video2' element={< StepByStepVideo2/>}>Tutorial 2</Route> 
+          <Route path='/midias' element={< FamilyMedia/>}>Mídias em família</Route> 
+          <Route path='/notas' element={< Notes />}>Notas</Route> 
+          <Route path="ia" element={<ImageClassification />} />
+          <Route path="FaleConosco" element={<TelaFaleConosco />} />
+          <Route index element={<Form1 />} />
+          <Route path="Form2" element={<Form2 />} />
+          <Route path="Form3" element={<Form3 />} />
+          <Route path="TelaFinal" element={<TelaFinal />} />
 
-      </Routes>
-
-    </Router>
-
-  )
+          
+         </Routes>
+         
+        </Router>
+      
+      )
 
 }
 

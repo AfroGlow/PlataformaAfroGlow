@@ -1,0 +1,21 @@
+.card-tutorials-top{
+    width: 12.938rem;
+    height: 8.75rem;
+    border-radius: 2rem;
+    background-color: #F2F2F2;
+    box-shadow: 2px 2px 2px 4px #00c3ffc8 ;
+    text-align: center;
+  
+}
+
+.card-tutorials-top p{
+font-family: 'Baloo 2';
+font-size: 0.9rem;
+font-weight: bold;
+text-align: center;
+margin-top: 6px;
+}
+
+.card-tutorials-top-img{
+    margin-top: 17px;
+}
