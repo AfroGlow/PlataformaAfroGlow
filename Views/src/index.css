@@ -20,7 +20,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-p, button {
+
+.link-router{
+    text-decoration: none;
+  }
+
+p, button, input, label {
 	font-family: 'Poppins', sans-serif;
 }
 h1 {
