@@ -1,0 +1,50 @@
+
+.paymentContainerTwo {
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #C9A5FF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.paymentContainerTwo h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', sans-serif;
+    padding-bottom: 20px;
+    padding: 10px 40px;
+}
+
+.containerTwoSubTitle {
+    color: #3C3333;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerTwoSubTitle span {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.containerTwoProduct {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.total {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
