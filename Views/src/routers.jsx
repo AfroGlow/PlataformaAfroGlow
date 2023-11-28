@@ -19,6 +19,9 @@ import EditProfile from "./Pages/EditProfile/EditProfile";
 import EditProfileChild from "./Pages/EditProfileChild/EditProfileChild";
 import Nopage from "./Pages/Nopage/Nopage";
 import EditProfileParents from "./Pages/EditProfileParents/EditProfileParents";
+import Home from "./Pages/Home/Home";
+import Payments from "./Pages/Payments/Payments";
+
 
 
 function RouterApp() {
@@ -26,7 +29,9 @@ function RouterApp() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ParentRegistration />}>Cadastro</Route>
+        <Route path="/" element={<Home />}>Home</Route>
+        <Route path="/payments" element={<Payments />}>Tela de Pagamento</Route>
+        <Route path="/parentregistration" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastroc" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
         <Route path="/perfil" element={<Profile />}>Perfil</Route>
@@ -41,7 +46,7 @@ function RouterApp() {
           <Route path='/notas' element={< Notes />}>Notas</Route> 
           <Route path="ia" element={<ImageClassification />} />
           <Route path="FaleConosco" element={<TelaFaleConosco />} />
-          <Route index element={<Form1 />} />
+          <Route path="Form1" element={<Form1 />} />
           <Route path="Form2" element={<Form2 />} />
           <Route path="Form3" element={<Form3 />} />
           <Route path="TelaFinal" element={<TelaFinal />} />
