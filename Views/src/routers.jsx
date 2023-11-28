@@ -5,10 +5,10 @@ import StepByStepVideo1 from "./Pages/StepByStep/StepByStepVideo1"
 import StepByStepVideo2 from "./Pages/StepByStep/StepByStepVideo2"
 import FamilyMedia from "./Pages/FamilyMedia/FamilyMedia"
 import Notes from './Pages/Notes/Notes'
-import Form2 from './Pages/pagesIA/Form2.jsx'
-import Form3 from './Pages/pagesIA/Form3.jsx'
-import Form1 from './Pages/pagesIA/Form1.jsx'
-import TelaFinal from './Pages/pagesIA/TelaFinal.jsx'
+import Form2 from './Pages/pagesIA/Form2/Form2.jsx'
+import Form3 from './Pages/pagesIA/Form3/Form3.jsx'
+import Form1 from './Pages/pagesIA/Form1/Form1.jsx'
+import TelaFinal from './Pages/pagesIA/TelaFinal/TelaFinal.jsx'
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import ImageClassification from './Pages/pagesIA/components/ImageClassification/index.jsx';
 import ChildRegistration from "./Pages/ChildRegistration/ChildRegistration";

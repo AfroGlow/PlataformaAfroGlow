@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './Form2.css'
-import Form from './components/form/form'
-import InputForm from './components/inputForm/input-form'
 import { Outlet, Link } from "react-router-dom";
+import InputForm from '../components/inputForm/input-form'
+import Form from '../components/form/form';
+
 
 
 function Form2() {

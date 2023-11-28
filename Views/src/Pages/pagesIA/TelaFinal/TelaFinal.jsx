@@ -1,6 +1,6 @@
 import './TelaFinal.css'
-import InputTelaFinal from './components/inputTelaFinal/inputTelaFinal'
-import InputFormSmall from './components/inputTelaFinal/input-form-small'
+import InputTelaFinal from '../components/inputTelaFinal/inputTelaFinal'
+import InputFormSmall from '../components/inputTelaFinal/input-form-small'
 import { Outlet, Link } from "react-router-dom";
 
 
