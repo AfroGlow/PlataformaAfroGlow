@@ -1,0 +1,23 @@
+.btn-leave{
+    display: flex;
+}
+
+.p-leave{
+    padding: 0.3em;
+    font: 700 normal 1.2rem 'Baloo 2';
+    color: #ffffff;
+}
+
+@media (max-width:600px){
+
+    .p-leave{
+        padding: 0.3em;
+        font: 700 normal 1rem 'Baloo 2';
+        color: #ffffff;
+    }
+
+    .img-leave{
+        width: 2rem;
+    }
+
+}

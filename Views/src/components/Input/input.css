@@ -1,0 +1,31 @@
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.inputGroup label{
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding-top: 0.2rem;
+}
+
+.inputGroup input, select{
+    font-size: 0.8rem;
+    border-radius: 9px;
+    border: 1px solid #AD4AFF;
+    padding: 0.6em;
+    filter: drop-shadow(5px 2px 6px #AD4AFF)
+}
+
+.inputM{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w50{
+    width: 49%;
+}
