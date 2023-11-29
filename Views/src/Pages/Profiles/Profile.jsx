@@ -16,14 +16,18 @@ function Perfil() {
           <Link to="/editar" className='link-router'><EditButton /></Link>
         </div>
         <div className="profiles card-1">
-          <div className="parents-profile">
-            <h2 className='name-profile'>Pagina Responsavel</h2>
-            <img src="../public/img-responsavel-g.png" alt="Avatar mulher parda, com cabelo crespo preto, blusa amarela e brincos" className='img-parents' />
-          </div>
-          <div className="children-profile card-1">
-            <h2 className='name-profile'>Pagina Criança</h2>
-            <img id='img-child' src="../public/img-criança-g.png" alt="Avatar menino negro, com cabelo cacheado e com blusa amarela" />
-          </div>
+          <Link to='/perfilresponsavel'>
+            <div className="parents-profile">
+              <h2 className='name-profile'>Pagina Responsavel</h2>
+              <img src="../public/img-responsavel-g.png" alt="Avatar mulher parda, com cabelo crespo preto, blusa amarela e brincos" className='img-parents' />
+            </div>
+          </Link>
+          <Link to='/perfilcrianca'>
+            <div className="children-profile card-1">
+              <h2 className='name-profile'>Pagina Criança</h2>
+              <img id='img-child' src="../public/img-criança-g.png" alt="Avatar menino negro, com cabelo cacheado e com blusa amarela" />
+            </div>
+          </Link>
         </div>
       </section>
     </body>
