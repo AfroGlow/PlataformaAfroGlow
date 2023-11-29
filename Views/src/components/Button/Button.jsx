@@ -2,7 +2,7 @@ import './Button.css'
 
 const UniversalButton =  ({propsBtn}) => {
     return (
-        <div className='button'>
+        <div className='button-universal'>
         <button>{propsBtn}</button>
         </div>
     )

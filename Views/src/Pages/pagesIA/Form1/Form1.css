@@ -10,7 +10,7 @@
   margin: 1rem;
   position: fixed;
 }
-label{
+.label-input-radio label{
   font-family: 'Poppins', sans-serif;
   margin-left: 0.4rem;
   font-size: 1rem;
