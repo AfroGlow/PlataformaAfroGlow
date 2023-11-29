@@ -21,6 +21,9 @@ import Nopage from "./Pages/Nopage/Nopage";
 import EditProfileParents from "./Pages/EditProfileParents/EditProfileParents";
 import Home from "./Pages/Home/Home";
 import Payments from "./Pages/Payments/Payments";
+import NppePage from './Pages/Partners/NppePage/NppePage.jsx'
+import FlorNagoPage from './Pages/Partners/FlorNagoPage/FlorNagoPage.jsx'
+import NutriAcessPage from './Pages/Partners/NutriAcessPage/NutriAcessPage.jsx'
 
 
 
@@ -50,8 +53,9 @@ function RouterApp() {
           <Route path="Form2" element={<Form2 />} />
           <Route path="Form3" element={<Form3 />} />
           <Route path="TelaFinal" element={<TelaFinal />} />
-
-          
+          <Route path="FlorNagoPage" element={<FlorNagoPage />} />
+          <Route path="NutriAcessPage" element={<NutriAcessPage />} />
+          <Route path="NppePage" element={<NppePage />} />
          </Routes>
          
         </Router>
