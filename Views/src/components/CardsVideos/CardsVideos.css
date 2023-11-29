@@ -1,59 +1,60 @@
-.button-assistir button {
+.button-watch button {
     width: 7rem;
-    background-color: #1ACDC7;
+    background: #1ACDC7;
     color: #f2f2f2;
-    padding: 10px 12px;
+    padding: 1rem 1.2rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     font-family: Poppins;
     font-size: 0.8rem;
     font-weight: 500;
-   text-transform: uppercase;
-   font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-.button-assistir button:hover {
+
+.button-watch button:hover {
     background: #0ABBB5;
     color: #000;
     transition: 1.3s;
 }
 
-.card-video{
-    width: 16.563rem;
+.card-video-responsible {
+    width: 18rem;
     height: 26rem;
     background-color: #efe6f7;
-    border-radius: 25px;
+    border-radius: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.card-video p{
+
+.card-video-responsible {
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 10px;
-    margin-top: 20px;
-    max-width: 230px;
-    
+    font-size: 0.625rem; 
+    margin-top: 1.25rem; 
+    max-width: 16rem; 
 }
 
-.card-video .highlight-tutorials{
-    margin-top: 20px;
+
+
+.icone-relogio img {
+    width: 3.125rem; 
 }
 
-.icone-relogio img{
-    width: 50px;
-}
-.button-tutorials {
+.button-tutorials-videos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 0.375rem; 
 }
-.button-tutorials p {
-    margin-bottom: 20px;
 
+.button-tutorials-videos {
+    margin-bottom: 1.25rem; 
 }
-.time-tutorials{
+
+.time-tutorials {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -61,4 +62,5 @@
     margin-bottom: 1rem;
     width: 100%;
 }
+
 

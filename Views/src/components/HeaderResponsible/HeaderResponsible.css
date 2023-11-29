@@ -7,7 +7,7 @@
     justify-content: space-around;
     position: relative;
 }
-.responsible-header .img-logo{
+.responsible-header .img-logo-header{
     width: 4.375rem;
     height: 2.938rem;
 }
@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 
-.avatar{
+.avatar-headeer{
     width: 3.5rem;
     height: 3.3rem;
     border-radius: 0.8rem;
@@ -38,7 +38,7 @@
     
 }
 
-.img-avatar{
+.img-avatar-header{
     width: 3.9rem;
     height: 3.7rem;
     padding-left: 0.3rem;
