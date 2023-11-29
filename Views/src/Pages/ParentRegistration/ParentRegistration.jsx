@@ -27,7 +27,7 @@ function CadastroR() {
                     <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Crie uma senha'} />
             </div>
                     <div className="btn-register">
-                        <Link to="/cadastroc" className="link-router"><UniversalButton Link propsBtn={'Cadastre-se'} /></Link>
+                        <Link to="/cadastrocrianca" className="link-router"><UniversalButton Link propsBtn={'Cadastre-se'} /></Link>
                         <p className="paragrafS">Você já tem uma conta? <Link to={'/login'} className="link-router"><span className="link">Realizar login</span></Link></p>
                     </div>
                 </div>
