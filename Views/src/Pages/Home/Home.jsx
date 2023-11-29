@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import CarouselComent from '../../components/CarouselComent/CarouselComent'
 import Partners from '../../components/PartnersCarousel/Partners'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -14,9 +15,11 @@ const Home = () => {
         <div className='welcomeContainerOne'>
             <p className='homeWelcomeParagraph'>Seja Bem-Vindo a Plataforma</p>
             <h1 className='homeWelcomeText'>Aprender a amar e <br /> cuidar dos seus <span>cabelos</span><br /> nunca foi tão divertido!</h1>
-            <button className='homeWelcomeButton'>
-                <a href="#">Brilhe Conosco</a>
-            </button>
+            <Link to="/cadastro">
+              <button className='homeWelcomeButton'>
+                  <a href="#">Brilhe Conosco</a>
+              </button>
+            </Link>
           </div>
           <div>
             <img src="ImagensCriancas.svg" alt="fundo roxo" className='homeWelcomeImg'/>
@@ -83,12 +86,12 @@ const Home = () => {
             <li>Nos conte mais sobre o seu cabelo e as necessidades</li>
             <li>Receba uma box personalizada para seu tratamento</li>
           </ul>
-          <button className='buttonIA'><a href="#">Acesse Nossa IA</a></button>
+          <Link to="/cadastro"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
         </div>
         <img src="ImagemIA.png" alt="imagem card"/>
       </div>
 
-      <div className="plans">
+      <div className="plans" id='plans'>
         <h2>Conheça nossos planos</h2>
         <div className="plansCards">
           <div className="plansCardContent">
@@ -121,7 +124,7 @@ const Home = () => {
               </div>
             </div>
 
-            <button><a href="">Assinar</a></button>
+            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
           </div>
 
           <div className="plansCardContent">
@@ -154,7 +157,7 @@ const Home = () => {
               </div>
             </div>
 
-            <button><a href="">Assinar</a></button>
+            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
           </div>
 
           <div className="plansCardContent">
@@ -187,7 +190,7 @@ const Home = () => {
               </div>
             </div>
 
-            <button><a href="">Assinar</a></button>
+            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
           </div>
         </div>
       </div>
@@ -205,7 +208,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="feedback">
+      <div className="feedback" id='feedback'>
         <h2>Depoimentos</h2>
         <CarouselComent />
         <img src="barRoxa.svg" alt="" className='barFooter'/>

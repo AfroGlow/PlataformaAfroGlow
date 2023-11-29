@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 import "./HeaderResponsible.css"
+
 function HeaderResponsible() {
 
     return (
@@ -10,13 +12,15 @@ function HeaderResponsible() {
             />
             <h2>Olá, Lilian</h2>
 
-            <div className="avatar-header">
-                <a href="">Sair</a>
-                <img
-                    className="img-avatar-header"
-                    src='avatar-barra.png'
-                />
-            </div>
+            <Link to="/perfil">
+                <div className="avatar-header">
+                    <a href="/">Sair</a>
+                    <img
+                        className="img-avatar-header"
+                        src='avatar-barra.png'
+                    />
+                </div>
+            </Link>
         </div>
     )
 }
