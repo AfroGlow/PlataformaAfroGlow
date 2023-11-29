@@ -34,8 +34,6 @@ function RouterApp() {
           <Route path="Form2" element={<Form2 />} />
           <Route path="Form3" element={<Form3 />} />
           <Route path="TelaFinal" element={<TelaFinal />} />
-
-          
          </Routes>
          
         </Router>
