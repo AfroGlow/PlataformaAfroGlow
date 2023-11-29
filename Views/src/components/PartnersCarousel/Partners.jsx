@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Partners.css';
+import { Link } from 'react-router-dom';
+
 
 const Partners = () => {
   const logosRef = useRef(null);
@@ -10,15 +12,11 @@ const Partners = () => {
   }, []);
 
   return (
-    <div className="logos" ref={logosRef}>
+    <div id='FlorNagoPage' className="logos" ref={logosRef}>
       <div className="logos-slide">
-        <img src="public/logo.png" alt="Logo 1" />
-        <img src="public/logos.png" alt="Logo 3" />
-        <img src="public/logo2.png" alt="Logo 2" />
-        <img src="public/logo1.png" alt="Logo 1" />
-        <img src="public/logo3.png" alt="Logo 3" />
-        
-        <img src="public/logo2.png" alt="Logo 2" />
+        <Link to='/Parceiros'> <img src="public/logoflornagô.png" alt="Logo 1" /></Link>
+        <Link to='/Parceiros'> <img  src="public/Logo-nutri.png" alt="Logo 2" /></Link>
+        <Link to='/Parceiros'> <img src="public/nppelogo.png" alt="Logo 3" /></Link>
       </div>
     </div>
   );

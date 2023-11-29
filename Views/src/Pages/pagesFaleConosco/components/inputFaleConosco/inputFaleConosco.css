@@ -6,6 +6,10 @@
     box-shadow: 2px 2px 4px 2px #F2B705;
 }
 
+.inputFaleConosco:focus {
+    outline: none;
+}
+
 @media(max-width:600px)  {
     
 

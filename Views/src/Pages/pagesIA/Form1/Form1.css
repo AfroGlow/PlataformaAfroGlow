@@ -7,8 +7,10 @@
 .imgBack{
   width: 3rem;
   height: 3rem;
+  margin: 1rem;
+  position: fixed;
 }
-label{
+.label-input-radio label{
   font-family: 'Poppins', sans-serif;
   margin-left: 0.4rem;
   font-size: 1rem;
@@ -44,6 +46,7 @@ label{
   text-align: center;
   font-size: 1rem;
   color: #AD4AFF;
+  margin-top: 2rem;
   
 }
 .alinhaCentro{

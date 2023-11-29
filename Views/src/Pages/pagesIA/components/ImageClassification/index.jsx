@@ -1,5 +1,5 @@
 import { useState } from "react";
-import * as tf from "@tensorflow/tfjs";
+// import * as tf from "@tensorflow/tfjs";
 // import modelJson from './AfroGlow_v2.json';
 import { useDropzone } from 'react-dropzone'; 
 import './index.css'
@@ -38,7 +38,7 @@ const ImageClassification = () => {
 
     return (
         <section className="wrapper">
-            <h2>Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
+            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
                     <input {...getInputProps()} />

@@ -33,7 +33,11 @@
     justify-content: center;
   }
   
-  /* Estilo para quando o radio está marcado */
+.label-input-radio{
+  margin-left: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
   .input-radio-form:checked {
     background-color: #AD4AFF;
    

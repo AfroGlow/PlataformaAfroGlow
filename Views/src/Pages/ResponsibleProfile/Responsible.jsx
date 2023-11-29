@@ -16,7 +16,7 @@ const Responsible = () => {
                 <LeftSideResponsible />
                 <HeaderResponsible />
 
-                <div className="container-tutorials">
+                <div className="container-tutorials-responsible">
 
                     <div className="cards-top-tutorials">
                         <div className="card-first">
@@ -34,7 +34,7 @@ const Responsible = () => {
                     </div>
 
                     <div className="cards-videos">
-                        <div className="title-tutorials">
+                        <div className="title-tutorials-responsible">
                             <img src="../lavagem-icone.svg" alt="" />
                             <p>Lavagem e hidratação<span> (4)</span></p>
                         </div>
@@ -49,7 +49,7 @@ const Responsible = () => {
                             <CardsVideos props_img={'../public/video4.svg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança'} props_video={"/video4"}
                                 props_p2={'10 minutos'} />
                         </div>
-                        <div className="title-tutorials">
+                        <div className="title-tutorials-responsible">
                             <img src="../desembaraco-icone.svg" alt="" />
                             <p>Desembaraçamento e finalização<span> (4)</span></p>
                         </div>
@@ -64,7 +64,7 @@ const Responsible = () => {
                             <CardsVideos props_img={'../public/video8.svg'} props_p={'Vamos aos toques finais, e nos preparar para os próximos passos.'} props_alt={'criança'}
                                 props_p2={'10 minutos'} />
                         </div>
-                        <div className="title-tutorials">
+                        <div className="title-tutorials-responsible">
                             <img src="../pente-comum-icone.svg" alt="" />
                             <p>Penteados<span> (4)</span></p>
                         </div>

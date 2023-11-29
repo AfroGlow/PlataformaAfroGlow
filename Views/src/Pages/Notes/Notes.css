@@ -68,7 +68,8 @@ table {
     margin-left: 8rem;
     margin-top: 40px;
  } 
-  .container {
+  
+ .container-notes2 {
     display: flex; 
     flex-wrap: wrap;
     gap: 30px;
@@ -127,14 +128,14 @@ table {
   }
   
   
-  .item {
+  .item-notes {
     position: relative;
     width: 260px;
     height: 180px;
     border-radius: 5px;
   }
   
-  .remove {
+  .remove-notes {
     position: absolute;
     right: 6px;
     cursor: pointer;

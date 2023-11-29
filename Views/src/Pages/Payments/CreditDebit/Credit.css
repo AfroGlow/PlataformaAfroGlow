@@ -1,0 +1,95 @@
+.formCard {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    gap: 5px;
+}
+
+.formCard div {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.formCard div input {
+    width: 49%;
+}
+
+.formCard input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #AD4AFF;
+}
+
+.formCard input:focus {
+    outline: none; 
+}
+
+.formCard input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkBox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.checkBox input {
+    width: 15px;
+}
+
+.confirmationBuy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnBuy {
+    border: none;
+    color: #fff;
+    background-color: #AD4AFF;
+    border-radius: 10px;
+}
+
+.btnBuy:hover { 
+    background-color: #9242d4;
+}
+
+/* Adicione essas regras ao seu arquivo CSS ou bloco de estilo */
+input[type="number"] {
+    /* Remove as setas de aumento e redução */
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  /* Para navegadores WebKit, como Chrome e Safari */
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  @media (max-width: 740px) {
+    .formCard {
+        width: 300px;
+    }
+    .formCard div input {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .formCard div input {
+        width: 80%;
+    }
+    .formCard input[type="number"], 
+    input[type="text"] {
+        width: 80%;
+    }
+    .confirmationBuy {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+  }

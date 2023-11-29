@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Form1.css'
-import Form from './components/form/form'
-import InputForm from './components/inputForm/input-form'
 import { Outlet, Link } from "react-router-dom";
+import InputForm from '../components/inputForm/input-form';
+import Form from '../components/form/form';
 
 
 function Form1() {
@@ -20,12 +20,12 @@ function Form1() {
 
       <div className='background-form'>
         <div className='align-row'>
-          <Form props_img={'./imgperfil2.svg'} props_label={"Liso (sem ondulação)"} />
-          <Form props_img={'./imgperfil3.svg'} props_label={"Ondulado (em forma de S)"} />
+          <Form props_img={'./imgTipoCabeloLiso.svg'} props_label={"Liso (sem ondulação)"} />
+          <Form props_img={'./imTipoCabeloOndulado.svg'} props_label={"Ondulado (em forma de S)"} />
         </div>
         <div className='align-row'>
-          <Form props_img={'./imgperfil4.svg'} props_label={"Cacheado (encaracolado)"} />
-          <Form props_img={'./img.svg'} props_label={"Crespo (cachos fechados)"} />
+          <Form props_img={'./imgTipoCabeloCacheado.svg'} props_label={"Cacheado (encaracolado)"} />
+          <Form props_img={'./imgTipoCabeloCrespo.svg'} props_label={"Crespo (cachos fechados)"} />
         </div>
       </div>
 

@@ -28,8 +28,8 @@ const Notes = () => {
   };
 
   const addHTML = (item, index) => (
-    <div className="item" key={index} style={{ backgroundColor: item.color }}>
-      <span className="remove" onClick={() => removeItem(index)}>
+    <div className="item-notes" key={index} style={{ backgroundColor: item.color }}>
+      <span className="remove-notes" onClick={() => removeItem(index)}>
         <strong>X</strong>
       </span>
       <div style={{ borderBottom: '1px solid white' }}>
@@ -110,7 +110,7 @@ const Notes = () => {
           <p>Aqui, você pode fazer registros e anotações sobre os tutoriais assistidos e o que mais preferir! Organize-se de maneira prática e objetiva, veja suas anotações sempre que quiser!</p>
         </div>
         <div className="container-notes">
-          <div className="container">
+          <div className="container-notes2">
             <div className="addNote-content" onClick={addNote}>
               <div className="icon-plus">+</div>
               <span>Adicionar</span>

@@ -6,7 +6,7 @@ function LeftSideResponsible() {
 
     return (
         <div className="left-side-tutorials">
-            <Link to='/'> 
+            <Link to='/perfilresponsavel'> 
             <img
                 src="house-icone.svg"/>
                 </Link>
@@ -21,12 +21,12 @@ function LeftSideResponsible() {
                 </Link>
             <p>Notas</p>
 
-            <Link to='/'>
+            <Link to='/ia'>
             <img
                 src="ia-icone.svg"
             />
             </Link>
-            <p className="IA">I A</p>
+            <p className="ia-left">I A</p>
         </div>
     )
 }

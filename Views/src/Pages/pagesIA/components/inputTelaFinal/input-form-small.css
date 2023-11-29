@@ -6,6 +6,10 @@
     box-shadow: 2px 2px 4px 2px #ae4aff70;
 }
 
+.inputTelaFinaSmall:focus {
+    outline: none;
+}
+
 @media(max-width:600px)  {
     
 
