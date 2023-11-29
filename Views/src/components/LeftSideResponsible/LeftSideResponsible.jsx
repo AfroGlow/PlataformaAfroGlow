@@ -26,7 +26,7 @@ function LeftSideResponsible() {
                 src="ia-icone.svg"
             />
             </Link>
-            <p className="IA">I A</p>
+            <p className="ia-left">I A</p>
         </div>
     )
 }
