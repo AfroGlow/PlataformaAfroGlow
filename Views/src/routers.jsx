@@ -21,9 +21,6 @@ import Nopage from "./Pages/Nopage/Nopage";
 import EditProfileParents from "./Pages/EditProfileParents/EditProfileParents";
 import Home from "./Pages/Home/Home";
 import Payments from "./Pages/Payments/Payments";
-import NppePage from './Pages/Partners/NppePage/NppePage.jsx'
-import FlorNagoPage from './Pages/Partners/FlorNagoPage/FlorNagoPage.jsx'
-import NutriAcessPage from './Pages/Partners/NutriAcessPage/NutriAcessPage.jsx'
 import About from './Pages/AboutUs/About.jsx'
 import ChildrenProfile from './Pages/ChildrenProfile/ChildrenProfile.jsx'
 import CoverFive from './Pages/GameFive/CoverFive/CoverFive.jsx'
@@ -38,6 +35,8 @@ import CoverOne from './Pages/GameOne/CoverOne/CoverOne.jsx'
 import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
+import Partners from './components/PartnersCarousel/Partners.jsx'
+import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
 
 
 function RouterApp() {
@@ -66,9 +65,7 @@ function RouterApp() {
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
         <Route path="TelaFinal" element={<TelaFinal />}></Route>
-        <Route path="FlorNagoPage" element={<FlorNagoPage />}></Route>
-        <Route path="NutriAcessPage" element={<NutriAcessPage />}></Route>
-        <Route path="NppePage" element={<NppePage />} ></Route>
+        <Route path="Parceiros" element={<AllPartners />}></Route>
         <Route path='/sobrenos' element={< About/>}></Route> 
         <Route path='/perfilcrianca' element={< ChildrenProfile/>}></Route> 
         <Route path='/jogo1' element={< CoverOne/>}></Route> 
@@ -89,7 +86,6 @@ function RouterApp() {
     </Router>
 
   )
-
 }
 
 export default RouterApp

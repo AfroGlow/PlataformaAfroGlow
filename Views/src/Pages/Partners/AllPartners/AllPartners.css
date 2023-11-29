@@ -1,0 +1,83 @@
+.container-all-partners h1 {
+    font-family: 'Baloo 2', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 2rem 0px;
+}
+
+.box-all-partners-1 {
+    background: url('./background-FlorNago.jpg') center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-all-partners-2 {
+    background: url('./background-Nutri.jpg') center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-all-partners-3 {
+    background: url('./background-NPPE.jpg') center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-all-partners-1 p, .box-all-partners-2 p, .box-all-partners-3 p {
+    max-width: 45%;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.box-all-partners-2 p {
+    color: #730202;
+}
+.box-all-partners-3 p {
+    color: #222121;
+}
+.box-all-partners-1 img, .box-all-partners-2 img, .box-all-partners-3 img {
+    width: 25rem;
+    margin-bottom: 1.1rem;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width:1212px) {
+    .box-all-partners-1 p, .box-all-partners-2 p, .box-all-partners-3 p {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .box-all-partners-1 img, .box-all-partners-2 img, .box-all-partners-3 img {
+        width: 18rem;
+        margin-bottom: 0.8rem;
+        margin-right: 0rem;
+    }
+    .container-all-partners h1 {
+        font-size: 2rem;
+        margin: 1.8rem 0px;
+    }
+    .box-all-partners-1 p, .box-all-partners-2 p, .box-all-partners-3 p {
+        max-width: 65%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .box-all-partners-1 p, .box-all-partners-2 p, .box-all-partners-3 p {
+        max-width: 80%;
+        font-size: 1rem;
+    }
+}
