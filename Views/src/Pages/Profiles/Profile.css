@@ -16,7 +16,13 @@
     color: #FFFFFF;
   }
 
+
   
+  .parents-profile {
+    text-decoration: none !important;
+  }
+  
+
   .info-edit{
     display: flex;
     flex-direction: column;
@@ -79,6 +85,7 @@
     transform: scale3d(1.1, 1.1, 1);
     background-color: #ffffffd8;
    }
+
 
 
    @media (max-width:900px){
