@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Header.css";
 import UniversalButton from '../filledButton/Button';
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
           <Nav.Link href="#">Fale conosco</Nav.Link>
         </Nav>
         <Nav className='ms-auto container-buttons-header'>
-        <button type="submit" id="button-login">Login</button>
+        <Link to="/login"><button type="submit" id="button-login">Login</button></Link>
         <UniversalButton/>
         </Nav>
       </Navbar.Collapse>
