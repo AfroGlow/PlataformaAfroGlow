@@ -3,6 +3,8 @@ import CardKids from "./components/CardsKids/CardKids";
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Link } from "react-router-dom";
+
 
 const ChildrenProfile = () => {
   const [lgShow, setLgShow] = useState(false);
@@ -16,10 +18,12 @@ const ChildrenProfile = () => {
           alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
         />
         <h4>Lili estrelinha brilhante</h4>
-        <div className="exit-kids">
-          <p>Sair</p>
-          <img src="icon-profile-kids.png"></img>
-        </div>
+        <Link to="/perfil">
+          <div className="exit-kids">
+            <p>Sair</p>
+            <img src="icon-profile-kids.png"></img>
+          </div>
+        </Link>
       </header>
 
       <article className="carousel-limit">
