@@ -3,6 +3,7 @@ import './Home.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import CarouselComent from '../../components/CarouselComent/CarouselComent'
+import Partners from '../../components/PartnersCarousel/Partners'
 
 
 const Home = () => {
@@ -210,7 +211,7 @@ const Home = () => {
         <img src="barRoxa.svg" alt="" className='barFooter'/>
       </div>
       </main>
-
+<Partners/>
       
       <Footer />
     </> 
