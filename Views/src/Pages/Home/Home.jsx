@@ -108,7 +108,7 @@ const Home = () => {
               </div>
               <div className='plansContentOption'>
                 <img src="check.svg" alt="botão de ok" />
-                <p>Acesso limitado os jogos</p>
+                <p>Acesso limitado aos jogos</p>
               </div>
               <div className='plansContentOption'>
                 <img src="block.svg" alt="botão de ok" />
@@ -200,10 +200,10 @@ const Home = () => {
         <div className="socialMediaContent">
           <h3>Fique por dentro das novidades da <br /><span>AfroGlow</span> nas redes sociais</h3>
           <div className="socialMediaIcons">
-              <a href=""><img src="iconLinkedin.svg" alt="icone linkedin amarelo" /></a>
-              <a href=""><img src="iconTiktok.svg" alt="icone tiktok amarelo" /></a>
-              <a href=""><img src="iconInstagram.svg" alt="icone instagram amarelo" /></a>
-              <a href=""><img src="iconYoutube.svg" alt="icone youtube amarelo" /></a>
+              <a href="https://www.linkedin.com/company/afroglow2023/"><img src="iconLinkedin.svg" alt="icone linkedin amarelo" /></a>
+              <a href="https://www.tiktok.com/@afroglow_"><img src="iconTiktok.svg" alt="icone tiktok amarelo" /></a>
+              <a href="https://www.instagram.com/afroglow__/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="iconInstagram.svg" alt="icone instagram amarelo" /></a>
+              <a href="https://www.youtube.com/@AfroGlow"><img src="iconYoutube.svg" alt="icone youtube amarelo" /></a>
           </div>
         </div>
       </div>
