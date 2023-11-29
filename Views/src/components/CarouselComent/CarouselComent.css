@@ -1,0 +1,94 @@
+
+
+.carousel{
+    padding: 50px;
+}
+
+
+.cardComent {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #ae4aff86;
+    border-radius: 20px;
+    width: 90%;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(173, 74, 255, 0.5); 
+    padding: 20px;
+    border-bottom: solid 3px #AD4AFF;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    gap: 2px;
+}
+
+.coment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.coment p{
+    color: #000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carouselTablet {
+    display: none;
+}
+
+.carouselMobile {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .cardComent p {
+        font-size: 0.7rem;
+    }
+
+    .cardComent {
+        height: 200px;
+    }
+    
+    .coment img{
+        width: 20%;
+    }
+
+    .carouselTablet {
+        display: block;
+    }
+
+    .carouselDesktop {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    
+
+    .cardComent {
+        height: 200px;
+    }
+    
+    .coment img{
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 605px) {
+    .carouselTablet {
+        display: none;
+    }
+
+    .carouselMobile {
+        display: block;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 405px) {
+  
+   
+
+}

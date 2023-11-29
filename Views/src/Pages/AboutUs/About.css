@@ -56,6 +56,10 @@
     width: 45%;
 }
 
+.container-about {
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 960px){
     .container-mvv img {
         width: 90px;

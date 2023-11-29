@@ -1,0 +1,54 @@
+.left-side-tutorials{
+    width: 5.5rem;
+    background-color: #F2B705;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    justify-content: center;
+   
+}
+
+.left-side-tutorials img{
+    width: 35px;
+    margin-top: 20px;
+
+}
+
+.left-side-tutorials p{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: bold; 
+    font-size: 0.9rem;
+}
+
+.left-side-tutorials  .ia-left{
+    margin-right: 15px;
+}
+
+ 
+
+
+@media only screen and (max-width: 768px) {
+    .left-side-tutorials {
+      width: 4rem;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      height: 100%;
+    
+    }
+  
+    .left-side-tutorials img {
+      width: 25px;
+      margin-top: 0;
+    }
+  
+    .left-side-tutorials p {
+      font-size: 0.8rem;
+    }
+  
+ 
+  }
