@@ -2,9 +2,10 @@
 .containerSection{
     display: flex;
     justify-content:space-between;
-    background-color: var(--offwhite);
+    flex-direction: row;
 
 }
+
 
 .subtitle{
     font-size: 1.7rem;
@@ -28,6 +29,7 @@
 
 }
 
+
 .btn-register{
     margin-top: 0.6em;
     display: flex;
@@ -47,6 +49,10 @@
 
 .link:hover{
     color: var(--purple-primary);
+}
+
+.link-router{
+    text-decoration: none;
 }
 
 
