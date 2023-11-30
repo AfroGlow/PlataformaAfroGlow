@@ -11,7 +11,8 @@
 
   position: absolute;
 }
-label{
+
+.align-row label{
   position: fixed;
 }
 .label-input-radio label{
@@ -68,7 +69,7 @@ label{
   justify-content: center;
   margin-right: 2rem;
 }
-label{
+.align-row label{
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
 
