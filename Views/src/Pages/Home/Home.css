@@ -13,8 +13,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 8.6rem;
     padding: 2rem 0;
+    margin-top: 3rem;
 }
 
 .navbar {
@@ -29,13 +30,14 @@
 .welcomeContainerOne {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .homeWelcomeParagraph{
     font-size: 1.9rem;
     color: #F2B705;
     font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
 }
 
 .homeWelcomeText{
@@ -50,7 +52,7 @@
 }
 
 .homeWelcomeImg{
-    width: 375px;
+    width: 575px;
     height: 350px;
 }
 
@@ -90,9 +92,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding: 20px;
     margin-bottom: 70px;
+
 }
 
 .tasksCard {
@@ -108,9 +111,11 @@
     font-size: 1.2rem;
 }
 
-.carousel-limit {
-    max-width: 87%;
-    margin: 35px auto;
+.home-avatar-male{
+    width:  200px;
+}
+.home-avatar-female{
+    width: 300px;
 }
 
 .watchYoutube{
@@ -118,22 +123,23 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 20px 0;
+    margin: 3rem 0;
 }
 
 .watchYoutubeCard {
     border-radius: 40px;
     transform: translateX(40px);
+    border: 2px solid #000000;
 }
 
 .AIscpace {
-    background: url(BackgroundHome.png);
+    background-color: #AD4AFF;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
     width: 100%;
     height: 100vh;   
-    gap: 20px;
+    gap: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,11 +151,6 @@
     font-weight: 700;
     font-family: 'Baloo 2', sans-serif;
     margin-bottom: 20px;
-}
-
-.AIscpace img {
-    width: 500px;
-    height: 400px;
 }
 
 .AIscpaceText ul li {
@@ -181,12 +182,12 @@
 }
 
 .plans {
+    background-color: #F5f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
-    margin-top: 50px;
 }
 
 .plans h2 {
@@ -194,6 +195,7 @@
     font-size: 3rem;
     font-family: 'Baloo 2', sans-serif;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .plansCards{
@@ -204,6 +206,7 @@
 }
 
 .plansCardContent {
+    width: 19rem;
     border: solid 1px #AD4AFF;
     border-radius: 30px;
     padding: 30px;
@@ -212,6 +215,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    filter: drop-shadow(5px 2px 6px #AD4AFF);
+    box-shadow: 1px 2px 2px 2px inset #e2bfff;
 }
 
 .plansValue {
@@ -222,6 +227,7 @@
 }
 .plansValueMoney {
     font-size: 2rem;
+    color: #000000;
 }
 
 .plansValueMoney span {
@@ -272,15 +278,11 @@
 }
 
 .socialMedia {
-    background: url(BackgroundHome.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
+    background-color: #AD4AFF;
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-evenly;
     flex-wrap: wrap-reverse;
 }
 
@@ -313,7 +315,7 @@
 }
 
 .feedback {
-    background-color: #FFFFFF;
+    background-color: #F5f5f5;
     padding-top: 20px;
 }
 
@@ -328,6 +330,7 @@
 
 
 @media (max-width: 1280px) {
+
     .homeWelcomeText {
         font-size: 2rem;
     }
@@ -345,6 +348,7 @@
     .AIscpaceText ul li {
         font-size: 1rem;
     }
+
 }
 
 @media (max-width: 1080px) {
@@ -398,14 +402,17 @@
         height: 50px;
         font-size: 1rem;
     }
+
+    .AIscpace{
+        gap: 20px;
+    }
     
     .welcomeHome{
         gap: 20px;
     }
 
     .AIscpace img {
-        width: 300px;
-        height: 200px;
+        height: 300px;
     }
 
     .buttonIA {
@@ -456,6 +463,10 @@
         margin-right: 100px;
     }
 
+    .AIscpace{
+        gap: 20px;
+    }
+
     .AIscpaceText h3{
         font-size: 1.5rem;
         margin-bottom: 20px;
@@ -489,6 +500,18 @@
         height: 300px;
         width: 400px;
         margin-right: 0;
+    }
+
+    .AIscpace{
+        gap: 20px;
+    }
+
+    .avatarSocialMedia{
+        display: none;
+    }
+
+    .socialMediaContent{
+        padding: 3rem 1rem;
     }
 
     .socialMediaContent h3 {

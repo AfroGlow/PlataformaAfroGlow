@@ -31,10 +31,10 @@ function CadastroR() {
                         <p className="paragrafS">Você já tem uma conta? <Link to={'/login'} className="link-router"><span className="link">Realizar login</span></Link></p>
                     </div>
                 </div>
-
+        
 
             <div className="img-rigth">
-                <img src={ImgDir} alt="" className="image-rigth" />
+                <img src={ImgDir} className="image-rigth" />
             </div>
 
         </section>
