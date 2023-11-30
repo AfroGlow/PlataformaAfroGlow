@@ -71,15 +71,13 @@ function TextStepByStep({ props_img_title, props_alt_title,props_p_title, props_
                     <ButtonSteps />
 
                     <Link to="/notas">
-                    <img src="../anotacao-icone.svg" alt="" />
+                    <img className="notes-img-step" src="../anotacao-icone.svg" alt="" />
                     </Link>
                 </div>
 
                 
             </div>
-            <div className="footer-steps">
-                <Footer />
-                </div>
+           
            
         </>
     )
