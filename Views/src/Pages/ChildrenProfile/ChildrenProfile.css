@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
 }
 .header-kids .logo {
     width: 80px;
@@ -30,6 +31,8 @@
 }
 .exit-kids p {
     display: none;
+    text-decoration: none;
+    
 }
 .exit-kids img {
     width: 50px;

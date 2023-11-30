@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
 import './Tutorials.css';
+
 
 const Tutorials = ({Images, Images2, Instructions, Instructions2, Button, BackgroundButton}) => {
     return(
         <section className='container-tutorials'>
             <div className='container-tutorials-secondary'>
-                <img className='back-games' src="icon-button-left.svg" alt="" />
+                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt="" /></Link>
                 <div className='container-cards-tutorials'>
                     <article className='card-tutorials'>
                         <img src={Images} alt="" />

@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import "./About.css";
 import CardsTeam from "./components/CardsTeam/CardsTeam";
@@ -6,7 +7,7 @@ const About = () => {
   return (
     <body>
       <Header />
-      <section>
+      <section className="container-about">
         <article className="container-mvv">
           <h2 className="titles-about">Missão Visão e Valores</h2>
           <div className="MVV">
@@ -75,6 +76,7 @@ const About = () => {
         </div>
         </section>
       </section>
+      <Footer />
     </body>
   );
 };

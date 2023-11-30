@@ -1,5 +1,6 @@
 import "./StepByStep.css"
 import TextStepByStep from "../../components/TextStepByStep/TextStepByStep"
+import Footer from "../../components/Footer/Footer"
 
 const StepByStepVideo1 = () => {
     return (
@@ -27,7 +28,9 @@ const StepByStepVideo1 = () => {
                     props_p4={"Antes de aplicar o condicionador, é importante umidecer o cabelo (água morna ou fria). Logo após, aplique o condicionador nos fios da altura da orelha para baixo, massageie bem o produto no comprimento do cabelo e deixe agir por alguns minutos (o tempo estará especificado na embalagem do produto). Passado o tempo, enxágue o cabelo até todo condicionador ser removido completamente. "} />
             </div>
 
-
+            <div className="footer-steps">
+                <Footer />
+                </div>
         </>
 
     )

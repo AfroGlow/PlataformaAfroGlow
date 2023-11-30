@@ -1,8 +1,14 @@
 import { useState } from "react";
+
+//import * as tf from "@tensorflow/tfjs";
+
 // import * as tf from "@tensorflow/tfjs";
+
 // import modelJson from './AfroGlow_v2.json';
-import { useDropzone } from 'react-dropzone'; 
+//import { useDropzone } from 'react-dropzone'; 
 import './index.css'
+import InputForm from "../inputForm/input-form";
+import ModalReconhecimentoCapilar from "../modal/modal-ia";
 
 const ImageClassification = () => {
     const [image, setImage] = useState(null);
@@ -18,7 +24,7 @@ const ImageClassification = () => {
         setPredictions(predictions);
         setIsLoading(false);
     };
-    
+
     const handleImageUpload = (acceptedFiles) => {
         const file = acceptedFiles[0];
         setImage(URL.createObjectURL(file));
@@ -26,8 +32,8 @@ const ImageClassification = () => {
         imgElement.src = URL.createObjectURL(file);
     };
 
-    
-    
+
+
 
     const { getRootProps, getInputProps } = useDropzone({
         onDrop: handleImageUpload,
@@ -38,33 +44,57 @@ const ImageClassification = () => {
 
     return (
         <section className="wrapper">
-            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
+
+            <div className="align-title-AI">
+
+                <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
+
+                <div className="titleAI">
+            <h2 className="p-title-ia">Faça upload de uma foto, para nossa IA </h2>
+            <div>
+            <p className="p-title-ia p-general">analisar seu cabelo</p>
+                           </div>
+                           </div>
+
+            </div>
+
+            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
+
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
-                    <input {...getInputProps()} />
-                  <div className="display-none">
-                    <img className="imgUp" id="imgUp" src="./upload.png" alt="upload" />
-                   
-      
+ 
+                    <div className="display-none">
+                        <img className="imgUp" id="imgUp" src="./upload.png" alt="upload" />
+
+
                         <p>
                             <p className="pYellow">Arraste</p> e solte uma imagem ou clique para <p className="pYellow">selecionar</p>
                         </p>
+                    </div>
+
+                    {image && (
+
+                  <div className="display-none">
+                    
+                   
+      
+                       
                         </div>
                    
                     {image &&  (
-                         
+
                         <>
-                        
+
                             <div className="img-wrapper">
-                                <img src={image} alt="Uploaded" />
+                                <img className="img-wrapper-ia" src={image} alt="Uploaded" />
                             </div>
-                           
+
                             <div className="App">
-     
-    </div>
+
+                            </div>
 
 
-                            <button className="btn-action"onClick={classifyImage}  >
+                            <button className="btn-action" onClick={classifyImage}  >
                                 {isLoading ? "Analisando..." : "Analisar"}
                             </button>
                         </>
@@ -72,8 +102,23 @@ const ImageClassification = () => {
                 </div>
 
                 <div className="box2">
+                <h3 className="title-box2-ia p-general">Resultado</h3>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Cacheado</p> <p className="purple-p-box2-ia p-general">95%</p>
+                </div>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Ondulado</p> <p className="purple-p-box2-ia p-general">5%</p>
+                </div>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Liso</p>    <p className="purple-p-box2-ia p-general">0%</p>
+                </div>
+                <div className="align-btn-box2-ia">
+                <ModalReconhecimentoCapilar/>
+                </div>
                     {predictions.length > 0 && (
                         <>
+
+                        
                             <h3 className="title">Resultado</h3>
                             <ul className="list-result">
                                 {predictions.map((prediction, index) => (

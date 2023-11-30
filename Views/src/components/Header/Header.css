@@ -8,6 +8,7 @@
     font-size: 1rem;
     font-weight: 500;
     gap: 13px;
+    text-decoration: none;
 }
 .container-buttons-header {
     display: flex;
