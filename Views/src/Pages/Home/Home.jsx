@@ -4,7 +4,6 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import CarouselComent from '../../components/CarouselComent/CarouselComent'
 import Partners from '../../components/PartnersCarousel/Partners'
-import { Icon } from '@iconify/react';
 
 
 const Home = () => {
