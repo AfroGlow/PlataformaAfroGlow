@@ -42,7 +42,7 @@ const ImageClassification = () => {
         <section className="wrapper">
             <div className="align-title-AI">
                 <div className="titleAI">
-            <h2 className="p-title-ia ">Faça upload de uma foto, para nossa IA </h2>
+            <h2 className="p-title1-ia ">Faça upload de uma foto, para nossa IA </h2>
             <div>
             <p className="p-title-ia p-general">analisar seu cabelo</p>
                            </div>
