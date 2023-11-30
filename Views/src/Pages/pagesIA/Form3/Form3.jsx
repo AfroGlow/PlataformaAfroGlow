@@ -39,9 +39,9 @@ function Form3() {
       </div>
       
           <Link to="/TelaFinal"><InputForm /></Link>
-        </div>
+      
         <Outlet />
-      </div>
+     
 
     </>
   )
