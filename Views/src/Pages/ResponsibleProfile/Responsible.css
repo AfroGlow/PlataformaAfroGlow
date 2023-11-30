@@ -77,12 +77,11 @@ table {
 
 
 
-.card-first-img img{
+.card-first-img {
     width: 9rem;
     height: 10rem;
-    position: relative;
-    left: 45px;
-    top: 9px;
+    margin-left: 2rem;
+   
 }
 
 
@@ -113,7 +112,7 @@ table {
     justify-content:center;
     align-items: center;
     flex-direction: row;
-    gap: 45px;
+    gap: 35px;
     position: relative;
     margin-bottom: 50px;
    
@@ -124,7 +123,7 @@ table {
     justify-content:center;
     align-items: center;
     flex-direction: row;
-    gap: 45px;
+    gap: 35px;
     position: relative;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -136,30 +135,31 @@ table {
     justify-content:center;
     align-items: center;
     flex-direction: row;
-    gap: 45px;
+    gap: 35px;
     position: relative;
    
    
 }
 
-.title-tutorials-responsibe{
+.title-tutorials-responsible{
     display: flex;
     flex-direction: row;
-    margin-left: 7.5rem;
+    margin-left: 6.8rem;
     justify-items: center;
     gap: 10px;
     margin-bottom: 30px;
 }
 
- .title-tutorials-responsibe p{
+ .title-tutorials-responsible p{
     color: #000;
     font-family: 'Montserrat';
     font-weight: bold;
     margin-top: 10px;
     font-size: 1.2rem;
-}
+   
+ } 
 
-.title-tutorials-responsibe span{
+.title-tutorials-responsible span{
     color: #F1B709;
 }
 
