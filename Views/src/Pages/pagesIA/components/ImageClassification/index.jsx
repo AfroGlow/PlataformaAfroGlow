@@ -1,6 +1,6 @@
 import { useState } from "react";
-<
-import * as tf from "@tensorflow/tfjs";
+
+//import * as tf from "@tensorflow/tfjs";
 
 // import * as tf from "@tensorflow/tfjs";
 
@@ -24,7 +24,7 @@ const ImageClassification = () => {
         setPredictions(predictions);
         setIsLoading(false);
     };
-    
+
     const handleImageUpload = (acceptedFiles) => {
         const file = acceptedFiles[0];
         setImage(URL.createObjectURL(file));
@@ -32,8 +32,8 @@ const ImageClassification = () => {
         imgElement.src = URL.createObjectURL(file);
     };
 
-    
-    
+
+
 
     const { getRootProps, getInputProps } = useDropzone({
         onDrop: handleImageUpload,
@@ -46,19 +46,34 @@ const ImageClassification = () => {
         <section className="wrapper">
 
             <div className="align-title-AI">
+
+                <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
+
                 <div className="titleAI">
             <h2 className="p-title-ia">Faça upload de uma foto, para nossa IA </h2>
             <div>
             <p className="p-title-ia p-general">analisar seu cabelo</p>
                            </div>
                            </div>
+
             </div>
 
-            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br/> com a nossa IA! </h2>
+            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
 
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
-                    <input {...getInputProps()} />
+ 
+                    <div className="display-none">
+                        <img className="imgUp" id="imgUp" src="./upload.png" alt="upload" />
+
+
+                        <p>
+                            <p className="pYellow">Arraste</p> e solte uma imagem ou clique para <p className="pYellow">selecionar</p>
+                        </p>
+                    </div>
+
+                    {image && (
+
                   <div className="display-none">
                     
                    
@@ -67,19 +82,19 @@ const ImageClassification = () => {
                         </div>
                    
                     {image &&  (
-                         
+
                         <>
-                        
+
                             <div className="img-wrapper">
                                 <img className="img-wrapper-ia" src={image} alt="Uploaded" />
                             </div>
-                           
+
                             <div className="App">
-     
-    </div>
+
+                            </div>
 
 
-                            <button className="btn-action"onClick={classifyImage}  >
+                            <button className="btn-action" onClick={classifyImage}  >
                                 {isLoading ? "Analisando..." : "Analisar"}
                             </button>
                         </>
