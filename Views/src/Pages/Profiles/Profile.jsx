@@ -13,7 +13,7 @@ function Perfil() {
         </Link>
         <div className='info-edit'>
           <h2 className='title-page'>Quem está acessando?</h2>
-          <Link to="/editar" className='link-router'><EditButton /></Link>
+          <Link to="/editar" className='router'><EditButton /></Link>
         </div>
         <div className="profiles card-1">
           <Link to='/perfilresponsavel'>
