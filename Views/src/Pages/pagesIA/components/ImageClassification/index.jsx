@@ -5,7 +5,7 @@ import * as tf from "@tensorflow/tfjs";
 // import * as tf from "@tensorflow/tfjs";
 
 // import modelJson from './AfroGlow_v2.json';
-import { useDropzone } from 'react-dropzone'; 
+//import { useDropzone } from 'react-dropzone'; 
 import './index.css'
 
 const ImageClassification = () => {
