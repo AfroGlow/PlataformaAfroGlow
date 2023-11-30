@@ -63,6 +63,16 @@
     margin: 1rem 0px;
     font-weight: 800;
 }
+.container-provisorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.section-plans-box img {
+    width: 320px;
+    margin-bottom: 30px;
+}
 
 @media screen and (max-width: 932px) {
     .container-cards-glowbox {

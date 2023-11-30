@@ -29,6 +29,10 @@ const BoxPlans = () => {
             <div className='purple-line-glowbox2'></div>
             <section className='section-plans-box'>
             <h2>Assine seu plano</h2>
+            <div className='container-provisorio'>
+                <img src="GlowBox-Kids-provisorio.png" alt="" />
+                <img src="GlowBox-provisorio.png" alt="" />
+            </div>
             </section>
         </body>
     )
