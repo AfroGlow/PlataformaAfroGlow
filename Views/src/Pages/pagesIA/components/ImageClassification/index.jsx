@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import * as tf from "@tensorflow/tfjs";
+// import modelJson from './AfroGlow_v2.json';
 import { useDropzone } from 'react-dropzone'; 
 import './index.css'
 import InputForm from "../inputForm/input-form";
@@ -10,23 +11,25 @@ const ImageClassification = () => {
     const [predictions, setPredictions] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
-    const loadModel = async () => {
-        const model = await tf.loadLayersModel('/path/to/AfroGlow_v2.json');
-        return model;
-    };
 
     const classifyImage = async (imgTensor) => {
         setIsLoading(true);
-        const model = await loadModel();
+        const model = await tf.loadLayersModel(modelJson);
+
         const predictions = await model.classify(imgTensor);
         setPredictions(predictions);
         setIsLoading(false);
     };
-
+    
     const handleImageUpload = (acceptedFiles) => {
         const file = acceptedFiles[0];
         setImage(URL.createObjectURL(file));
+        const imgElement = document.createElement("img");
+        imgElement.src = URL.createObjectURL(file);
     };
+
+    
+    
 
     const { getRootProps, getInputProps } = useDropzone({
         onDrop: handleImageUpload,
@@ -38,22 +41,37 @@ const ImageClassification = () => {
     return (
         <section className="wrapper">
             <div className="align-title-AI">
-                {/* ... (código anterior) ... */}
+                <div className="titleAI">
+            <h2 className="p-title-ia ">Faça upload de uma foto, para nossa IA </h2>
+            <div>
+            <p className="p-title-ia p-general">analisar seu cabelo</p>
+                           </div>
+                           </div>
             </div>
-
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
                     <input {...getInputProps()} />
-                    {/* ... (código anterior) ... */}
-                    {image && (
+                  <div className="display-none">
+                    
+                   
+      
+                       
+                        </div>
+                   
+                    {image &&  (
+                         
                         <>
+                        
                             <div className="img-wrapper">
                                 <img className="img-wrapper-ia" src={image} alt="Uploaded" />
                             </div>
+                           
+                            <div className="App">
+     
+    </div>
 
-                            <div className="App"></div>
 
-                            <button className="btn-action" onClick={classifyImage}>
+                            <button className="btn-action"onClick={classifyImage}  >
                                 {isLoading ? "Analisando..." : "Analisar"}
                             </button>
                         </>
@@ -61,10 +79,23 @@ const ImageClassification = () => {
                 </div>
 
                 <div className="box2">
-                    <h3 className="title-box2-ia p-general">Resultado</h3>
-                    {/* ... (código anterior) ... */}
+                <h3 className="title-box2-ia p-general">Resultado</h3>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Cacheado</p> <p className="purple-p-box2-ia p-general">95%</p>
+                </div>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Ondulado</p> <p className="purple-p-box2-ia p-general">5%</p>
+                </div>
+                <div className="align-row-box2-ia">
+                <p className="black-p-box2-ia p-general">Liso</p>    <p className="purple-p-box2-ia p-general">0%</p>
+                </div>
+                <div className="align-btn-box2-ia">
+                <ModalReconhecimentoCapilar/>
+                </div>
                     {predictions.length > 0 && (
                         <>
+
+                        
                             <h3 className="title">Resultado</h3>
                             <ul className="list-result">
                                 {predictions.map((prediction, index) => (
