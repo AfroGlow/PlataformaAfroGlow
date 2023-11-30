@@ -8,9 +8,9 @@
   width: 3rem;
   height: 3rem;
   margin: 1rem;
-  position: fixed;
+  position: absolute;
 }
-.label-input-radio label{
+.align-row label{
   font-family: 'Poppins', sans-serif;
   margin-left: 0.4rem;
   font-size: 1rem;
@@ -64,7 +64,7 @@
   justify-content: center;
   margin-right: 2rem;
 }
-label{
+.align-row label{
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
 
@@ -88,4 +88,10 @@ label{
   color: #AD4AFF;
   font-family: 'Poppins', sans-serif;
   
+}
+.alinhaCentro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 } }

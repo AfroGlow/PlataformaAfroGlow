@@ -48,7 +48,7 @@ function RouterApp() {
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
-        <Route path="/cadastroc" element={<ChildRegistration />}>Cadastro Criança</Route>
+        <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
         <Route path="/perfil" element={<Profile />}>Perfil</Route>
         <Route path="/editar" element={<EditProfile />}>Editar Perfil</Route>
