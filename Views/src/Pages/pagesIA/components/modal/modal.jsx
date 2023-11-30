@@ -13,7 +13,7 @@ function ModalAi() {
   return (
     <>
       <Button className='button-modal'  variant="primary" onClick={handleShow}>
-        Continuar
+        Finalizar
       </Button>
 
 
@@ -23,7 +23,7 @@ function ModalAi() {
       
         <Modal.Body className='modalCenter'>
             <div className='align-center-modal-img'>
-        <img src="./Logo-afroglow-preto.svg" alt="" />
+        <img src="./logoAfroGlow2.svg" alt="" />
         </div>
         <div className='align-center-modal-text'>
             <h4 className='h4-title-modal'>Gabriela, a condição do seu cabelo é:  </h4>
