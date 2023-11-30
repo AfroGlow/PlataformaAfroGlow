@@ -1,6 +1,16 @@
+
 import React, { useState } from "react";
 import * as tf from "@tensorflow/tfjs";
 import { useDropzone } from 'react-dropzone'; 
+
+import { useState } from "react";
+import * as tf from "@tensorflow/tfjs";
+
+
+
+
+// import modelJson from './AfroGlow_v2.json';
+
 import './index.css'
 import InputForm from "../inputForm/input-form";
 import ModalReconhecimentoCapilar from "../modal/modal-ia";
@@ -38,8 +48,28 @@ const ImageClassification = () => {
     return (
         <section className="wrapper">
             <div className="align-title-AI">
+
                 {/* ... (código anterior) ... */}
             </div>
+
+
+
+                <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
+
+                <div className="titleAI">
+            <h2 className="p-title1-ia ">Faça upload de uma foto, para nossa IA </h2>
+            <div>
+            <p className="p-title-ia p-general">analisar seu cabelo</p>
+                           </div>
+                           </div>
+
+            </div>
+
+
+
+            <h2 className="titleAI">Revolucione seu cuidado com o cabelo <br /> com a nossa IA! </h2>
+
+
 
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>

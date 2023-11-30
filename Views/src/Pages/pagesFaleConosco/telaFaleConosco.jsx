@@ -10,7 +10,6 @@ import InputSmallFaleConosco from './components/inputFaleConosco/inputSmallFaleC
 
 
 
-
 function TelaFaleConosco() {
     return (
         <>
@@ -43,9 +42,7 @@ function TelaFaleConosco() {
                 <img src="./imgLogoYoutube.png" alt="" />
                 </div>
             </div>
-
            
-
         </>
 
     )
