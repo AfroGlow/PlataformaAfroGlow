@@ -11,7 +11,7 @@ function Form1() {
   return (
     <div>
 
-      <Link to="ia"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
+      <Link to="/ia"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
       <div className='alinhaCentro'>
         <p className='subtitulo-form'>Pergunta1/3</p>
       </div>

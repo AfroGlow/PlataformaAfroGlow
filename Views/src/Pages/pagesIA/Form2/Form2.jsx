@@ -12,7 +12,7 @@ function Form2() {
   return (
     <div>
 
-      <Link to="/"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
+      <Link to="/Form1"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
       <div className='alinhaCentro'>
         <p className='subtitulo-form'>Pergunta2/3</p>
       </div>
