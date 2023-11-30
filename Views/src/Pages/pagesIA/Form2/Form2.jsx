@@ -30,7 +30,7 @@ function Form2() {
 
       </div>
       <div className='alinhaCentro'>
-        <Link to="/Form3"> <InputForm /></Link>
+        <Link to="/Form3"><InputForm  props_value={"PRÓXIMO"}/></Link>
       </div>
       <Outlet />
 

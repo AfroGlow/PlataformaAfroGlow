@@ -12,7 +12,6 @@ function Footer() {
                 <p>Login</p>
                 <p>Atendimento</p>
                 <p>SAC</p>
-                
             </div>
             <div className="footer-hr">
             <hr />
