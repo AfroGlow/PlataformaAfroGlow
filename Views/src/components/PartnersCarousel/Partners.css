@@ -60,5 +60,6 @@
   
   .logos-slide img {
     height: 200px;
+    width: auto;
     margin: 0 40px;
   }

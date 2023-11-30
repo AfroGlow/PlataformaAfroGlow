@@ -8,7 +8,7 @@ import { Outlet, Link } from "react-router-dom";
 function TelaFinal() {
   return (
     <>
-    
+
       <Link to="/Form3"><img className='imgBackTelaFinal' src="./botaoEsquerda.svg" alt="" /></Link>
       
 
@@ -40,7 +40,7 @@ function TelaFinal() {
       <div className='alinharBtn'>
         <button className='btnAmarelo'>Calcular frete</button>
       </div>
-      
+
     </>
     
   )

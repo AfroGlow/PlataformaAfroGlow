@@ -1,0 +1,148 @@
+
+  .bg-profile{
+    background: linear-gradient(to top, #00000099 50%,  #00000099 50%  ), url(bgPerfil.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container-profiles{
+    margin: 1rem;
+  }
+
+  
+   .title-page{
+    color: #FFFFFF;
+  }
+
+
+  
+  .parents-profile {
+    text-decoration: none !important;
+  }
+  
+
+  .info-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2em;
+  }
+  
+  .profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 7rem;
+    align-items: center;
+    margin: 2em;
+    gap: 2em;
+  }
+  
+  
+  .parents-profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 40px;
+    border: 2px solid #AD4AFF;
+    box-shadow: 1px 2px 10px 2px inset rgb(226, 191, 255);
+  }
+  
+  .children-profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2em;
+    background-color: #FFFFFF;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 40px;
+    border: 2px solid #AD4AFF;
+    box-shadow: 1px 2px 10px 2px inset rgb(226, 191, 255);
+  }
+
+  .name-profile{
+    font: 600 normal 1.5rem 'Poppins';
+  }
+  .children-profile:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    background-color: #ffffffd8;
+   }
+   .parents-profile:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    background-color: #ffffffd8;
+   }
+
+
+
+   @media (max-width:900px){
+
+    .name-profile{
+      font-size: 1.3rem;
+      position: relative;
+      top: 2px;
+    }
+   }
+
+
+  @media (max-width:600px){
+  
+    .parents-profile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      width: 18rem;
+      height: 14rem;
+      border-radius: 40px;
+      border: 2px solid #AD4AFF;
+    }
+    
+    .children-profile{
+      display: flex;
+      justify-content: end;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      width: 18rem;
+      height: 14rem;
+      border-radius: 40px;
+      border: 2px solid #AD4AFF;
+    }
+    .profiles{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.3rem;
+      gap: 2em;
+    }
+
+     .name-profile{
+      font: 600 normal 1rem 'Poppins';
+    }
+  
+    .children-profile img{
+      width: 8rem;
+      
+    }
+  
+    .parents-profile img{
+      width: 8rem;
+  
+  }
+}

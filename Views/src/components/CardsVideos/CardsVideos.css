@@ -1,0 +1,80 @@
+
+
+.card-video-responsible {
+    width: 18rem;
+    height: 27rem;
+    background-color: #efe6f7;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card-video-responsible p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 0.625rem; 
+    margin-top: 1.25rem; 
+    max-width: 16rem; 
+}
+
+
+.highlight-tutorials{
+    border-radius: 0.5rem;
+    width: 16.8rem;
+    margin-top: 0.5rem;
+    
+}
+
+
+
+.button-tutorials-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.33rem; 
+}
+
+.button-tutorials-videos {
+    margin-bottom: 1.25rem; 
+}
+
+.time-tutorials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.icone-relogio  {
+    margin-top: 1rem;
+   
+}
+
+.button-watch button  {
+    
+    
+    background: #1ACDC7;
+    color: #f2f2f2;
+    padding: 0.7rem 1.8rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.button-watch button:hover {
+    background: #0ABBB5;
+    color: #000;
+    transition: 1.3s;
+}

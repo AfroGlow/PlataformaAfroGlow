@@ -4,13 +4,14 @@
     gap: 25px;
 }
 .cards-team img {
-    width: 170px;
+    width: 190px;
 }
 .member-data {
     gap: 10px;
 }
 .member-data h3 {
     font-size: 1.8rem;
+    font-weight: 600;
 }
 .icons-contact-team {
     display: flex;
@@ -28,7 +29,7 @@
 
 @media screen and (max-width: 430px){
     .cards-team img {
-        width: 150px;
+        width: 170px;
     }
     .member-data {
         gap: 10px;
