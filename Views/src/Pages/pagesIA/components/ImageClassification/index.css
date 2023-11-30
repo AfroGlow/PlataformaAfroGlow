@@ -14,6 +14,7 @@ section {
 }
 
 .img-wrapper img {
+
   width: 300px;
 
   border-radius: 8px;
@@ -32,26 +33,43 @@ section {
   transition: 0.3s;
 }
 
-.titleAI {
+
+.titleAI{
   font-size: 2rem;
   font-weight: 800;
 }
+.align-title-AI{
+  display: flex;
+  justify-content: center;
+}
+
 
 .wrapper>.title {
+
   text-decoration: underline;
   margin-top: 0;
 }
 
+
+
+
 .wrapper>.list-result {
+
   font-size: 26px;
   list-style: none;
 }
 
+
+
 .wrapper>.list-result>.result {
+
   margin: 20px 0;
   color: #ad4aff;
   text-transform: capitalize;
 }
+
+
+
 
 .wrapper>.note {
   font-size: 14px;
@@ -60,6 +78,109 @@ section {
 
 .reqRes {
   display: flex;
+
+width: 97vw;
+height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+
+ 
+}
+
+
+.box1{
+    width: 677px;
+    height: 357px;
+    align-items: center;
+   justify-content: space-evenly;
+ padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+    border: 3px solid #ad4aff;
+    background: #fff;
+    backdrop-filter: blur(10px);
+  }
+
+  .box2{
+    width: 311px;
+    height: 316px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #AD4AFF;
+    background: #FFF;
+    backdrop-filter: blur(10px);
+
+  }
+
+  .imgUp {
+    width: 50px;
+  }
+ 
+  p{
+    color: #000;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .pYellow{
+color: #F2B705;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+  
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-wrapper {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+  
+  .App-link {
+    color: #AD4AFF;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
   width: 97vw;
   height: auto;
   align-items: center;
