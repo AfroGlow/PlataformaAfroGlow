@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './TelaFaleConosco.css'
 import  InputFaleConosco from './components/inputFaleConosco/inputFaleConosco'
 import InputSmallFaleConosco from './components/inputFaleConosco/inputSmallFaleConosco'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
+
+
 
 
 

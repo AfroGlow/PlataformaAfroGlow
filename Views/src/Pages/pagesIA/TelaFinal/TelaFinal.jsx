@@ -8,14 +8,18 @@ import { Outlet, Link } from "react-router-dom";
 function TelaFinal() {
   return (
     <>
-    <div className='maxScreen'>
+    
       <Link to="/Form3"><img className='imgBackTelaFinal' src="./botaoEsquerda.svg" alt="" /></Link>
       
 
-      
+      <div className='align-title--column-telaFinal'>
+        <div className='align-center-title-telafinal'>
+      <div>
       <h4 className='inputsGroupH4TelaFinal'>Peça já sua glowBox!</h4>
+      </div>
       <p className='inputsGroupPTelaFinal'>Preencha os campos para cálculo do frete e prazo de entrega</p>
-
+      </div>
+      </div>
       <div className='inputsGroup'>
 
         <img src="./imgTelaFinalMenino.svg" alt="" />
@@ -36,7 +40,7 @@ function TelaFinal() {
       <div className='alinharBtn'>
         <button className='btnAmarelo'>Calcular frete</button>
       </div>
-      </div>
+      
     </>
     
   )
