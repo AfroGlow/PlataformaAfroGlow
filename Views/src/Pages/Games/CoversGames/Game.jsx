@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
 import './Game.css';
+Link
 
 const Games = ({iconSound, titleGame, ButtonGame}) => {
     return(
         <section className='container-games'>
-                <img className='back-games' src="icon-button-left.svg" alt="" />
+                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt="" /></Link>
             <article className='secondary-container-games'>
                 <div className='sound-games'>
                     <img src={iconSound} alt={iconSound} />

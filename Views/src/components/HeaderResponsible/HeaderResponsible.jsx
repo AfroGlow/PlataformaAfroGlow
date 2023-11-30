@@ -5,11 +5,13 @@ function HeaderResponsible() {
 
     return (
         <div className='responsible-header'>
-            <img
-                className='img-logo-header'
-                src='Logo-afroglow-preto.png'
-                alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
-            />
+            <Link to='/'>
+                <img
+                    className='img-logo-header'
+                    src='Logo-afroglow-preto.png'
+                    alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
+                />
+            </Link>
             <h2>Olá, Lilian</h2>
 
             <Link to="/perfil">

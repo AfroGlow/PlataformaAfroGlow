@@ -1,5 +1,6 @@
 import Tutorials from "../../Games/TutorialsGames/Tutorials"
 import "./TutorialTwo.css"
+import { Link } from 'react-router-dom'
 
 const TutorialTwo = () => {
     return(

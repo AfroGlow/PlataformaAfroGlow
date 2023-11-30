@@ -43,7 +43,7 @@ const Notes = () => {
             border: 'none',
             fontSize: 'larger',
             width: '100%',
-            color: 'white', 
+            color: 'white',
             fontFamily: 'Montserrat',
             textAlign: 'center',
           }}
@@ -53,6 +53,9 @@ const Notes = () => {
         placeholder=""
         value={item.text}
         onChange={(e) => handleInputChange(e, index)}
+        style={{
+          color: 'white', // Adicione essa linha para definir a cor do texto como branco
+        }}
       ></textarea>
     </div>
   );
