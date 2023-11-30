@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import './Form3.css'
 import Form from '../components/form/form'
-import InputForm from '../components/inputForm/input-form'
+// import InputForm from '../components/inputForm/input-form'
 import { Outlet, Link } from "react-router-dom";
-
 import ModalAi from '../components/modal/modal'
 
 function Form3() {
@@ -25,6 +24,12 @@ function Form3() {
           </div>
         </div>
         <div className='alinhaCentro'>
+
+         <ModalAi/>
+        
+        <Outlet />
+      
+      
           <ModalAi />
         </div>
       </div>
