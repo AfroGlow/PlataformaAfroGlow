@@ -2,13 +2,6 @@ import { useState } from "react";
 import * as tf from "@tensorflow/tfjs";
 // import modelJson from './AfroGlow_v2.json';
 import { useDropzone } from 'react-dropzone'; 
-
-import { useState } from "react";
-import * as tf from "@tensorflow/tfjs";
-
-
-
-
 // import modelJson from './AfroGlow_v2.json';
 
 import './index.css'
