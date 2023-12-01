@@ -17,8 +17,8 @@ const Header = () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#plans">Planos</Nav.Link>
           <Nav.Link href="#feedback">Depoimentos</Nav.Link>
-          <Nav.Link href="/sobrenos">Sobre</Nav.Link>
-          <Nav.Link href="faleconosco">Fale conosco</Nav.Link>
+          <Nav.Link href="/sobrenos">Sobre</Nav.Link> 
+          <Nav.Link href="/faleconosco">Fale conosco</Nav.Link>
           </Nav>
           <Nav className='ms-auto container-buttons-header'>
             <Link to="/login"><button type="submit" id="button-login">Login</button></Link>

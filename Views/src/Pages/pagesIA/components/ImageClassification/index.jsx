@@ -51,7 +51,7 @@ const ImageClassification = () => {
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
                     <input {...getInputProps()} />
-                  <div className="display-none">
+                  <div className="display-none">    
                     
                    
       

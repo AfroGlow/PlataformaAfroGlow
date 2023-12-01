@@ -32,7 +32,7 @@ function ModalAi() {
             </div>
         <div className='align-btn-modal'>
           
-          <Link to="/TelaFinal"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/iaplanos"> <Button className='btnmodal' onClick={handleClose}>
             Comprar GlowBox
           </Button>  </Link>
           <Link to="/ia"> <Button className='btnmodal' onClick={handleClose}>
