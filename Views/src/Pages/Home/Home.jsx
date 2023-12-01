@@ -7,31 +7,24 @@ import Partners from '../../components/PartnersCarousel/Partners'
 import { Link } from 'react-router-dom'
 
 
+
 const Home = () => {
   return (
     <>
       <Header />
       <div className="welcomeHome">
+        <div className='welcomeContainerOne'>
           <p className='homeWelcomeParagraph'>Seja Bem-Vindo a Plataforma</p>
           <h1 className='homeWelcomeText'>Aprender a amar e <br /> cuidar dos seus <span>cabelos</span><br /> nunca foi tão divertido!</h1>
-          <button className='homeWelcomeButton'>
-            <a href="#">Brilhe Conosco</a>
-          </button>
+          <Link to="/cadastro">
+            <button className='homeWelcomeButton'>
+              <a href="#">Brilhe Conosco</a>
+            </button>
+          </Link>
         </div>
         <div>
           <img src="ImagensCriancas.svg" alt="fundo roxo" className='homeWelcomeImg' />
         </div>
-            <p className='homeWelcomeParagraph'>Seja Bem-Vindo a Plataforma</p>
-            <h1 className='homeWelcomeText'>Aprender a amar e <br /> cuidar dos seus <span>cabelos</span><br /> nunca foi tão divertido!</h1>
-            <Link to="/cadastro">
-              <button className='homeWelcomeButton'>
-                  <a href="#">Brilhe Conosco</a>
-              </button>
-            </Link>
-          </div>
-          <div>
-            <img src="ImagensCriancas.svg" alt="fundo roxo" className='homeWelcomeImg'/>
-          </div>
       </div>
       <main className='mainHome'>
         <div className="cardsHomeTasks">
@@ -93,67 +86,12 @@ const Home = () => {
               <li>Nos conte mais sobre o seu cabelo e as necessidades</li>
               <li>Receba uma box personalizada para seu tratamento</li>
             </ul>
-            <button className='buttonIA'><a href="#">Acesse Nossa IA</a></button>
-      </article>
-
-      <div className="watchYoutube">
-        <img src="AvatarMasculino.svg" alt="avatar masculino, roupa amarela" />
-        <iframe className='watchYoutubeCard' width="560" height="315" src="https://www.youtube.com/embed/RWWJ4qEfRnY?si=H-DeEL5v6jeLIP4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <img src="AvatarFeminino.svg" alt="avatar feminino, roupa amarela" />
-      </div>
-
-      <div className='AIscpace'>
-        <div className="AIscpaceText">
-          <h3>Revolucione o seu cuidado <br />capilar com a nossa IA! </h3>
-          <ul>
-            <li>Utilize a IA para identificar seu tipo de cabelo</li>
-            <li>Nos conte mais sobre o seu cabelo e as necessidades</li>
-            <li>Receba uma box personalizada para seu tratamento</li>
-          </ul>
-          <Link to="/cadastro"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
-        </div>
-        <img src="ImagemIA.png" alt="imagem card"/>
-      </div>
-
-      <div className="plans" id='plans'>
-        <h2>Conheça nossos planos</h2>
-        <div className="plansCards">
-          <div className="plansCardContent">
-
-            <div className="plansValue">
-              <p>Plano Basic</p>
-              <p className='plansValueMoney'>Gratuito</p>
-            </div>
-
-            <div className='plansContent'>
-              <div className='plansContentOption'>
-                <img src="check.svg" alt="botão de ok" />
-                <p>Acesso a tutoriais</p>
-              </div>
-              <div className='plansContentOption'>
-                <img src="check.svg" alt="botão de ok" />
-                <p>Acesso limitado aos jogos</p>
-              </div>
-              <div className='plansContentOption'>
-                <img src="block.svg" alt="botão de ok" />
-                <p>Inteligência Artificial</p>
-              </div>
-              <div className='plansContentOption'>
-                <img src="block.svg" alt="botão de ok" />
-                <p>Podcasts</p>
-              </div>
-              <div className='plansContentOption'>
-                <img src="block.svg" alt="botão de ok" />
-                <p>Notas</p>
-              </div>
-            </div>
-
-            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
+            <Link to="/iaplanos"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
           </div>
           <img src="ImagemIA.png" alt="imagem card" />
         </div>
 
-        <div className="plans">
+        <div className="plans" id='plans'>
           <h2>Conheça nossos planos</h2>
           <div className="plansCards">
             <div className="plansCardContent">
@@ -186,8 +124,9 @@ const Home = () => {
                 </div>
               </div>
 
-              <button><a href="">Assinar</a></button>
+              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
             </div>
+
             <div className="plansCardContent">
 
               <div className="plansValue">
@@ -218,16 +157,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <button><a href="">Assinar</a></button>
-            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
-          </div>
-
-          <div className="plansCardContent">
-
-            <div className="plansValue">
-              <p>Plano Plus</p>
-              <p className='plansValueMoney'>R$ 199,99<span>/Ano</span></p>
-
+              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
             </div>
 
             <div className="plansCardContent">
@@ -260,13 +190,10 @@ const Home = () => {
                 </div>
               </div>
 
-              <button><a href="">Assinar</a></button>
+              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
             </div>
-
-            <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
           </div>
         </div>
-
 
         <div className="socialMedia">
           <img src="avatarSocialMedia.svg" alt="personagem loira com camisa amarela" className='avatarSocialMedia' />
@@ -278,33 +205,16 @@ const Home = () => {
               <a href=""><img src="iconInstagram.svg" alt="icone instagram amarelo" /></a>
               <a href=""><img src="iconYoutube.svg" alt="icone youtube amarelo" /></a>
             </div>
-      <div className="socialMedia">
-        <img src="avatarSocialMedia.svg" alt="personagem loira com camisa amarela"  className='avatarSocialMedia'/>
-        <div className="socialMediaContent">
-          <h3>Fique por dentro das novidades da <br /><span>AfroGlow</span> nas redes sociais</h3>
-          <div className="socialMediaIcons">
-              <a href="https://www.linkedin.com/company/afroglow2023/"><img src="iconLinkedin.svg" alt="icone linkedin amarelo" /></a>
-              <a href="https://www.tiktok.com/@afroglow_"><img src="iconTiktok.svg" alt="icone tiktok amarelo" /></a>
-              <a href="https://www.instagram.com/afroglow__/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="iconInstagram.svg" alt="icone instagram amarelo" /></a>
-              <a href="https://www.youtube.com/@AfroGlow"><img src="iconYoutube.svg" alt="icone youtube amarelo" /></a>
-
           </div>
         </div>
 
-
-        <div className="feedback">
+        <div className="feedback" id='feedback'>
           <h2>Depoimentos</h2>
           <CarouselComent />
         </div>
-
-      <div className="feedback" id='feedback'>
-        <h2>Depoimentos</h2>
-        <CarouselComent />
-        <img src="barRoxa.svg" alt="" className='barFooter'/>
-      </div>
       </main>
       <Partners />
-      <img src="barRoxa.svg" alt="" className='barFooter' />
+     
 
       <Footer />
     </>
