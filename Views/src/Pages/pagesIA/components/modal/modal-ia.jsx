@@ -13,7 +13,7 @@ function ModalReconhecimentoCapilar() {
   return (
     <>
       <Button className='button-modal-ia'  variant="primary" onClick={handleShow}>
-      Proximo Passo
+      Próximo Passo
       </Button>
 
 
@@ -26,13 +26,13 @@ function ModalReconhecimentoCapilar() {
         <img src="./logoAfroGlow2.svg" alt="" />
         </div>
         <div className='align-center-modal-text'>
-            <h4 className='h4-title-modal'>Muito bem, seu cabelo é “Crespo”  </h4>
+            <h4 className='h4-title-modal'>Muito bem, seu cabelo é “Cacheado”  </h4>
             <p className='p-text-modal'>Agora precisamos de mais algumas informações, pra isso clique para preencher o formulario</p>
             </div>
         <div className='align-btn-modal-ia'>
           
           <Link to="/Form1"> <Button className='btnmodal' onClick={handleClose}>
-          Preencher Formulario
+          Preencher Formulário
           </Button>  </Link>
           </div>
         </Modal.Body>

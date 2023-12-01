@@ -134,16 +134,17 @@ height: auto;
   }
  
   .p-title-ia{
-color: #000;
-font-size: 1.7rem;
-font-weight: 700;
-margin-bottom: 2.5rem;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
   }
-  .p-title1-ia{
-color: #000;
-font-size: 2rem;
-font-weight: 700;
-  }
+
+.p-title-ia .p-general{
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
   .pYellow{
 color: #F2B705;
 font-family: Montserrat;
