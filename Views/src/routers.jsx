@@ -35,7 +35,10 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
+
+
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 
 
@@ -80,8 +83,12 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
+
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
       
+
+        <Route path='/posia' element={<BoxPlans />}></Route> 
+
 
       </Routes>
 
