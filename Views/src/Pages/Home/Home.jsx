@@ -124,7 +124,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
+              <Link to="/pagamento-planobasic"><button><a href="">Assinar</a></button></Link>
             </div>
 
             <div className="plansCardContent">
@@ -157,7 +157,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
+              <Link to="/pagamento-planopremium"><button><a href="">Assinar</a></button></Link>
             </div>
 
             <div className="plansCardContent">
@@ -190,7 +190,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
+              <Link to="/pagamento-planoplus"><button><a href="">Assinar</a></button></Link>
             </div>
           </div>
         </div>
