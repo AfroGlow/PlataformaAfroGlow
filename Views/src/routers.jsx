@@ -42,13 +42,30 @@ import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 
 
+import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
+import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
+
+
 function RouterApp() {
 
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
+
+
+
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
+
+
+       
+        <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planoplus" element={<PaymentsPlus />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
+       
+
+
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
@@ -88,6 +105,10 @@ function RouterApp() {
       
 
         <Route path='/posia' element={<BoxPlans />}></Route> 
+
+
+
+
 
 
       </Routes>

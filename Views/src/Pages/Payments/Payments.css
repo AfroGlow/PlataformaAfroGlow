@@ -10,6 +10,8 @@
     font-weight: 700;
     font-size: 1.3rem;
     font-family: 'Baloo 2', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 .paymentContentMain {
