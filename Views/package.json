@@ -29,7 +29,8 @@
     "react-scripts": "5.0.1",
     "swiper": "^11.0.5",
     "virtualenv": "^0.3.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@iconify/react": "^4.1.1"
   },
   "devDependencies": {
     "@iconify-icon/react": "^1.0.8",
