@@ -16,6 +16,7 @@
     gap: 8.6rem;
     padding: 2rem 0;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .navbar {
@@ -143,6 +144,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.identifyImg {
+    width: 500px;
+    height: 400px;
 }
 
 .AIscpaceText h3 {
@@ -529,6 +536,8 @@
     .avatarSocialMedia {
         width: 80%;
     }
+
+    
 }
 
 @media (max-width: 405px) {
@@ -561,4 +570,7 @@
         margin-left: 10px;
     } 
 
+    .identifyImg {
+        display: none;
+     }
 }

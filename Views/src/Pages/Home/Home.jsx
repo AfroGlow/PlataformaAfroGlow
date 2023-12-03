@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import CarouselComent from '../../components/CarouselComent/CarouselComent'
 import Partners from '../../components/PartnersCarousel/Partners'
+import CareCard from '../../components/CareCard/CareCard'
 import { Link } from 'react-router-dom'
 
 
@@ -28,15 +29,7 @@ const Home = () => {
       </div>
       <main className='mainHome'>
         <div className="cardsHomeTasks">
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreUm.png" alt="Aprenda a cuidar dos cabelos de forma ludica e divertida" /></a>
-          </div>
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreDois.png" alt="Acesse conteudos de cuidados " /></a>
-          </div>
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreTres.png" alt="" /></a>
-          </div>
+        <CareCard />
         </div>
 
         <article className="carousel-limit carousel">
@@ -88,7 +81,7 @@ const Home = () => {
             </ul>
             <Link to="/iaplanos"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
           </div>
-          <img src="ImagemIA.png" alt="imagem card" />
+          <img src="ImagemIA.png" alt="imagem card" className='identifyImg'/>
         </div>
 
         <div className="plans" id='plans'>
