@@ -156,7 +156,7 @@ const Home = () => {
             <div className="plansCardContent">
 
               <div className="plansValue">
-                <p>Plano Plus</p>
+                <p>Plano Anual</p>
                 <p className='plansValueMoney'>R$ 199,99<span>/Ano</span></p>
               </div>
 
