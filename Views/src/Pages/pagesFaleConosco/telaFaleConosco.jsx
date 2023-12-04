@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './TelaFaleConosco.css'
 import  InputFaleConosco from './components/inputFaleConosco/inputFaleConosco'
 import InputSmallFaleConosco from './components/inputFaleConosco/inputSmallFaleConosco'
-
+import Header from '../../components/Header/Header'
 
 
 
@@ -43,9 +43,7 @@ function TelaFaleConosco() {
                 <img src="./imgLogoYoutube.png" alt="" />
                 </div>
             </div>
-
            
-
         </>
 
     )

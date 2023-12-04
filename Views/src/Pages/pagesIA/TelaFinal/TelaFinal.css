@@ -6,22 +6,16 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
 
   
-
-
-  .inputsGroupPTelaFinal p{
+  .p-general{
     font-size: 1.4rem;
     width: 90%;
     text-align: center;
     margin-left: 1rem;
     font-family: 'Poppins', sans-serif;
-}
-  
-
+  }
 
 
   
-
-
 
 .btnAmarelo{
     padding: 1.3rem;
@@ -60,6 +54,7 @@
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    margin-top: 0.5rem;
   }
 
   .inputsGroupPTelaFinal{
@@ -123,16 +118,14 @@
     width: 100%;
   }
 
-  
-
-   .inputsGroupH4TelaFinal h4{
+   .h4-general{
       font-size: 2.7rem;
       text-align: center;
       margin-bottom: 2rem;
       margin-top: 2rem;
        font-family: 'Montserrat', sans-serif;
       
-   }
+  }
 
 
 .btnAmarelo{
