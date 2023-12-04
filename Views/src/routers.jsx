@@ -35,6 +35,7 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+import IAPlans from './Pages/IAPlans/IAPlans.jsx'
 
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 
