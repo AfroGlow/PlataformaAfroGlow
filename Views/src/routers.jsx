@@ -9,7 +9,6 @@ import Form2 from './Pages/pagesIA/Form2/Form2.jsx'
 import Form3 from './Pages/pagesIA/Form3/Form3.jsx'
 import Form1 from './Pages/pagesIA/Form1/Form1.jsx'
 import TelaFinal from './Pages/pagesIA/TelaFinal/TelaFinal.jsx'
-import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import ImageClassification from './Pages/pagesIA/components/ImageClassification/index.jsx';
 import ChildRegistration from "./Pages/ChildRegistration/ChildRegistration";
 import ParentRegistration from "./Pages/ParentRegistration/ParentRegistration";
@@ -38,6 +37,16 @@ import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
 import IAPlans from './Pages/IAPlans/IAPlans.jsx'
 
+import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
+
+
+import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
+
+
+import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
+import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
+
 
 function RouterApp() {
 
@@ -45,7 +54,19 @@ function RouterApp() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
+
+
+
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
+
+
+       
+        <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planoplus" element={<PaymentsPlus />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
+       
+
+
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
@@ -60,7 +81,7 @@ function RouterApp() {
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="ia" element={<ImageClassification />} />
-        <Route path="FaleConosco" element={<TelaFaleConosco />}></Route>
+        <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
@@ -80,8 +101,17 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
-        <Route path='/iaplanos' element={< IAPlans/>}></Route> 
+
+        <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
       
+
+        <Route path='/posia' element={<BoxPlans />}></Route> 
+
+
+
+
+
+
       </Routes>
 
     </Router>
