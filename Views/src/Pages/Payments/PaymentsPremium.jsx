@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import "./Payments.css"
 import Credit from './CreditDebit/Credit';
 import Debit from './CreditDebit/Debit';
-import DetailsProduct from './DetailsProduct/DetailsProduct';
-import Pix from './Pix/Pix';
 import { Link } from 'react-router-dom';
 
+import Pix from './Pix/Pix';
+import DetailsProductPremium from './DetailsProduct/DetailsProductPremium';
 
 
-const Payments = () => {
+
+const PaymentsFree = () => {
 
   const [page, setPage] = useState(<Credit />);
 
@@ -27,8 +28,7 @@ const Payments = () => {
   return (
     <div>
       <header className='paymentFormHeader'>
-  
-      <Link to="/home"><img src="botaoVoltar.svg" alt="" /></Link>
+      <Link to="/"><img src="botaoVoltar.svg" alt="" /></Link>
         <h2>Voltar</h2>
       </header>
       <main>
@@ -62,7 +62,7 @@ const Payments = () => {
           {page}
         </div>
 
-      <DetailsProduct />
+      <DetailsProductPremium />
       
       </div>
         
@@ -71,4 +71,4 @@ const Payments = () => {
   )
 }
 
-export default Payments
+export default PaymentsFree

@@ -38,11 +38,20 @@ import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
+
+import IAPlans from './Pages/IAPlans/IAPlans.jsx'
+
+
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 
 
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
+
+
+import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
+import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 
 
 function RouterApp() {
@@ -51,7 +60,19 @@ function RouterApp() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
+
+
+
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
+
+
+       
+        <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planoplus" element={<PaymentsPlus />}>Tela de Pagamento</Route>
+        <Route path="/pagamento-planopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
+       
+
+
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
@@ -94,6 +115,10 @@ function RouterApp() {
       
 
         <Route path='/posia' element={<BoxPlans />}></Route> 
+
+
+
+
 
 
       </Routes>
