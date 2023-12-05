@@ -1,15 +1,7 @@
 import { useState } from 'react'
-import './TelaFaleConosco.css'
-import  InputFaleConosco from './components/inputFaleConosco/inputFaleConosco'
-import InputSmallFaleConosco from './components/inputFaleConosco/inputSmallFaleConosco'
+import './TelaFaleConosco.css';
+import  InputFaleConosco from './components/inputFaleConosco/inputFaleConosco';
 import Header from '../../components/Header/Header'
-
-
-
-
-
-
-
 
 function TelaFaleConosco() {
     return (
@@ -17,12 +9,11 @@ function TelaFaleConosco() {
         <Header/>
             <h1 className='title-yellow-faleConosco'>Fale Conosco</h1>
             <h5 className='subtitle-faleConosco'>Como podemos te ajudar?</h5>
-            
             <div className='align-row-faleConosco'>
                 <div className='align-column-faleConosco'>
                     <InputFaleConosco  props_placeholder={"Nome Completo"}/>
                     <div className='align-row-faleConosco'>
-                        <InputSmallFaleConosco props_placeholder={"Email"}/>
+                        <InputSmallFaleConosco  props_placeholder={"Email"}/>
                         <InputSmallFaleConosco props_placeholder={"Telefone"} />
                     </div>
                     <InputFaleConosco props_placeholder={"Assunto"} />
