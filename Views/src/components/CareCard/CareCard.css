@@ -1,0 +1,47 @@
+.CareCard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.CareCard-item {
+    background-image: url(backgroundCareCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 50px;
+}
+
+.CareCard-item:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.combText{
+    transform: translateY(-20px);
+}
+
+.familyText {
+    transform: translateY(20px);
+}
+
+@media (max-width: 430px) { 
+
+    .CareCard-item {
+        width: 320px;
+    }
+
+}
