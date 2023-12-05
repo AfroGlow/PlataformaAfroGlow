@@ -21,9 +21,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.router{
-    text-decoration: none;
-  }
 
 p, button, input, label {
 	font-family: 'Poppins', sans-serif;

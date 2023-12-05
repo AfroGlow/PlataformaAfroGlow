@@ -1,0 +1,62 @@
+
+.container-screen4-game1 {
+  width: 92.56rem;
+  height: 44.7rem;
+  background-color: #ad4aff;
+ 
+}
+
+.img-screen4-game1 {
+  display: flex;
+  align-items: center;
+}
+
+.img-screen4-game1 img {
+  width: auto; 
+  height: auto; 
+}
+
+.img2-screen4 {
+  margin-top: 2rem;
+  margin-left: -4rem;
+}
+
+.title-screen4 {
+  font-family: 'Baloo 2';
+  color: white;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.P-screen4 {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 1rem;
+}
+
+.section-screen4{
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.text-screen4{
+  width: 30rem;
+  margin-top: -8rem;
+  text-align: center;
+  
+}
+
+.logo-screen4{
+  margin-top: -10rem;
+  margin-bottom: 5rem;
+  margin-left: 9rem;
+}
+
+.emoji-screen4{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+

@@ -38,8 +38,16 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
+import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
+import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
+import StepByStepVideo3 from './Pages/StepByStep/StepByStepVideo5.jsx'
+
+import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
+
 
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
+import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 
 
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
@@ -80,9 +88,11 @@ function RouterApp() {
         <Route path='/perfilresponsavel' element={< Responsible />}>Perfil Responsável</Route>
         <Route path='/video1' element={< StepByStepVideo1 />}>Tutorial 1</Route>
         <Route path='/video2' element={< StepByStepVideo2 />}>Tutorial 2</Route>
+        <Route path='/video5' element={< StepByStepVideo3 />}>Tutorial 2</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="ia" element={<ImageClassification />} />
+        <Route path="planosia" element={<PlanesIa />} />
         <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
@@ -107,6 +117,10 @@ function RouterApp() {
         <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
         <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 
 
+        <Route path='/jogo1tela1' element={< ScreenOne/>}></Route> 
+        <Route path='/jogo1tela2' element={< ScreenTwo/>}></Route> 
+        <Route path='/jogo1tela3' element={< ScreenThree/>}></Route> 
+        <Route path='/jogo1tela4' element={< ScreenFour/>}></Route> 
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
       
 

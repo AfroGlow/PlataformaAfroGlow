@@ -3,6 +3,7 @@ import './Form1.css'
 import { Outlet, Link } from "react-router-dom";
 import InputForm from '../components/inputForm/input-form';
 import Form from '../components/form/form';
+import PlansIa from '../components/plans-ia/plans-ia';
 
 
 function Form1() {
@@ -11,13 +12,13 @@ function Form1() {
   return (
     <div>
 
-      <Link to="/ia"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
+      <Link to="ia"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
       <div className='alinhaCentro'>
         <p className='subtitulo-form'>Pergunta1/3</p>
       </div>
       <h1 className='titulo-form'>Qual e a curvatura do seu fio?</h1>
 
-
+     <form action="" >
       <div className='background-form'>
         <div className='align-row'>
           <Form props_img={'./imgTipoCabeloLiso.svg'} props_label={"Liso (sem ondulação)"} />
@@ -30,8 +31,11 @@ function Form1() {
       </div>
 
       <div className='alinhaCentro'>
-        <Link to="/Form2"> <InputForm  props_value={"PRÓXIMO"}/> </Link>
+        <Link to="/form2"> <InputForm  props_value={"PRÓXIMO"}/> </Link>
       </div>
+      </form>
+
+     
       <Outlet />
 
     </div>
