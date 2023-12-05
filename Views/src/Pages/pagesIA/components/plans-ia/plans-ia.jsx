@@ -1,11 +1,11 @@
 import './plans-ia.css'
 
 
-function PlansIa({props_label}){
+function PlansIa({props_label, props_title_box}){
     return(
         <>
         <div className='box-plans-ia'>
-            <h4 className='title-plans-ia'>GlowBox</h4>
+            <h4 className='title-plans-ia'>{props_title_box}</h4>
         <div className='box-input-plans-ia'>
         <div className='custom-radio-ia'>
        <input type="radio" className='input-radio-ia-form' name="input-form" id="" />

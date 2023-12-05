@@ -39,10 +39,10 @@ const ImageClassification = () => {
         setMostrarDiv2(!mostrarDiv2);
         await new Promise(resolve => setTimeout(resolve, 3000));
         setMostrarDiv2(!mostrarDiv3);
-        setMeuHTML('7%')
+        setMeuHTML('90%')
         setMeuHTML2('2%')
         setMeuHTML3('1%')
-        setMeuHTML4('90%')
+        setMeuHTML4('7%')
         
     };
 

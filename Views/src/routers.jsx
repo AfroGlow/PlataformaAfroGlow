@@ -91,7 +91,7 @@ function RouterApp() {
         <Route path='/video9' element={< StepByStepVideo9 />}>Tutorial 2</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
-        <Route path="ia" element={<ImageClassification />} />
+        <Route path="/ia" element={<ImageClassification />} />
         <Route path="planosia" element={<PlanesIa />} />
         <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
