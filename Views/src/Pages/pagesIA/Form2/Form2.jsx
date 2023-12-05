@@ -12,12 +12,12 @@ function Form2() {
   return (
     <div>
 
-      <Link to="/form1"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
+      <Link to="/"><img className='imgBack' src="./botaoEsquerda.svg" alt="" /></Link>
       <div className='alinhaCentro'>
         <p className='subtitulo-form'>Pergunta2/3</p>
       </div>
       <h1 className='titulo-form'>Qual é o seu dano principal?</h1>
-
+    <form action="">
       <div className='background-form'>
         <div className='align-row'>
           <Form props_img={'./imgdano1.png'} props_label={"Pontas duplas"} />
@@ -32,6 +32,7 @@ function Form2() {
       <div className='alinhaCentro'>
         <Link to="/Form3"><InputForm  props_value={"PRÓXIMO"}/></Link>
       </div>
+      </form>
       <Outlet />
 
     </div>
