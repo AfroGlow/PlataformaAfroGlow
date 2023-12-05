@@ -1,0 +1,102 @@
+.input-radio-ia-form {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 1rem;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+
+  .box-plans-ia{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    width:  23rem;
+    height: 35rem;
+    border-radius: 2rem;
+    border: solid 3px #AD4AFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px 2px #ae4aff70;
+  }
+
+.box-input-plans-ia{
+    width:  18rem;
+    height: 2.8rem;
+    border-radius: 2rem;
+    border: solid 2px #AD4AFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+  .custom-radio-ia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+.label-input-radio-ia{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.p-yellow-plans-ia{
+    color: #F2B705;
+    margin-top: 1rem;
+    margin-left: 2rem;
+   
+    
+}
+
+.title-plans-ia{
+    color: #AD4AFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+  .input-radio-ia-form:checked {
+    background-color: #AD4AFF;
+   
+    
+   
+  }
+  
+  /* Estilo para quando o radio-ia não está marcado */
+  .input-radio-ia-form:not(:checked) {
+    background-color: transparent;
+  }
+
+  .input-plans-purple-ia{
+    background-color: #AD4AFF;
+    color: white;
+    border: none;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.input-plans-purple-ia:focus {
+    outline: none;
+}

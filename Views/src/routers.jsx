@@ -38,8 +38,9 @@ import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
+import StepByStepVideo3 from './Pages/StepByStep/StepByStepVideo5.jsx'
 
-import IAPlans from './Pages/IAPlans/IAPlans.jsx'
+import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 
 
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
@@ -84,9 +85,11 @@ function RouterApp() {
         <Route path='/perfilresponsavel' element={< Responsible />}>Perfil Responsável</Route>
         <Route path='/video1' element={< StepByStepVideo1 />}>Tutorial 1</Route>
         <Route path='/video2' element={< StepByStepVideo2 />}>Tutorial 2</Route>
+        <Route path='/video5' element={< StepByStepVideo3 />}>Tutorial 2</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="ia" element={<ImageClassification />} />
+        <Route path="planosia" element={<PlanesIa />} />
         <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
