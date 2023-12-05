@@ -1,0 +1,94 @@
+.screen-1-game-1{
+    background-color: #AD4AFF;
+    width: 92.5rem;
+    height: 44.7rem;
+   
+}
+
+.screen-1-game-1 h1{
+    font-family: 'Baloo 2';
+    color: white;
+    font-size: 2rem;
+    font-weight:900;
+    text-align: center;
+    margin-top: -1.5rem;
+}
+
+
+
+.container-draw{
+    width: 29rem;
+    height:29rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 3rem;
+   
+}
+
+.container-draw svg{
+    width: 29rem;
+    height: 26rem;
+    border-radius: 3rem;
+    background-color: #ffffff;
+    margin-top: -1.5rem;
+}
+.svg-game1 svg {
+    fill: #ffffff;
+
+  }
+  .options-game1 {
+    padding: 1em 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 1rem;
+    
+  }
+  .color-input-game1 label {
+    margin-right: 0.5em;
+  }
+  #color-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 0.5rem;
+  }
+  #color-input::-webkit-color-swatch {
+    border: 3px solid #000000;
+    border-radius: 5px;
+  }
+  #color-input::-moz-color-swatch {
+    border-radius: 50%;
+    border: 3px solid #000000;
+  }
+  .color-options,
+  .size-game1 {
+    display: flex;
+    align-items: center;
+  }
+
+
+  #size-input {
+    margin-left: 0.3rem;
+    border-radius: 50%; 
+}
+
+.back-game-draw{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.button-game1-draw1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
