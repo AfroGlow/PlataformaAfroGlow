@@ -24,5 +24,5 @@ const CareCard = () => {
 
 export default CareCard
 
-export default CareCard
+
 
