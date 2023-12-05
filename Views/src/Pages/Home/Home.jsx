@@ -36,13 +36,13 @@ const Home = () => {
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href=""><img src="CarroselJogo.svg" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogo.svg" class="d-block w-100" alt="..." /></Link>
               </div>
               <div class="carousel-item">
-                <a href=""><img src="CarroselJogoDois.png" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogoDois.png" class="d-block w-100" alt="..." /></Link>
               </div>
               <div class="carousel-item">
-                <a href=""><img src="CarroselJogoTres.png" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogoTres.png" class="d-block w-100" alt="..." /></Link>
               </div>
               <button
                 class="carousel-control-prev"
