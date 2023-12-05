@@ -70,7 +70,7 @@ const Responsible = () => {
                         </div>
 
                         <div className="cards-videos-3">
-                            <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'criança'} props_video={"/video9"}
                                 props_p2={'10 minutos'} />
                             <CardsVideos props_img={'../public/video10.jpg'} props_p={'Aqui você encontra um penteado simples, que demanda pouco tempo e muitos sorrisos.'} props_alt={'criança'}
                                 props_p2={'10 minutos'} />
