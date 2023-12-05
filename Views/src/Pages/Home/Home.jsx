@@ -79,7 +79,7 @@ const Home = () => {
               <li>Nos conte mais sobre o seu cabelo e as necessidades</li>
               <li>Receba uma box personalizada para seu tratamento</li>
             </ul>
-            <Link to="/iaplanos"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
+            <Link to="/planosia"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
           </div>
           <img src="ImagemIA.png" alt="imagem card" className='identifyImg'/>
         </div>
