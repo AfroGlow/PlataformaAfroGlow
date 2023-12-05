@@ -1,0 +1,21 @@
+.bg-ia-plans {
+    background: url(bg-ia-planos.png) center no-repeat;
+    background-size: cover;
+    height: 2190px;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+.btn-ia-test {
+    background-color:#0ABBB5;
+    border: none;
+    border-radius: 10px;
+    width: 379.747px;
+    height: 90.13px;
+    color: white;
+    position: relative;
+    top: 52.9rem;
+    left: 58.7rem;
+    font-size: 1.7rem;
+}

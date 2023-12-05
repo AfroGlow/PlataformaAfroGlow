@@ -41,9 +41,9 @@ const Responsible = () => {
 
                         <div className="cards-videos-1">
                             <CardsVideos props_img={'../public/video1.jpg'} props_p={'Aprenda tudo sobre os primeiros cuidados na hora de lavar o cabelo da sua estrela!'} props_alt={'criança'} props_video={"/video1"}
-                                props_p2={'10 minutos'} />
+                                props_p2={'4:30 minutos'} />
                             <CardsVideos props_img={'../public/video2.jpg'} props_p={'Hora de saber como lavar o cabelo do seu pequeno da melhor forma.'} props_alt={'criança'} props_video={"/video2"}
-                                props_p2={'10 minutos'} />
+                                props_p2={'8:18 minutos'} />
                             <CardsVideos props_img={'../public/video3.jpg'} props_p={'Venha aprender como hidratar os pequenos cachinhos da forma mais prazerosa.'} props_alt={'criança'} props_video={"/video3"}
                                 props_p2={'10 minutos'} />
                             <CardsVideos props_img={'../public/video4.jpg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança'} props_video={"/video4"}
@@ -55,7 +55,7 @@ const Responsible = () => {
                         </div>
 
                         <div className="cards-videos-2">
-                            <CardsVideos props_img={'../public/video5.jpg'} props_p={'Vamos aprender a desembaraçar o cabelo de uma maneira divertida.'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video5.jpg'} props_p={'Vamos aprender a desembaraçar o cabelo de uma maneira divertida.'} props_alt={'criança'} props_video={"/video5"}
                                 props_p2={'10 minutos'} />
                             <CardsVideos props_img={'../public/video6.jpg'} props_p={'Quais são as formas de finalização para os cabelos encaracolados? Vem aprender!'} props_alt={'criança'}
                                 props_p2={'10 minutos'} />
@@ -70,7 +70,7 @@ const Responsible = () => {
                         </div>
 
                         <div className="cards-videos-3">
-                            <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'criança'}
+                            <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'criança'} props_video={"/video9"}
                                 props_p2={'10 minutos'} />
                             <CardsVideos props_img={'../public/video10.jpg'} props_p={'Aqui você encontra um penteado simples, que demanda pouco tempo e muitos sorrisos.'} props_alt={'criança'}
                                 props_p2={'10 minutos'} />

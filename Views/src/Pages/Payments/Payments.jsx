@@ -4,6 +4,8 @@ import Credit from './CreditDebit/Credit';
 import Debit from './CreditDebit/Debit';
 import DetailsProduct from './DetailsProduct/DetailsProduct';
 import Pix from './Pix/Pix';
+import { Link } from 'react-router-dom';
+
 
 
 const Payments = () => {
@@ -25,7 +27,8 @@ const Payments = () => {
   return (
     <div>
       <header className='paymentFormHeader'>
-        <a href="#"><img src="botaoVoltar.svg" alt="" /></a>
+  
+      <Link to="/home"><img src="botaoVoltar.svg" alt="" /></Link>
         <h2>Voltar</h2>
       </header>
       <main>
@@ -60,6 +63,7 @@ const Payments = () => {
         </div>
 
       <DetailsProduct />
+      
       </div>
         
       </main>

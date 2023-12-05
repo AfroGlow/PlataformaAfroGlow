@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import CarouselComent from '../../components/CarouselComent/CarouselComent'
 import Partners from '../../components/PartnersCarousel/Partners'
+import CareCard from '../../components/CareCard/CareCard'
 import { Link } from 'react-router-dom'
 
 
@@ -28,28 +29,20 @@ const Home = () => {
       </div>
       <main className='mainHome'>
         <div className="cardsHomeTasks">
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreUm.png" alt="Aprenda a cuidar dos cabelos de forma ludica e divertida" /></a>
-          </div>
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreDois.png" alt="Acesse conteudos de cuidados " /></a>
-          </div>
-          <div className="tasksCard">
-            <a href=""><img src="CaixaSobreTres.png" alt="" /></a>
-          </div>
+        <CareCard />
         </div>
 
         <article className="carousel-limit carousel">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href=""><img src="CarroselJogo.svg" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogo.svg" class="d-block w-100" alt="..." /></Link>
               </div>
               <div class="carousel-item">
-                <a href=""><img src="CarroselJogoDois.png" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogoDois.png" class="d-block w-100" alt="..." /></Link>
               </div>
               <div class="carousel-item">
-                <a href=""><img src="CarroselJogoTres.png" class="d-block w-100" alt="..." /></a>
+                <Link to="/login"><img src="CarroselJogoTres.png" class="d-block w-100" alt="..." /></Link>
               </div>
               <button
                 class="carousel-control-prev"
@@ -88,7 +81,7 @@ const Home = () => {
             </ul>
             <Link to="/iaplanos"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
           </div>
-          <img src="ImagemIA.png" alt="imagem card" />
+          <img src="ImagemIA.png" alt="imagem card" className='identifyImg'/>
         </div>
 
         <div className="plans" id='plans'>
@@ -163,7 +156,7 @@ const Home = () => {
             <div className="plansCardContent">
 
               <div className="plansValue">
-                <p>Plano Plus</p>
+                <p>Plano Anual</p>
                 <p className='plansValueMoney'>R$ 199,99<span>/Ano</span></p>
               </div>
 
