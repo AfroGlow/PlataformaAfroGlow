@@ -29,6 +29,9 @@ import TutorialFour from './Pages/GameFour/TutorialFour/TutorialFour.jsx'
 import CoverThree from './Pages/GameThree/CoverThree/CoverThree.jsx'
 import TutorialThree from './Pages/GameThree/TutorialThree/TutorialThree.jsx'
 import CoverTwo from './Pages/GameTwo/CoverTwo/CoverTwo.jsx'
+import ShampooGameTwo from './Pages/GameTwo/GameTwoGame/ShampooGameTwo/GameTwoGame.jsx'
+import ConditionerGameTwo from './Pages/GameTwo/GameTwoGame/ConditionerGameTwo/GameTwoGame.jsx'
+import FinishGameTwo from './Pages/GameTwo/GameTwoGame/FinishGameTwo/GameTwoGame.jsx'
 import TutorialTwo from './Pages/GameTwo/TutorialTwo/TutorialTwo.jsx'
 import CoverOne from './Pages/GameOne/CoverOne/CoverOne.jsx'
 import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
@@ -100,6 +103,9 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
+        <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
+        <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
+        <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 
 
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
       

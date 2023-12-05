@@ -1,0 +1,26 @@
+.finishGameTwo {
+    background: url(gameTwoFinish.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 30px;
+    
+}
+
+.titleFinishGameTwo {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+}
+
+.finishGameTwo p {
+    font-size: 17px;
+}
