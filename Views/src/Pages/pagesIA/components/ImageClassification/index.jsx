@@ -18,7 +18,6 @@ const ImageClassification = () => {
     const [meuHTML3, setMeuHTML3] = useState('0%');
     const [meuHTML4, setMeuHTML4] = useState('0%');
 
-
     const classifyImage = async (imgTensor) => {
         setIsLoading(true);
         const model = await tf.loadLayersModel(modelJson);
@@ -46,9 +45,6 @@ const ImageClassification = () => {
         
     };
 
-    
-    
-
     const { getRootProps, getInputProps } = useDropzone({
         onDrop: handleImageUpload,
         accept: 'image/*',
@@ -69,8 +65,10 @@ const ImageClassification = () => {
             <div className="reqRes">
                 <div className="box1" {...getRootProps()}>
                     <input {...getInputProps()} />
-
-                
+                  <div className="display-none">   
+                </div>
+                   
+                    {image &&  (  
       {mostrarDiv && (
         <div  style={{ display: 'block'}}>
           <img src="./upload.png" alt="" />
@@ -90,13 +88,14 @@ const ImageClassification = () => {
                    
                     {image &&  (
 
-                          
-                         
-                         
                         <>
-                        
                             <div className="img-wrapper">
                                 <img className="img-wrapper-ia" src={image} alt="Uploaded" />
+                            </div> 
+                            <div className="App"></div>
+                            <button className="btn-action"onClick={classifyImage}  >
+                                {isLoading ? "Analisando..." : "Analisar"}
+                            </button>
                             </div>
                            
                             <div className="App">
@@ -106,7 +105,6 @@ const ImageClassification = () => {
                         </>
                     )}
                 </div>
-
                 <div className="box2">
                 <h3 className="title-box2-ia p-general">Resultado</h3>
                 <div className="align-row-box2-ia">
@@ -126,8 +124,6 @@ const ImageClassification = () => {
                 </div>
                     {predictions.length > 0 && (
                         <>
-
-                        
                             <h3 className="title">Resultado</h3>
                             <ul className="list-result">
                                 {predictions.map((prediction, index) => (

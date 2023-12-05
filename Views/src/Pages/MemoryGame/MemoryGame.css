@@ -1,0 +1,136 @@
+.memory-game-container {
+  background: url(bg.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.memory-game-container .timer {
+  background: rgba(255, 255, 255, 0.699);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  width: 60%;
+  padding: 1.2rem 1.6rem;
+  color: #000;
+  margin-bottom: 1.3rem;
+  font-family: 'Baloo 2', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memory-game-container .timer h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.memory-game-container .timer h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.memory-game-container .cards {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+  gap: 15px;
+}
+
+.memory-game-container .pokemon-card {
+  height: 200px;
+  width: 150px;
+  border-radius: 2px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.memory-game-container .pokemon-card.flipped .inner {
+  transform: rotateY(180deg);
+}
+
+.memory-game-container .inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.6s cubic-bezier(0.38, 0.02, 0.09, 1.66) all;
+}
+
+.memory-game-container .pokemon-card .front,
+.memory-game-container .pokemon-card .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.memory-game-container .pokemon-card .front {
+  background: #fff;
+  transform: rotateY(180deg);
+}
+
+.memory-game-container .pokemon-card .back {
+  background: url(back-card.png) center center no-repeat;
+  background-size: cover;
+  font-size: 100px;
+  transition: 0.3s ease all;
+}
+
+.memory-game-container .pokemon-card .back:hover {
+  transform: scale(1.05);
+}
+
+.memory-game-container button {
+    background-color: #C9A5FF;
+    border: none;
+    border: 1px solid #AD4AFF;
+    color: #1E1E1E;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 836px) {
+  .memory-game-container .cards {
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .memory-game-container .cards {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 600px){
+  .memory-game-container .timer {
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .memory-game-container .timer h2 {
+    font-size: 1.1rem;
+  }
+  
+  .memory-game-container .timer h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 488px) {
+  .memory-game-container .cards {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+  }
+}
