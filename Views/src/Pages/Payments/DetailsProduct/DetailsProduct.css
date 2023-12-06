@@ -2,14 +2,14 @@
 .paymentContainerTwo {
     display: flex;
     flex-direction: column;
-    height: 410px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: 1px solid #C9A5FF;
     border-radius: 10px;
     margin-bottom: 20px;
-    gap: 20px;
+    gap: 50px;
 }
 
 .paymentContainerTwo h2 {

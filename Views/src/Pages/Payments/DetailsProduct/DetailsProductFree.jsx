@@ -1,5 +1,6 @@
 import React from 'react'
 import './DetailsProduct.css'
+import ModalFreePlan from '../ModalFreePlan/ModalFreePlan.jsx'
 
 const DetailsProductFree = () => {
   return (
@@ -16,7 +17,10 @@ const DetailsProductFree = () => {
           </div>
 
           <div className='total'>
-            <p className='containerTwoSubTitle'>Total a Pagar: <br /><span>Grátis</span></p>
+            <p className='containerTwoSubTitle'>Total a Pagar: <br /><span>Grátis</span> <br />
+              <ModalFreePlan/>
+            </p> 
+          
           </div>
         </div>
     </div>
