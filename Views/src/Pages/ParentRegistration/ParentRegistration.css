@@ -55,6 +55,10 @@
     text-decoration: none;
 }
 
+.buttonRegister {
+    margin-top: 15px;
+}
+
 
 @media (max-width:1090px) {
     .img-rigth{
