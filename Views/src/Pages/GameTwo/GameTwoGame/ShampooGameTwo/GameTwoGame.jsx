@@ -236,12 +236,13 @@ const GameTwoGame = () => {
 
   return (
     <div className='areaGameTwo'>
-        <div className='gameTwoShampoo'>Shampoo</div>
+        <div className='gameTwoShampoo imgClassModalGameTwo'>Shampoo</div>
       <canvas ref={canvasRef} style={{ position: 'absolute', top: 0, left: 0 }}></canvas>
       <img
         ref={imgRef}
         src="criancaCabeloSujo.png" 
         alt=""
+        className='imgGameTwo'
         onMouseEnter={() => setShowButton(false)}
         onMouseLeave={() => setShowButton(false)}
       />
@@ -255,6 +256,7 @@ const GameTwoGame = () => {
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
+        className='modalGameTwo'
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg" className="title-modal">
@@ -263,7 +265,7 @@ const GameTwoGame = () => {
         </Modal.Header>
         <Modal.Body className="modalKids">
           <section className="container-modal-kids">
-            <img src="avatarModalGameTwo.png" alt="" />
+            <img src="avatarModalGameTwo.png" alt="" className='gameModalImgGame' />
             <div className='modalGameContainerTwo'>
               <div>
                 <h2 className='modalTitleContainerOne'>Shampoo</h2>
