@@ -33,3 +33,8 @@
 .w50{
     width: 49%;
 }
+
+input:focus {
+    border: 2px solid #AD4AFF;
+    outline: none; /* Isso remove a borda de foco padrão no Firefox */
+  }
