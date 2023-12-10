@@ -38,7 +38,7 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
-import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
+import ContactUs from './Pages/pagesIA/pagesFaleConosco/ContactUs.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -80,7 +80,7 @@ function RouterApp() {
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="/ia" element={<ImageClassification />} />
         <Route path="planosia" element={<PlanesIa />} />
-        <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
+        <Route path="/faleconosco" element={<ContactUs />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
