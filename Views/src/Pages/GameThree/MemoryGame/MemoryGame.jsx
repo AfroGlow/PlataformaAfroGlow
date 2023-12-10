@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MemoryGame.css';
+import { Link } from 'react-router-dom';
 
 const MemoryGame = () => {
   const [openedCard, setOpenedCard] = useState([]);
@@ -16,6 +17,7 @@ const MemoryGame = () => {
     { id: 10, name: "Letter-front-10" },
     { id: 12, name: "Letter-front-12" },
     { id: 16, name: "Letter-front-16" },
+    { id: 20, name: "Letter-front-20" },
   ];
 
   const pairOfPokemons = [...pokemons, ...pokemons];
@@ -80,7 +82,7 @@ const MemoryGame = () => {
           );
         })}
       </div>
-      <button>AVANÇAR</button>
+      <Link to="/jogo3-conclusao"><button>AVANÇAR</button></Link>
     </div>
   );
 };

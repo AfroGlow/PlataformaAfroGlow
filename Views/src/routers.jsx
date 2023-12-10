@@ -46,11 +46,12 @@ import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
 import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
-import MemoryGame from './Pages/MemoryGame/MemoryGame.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
+import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
+import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 
 
 function RouterApp() {
@@ -110,6 +111,7 @@ function RouterApp() {
         <Route path='/posia' element={<BoxPlans />}></Route> 
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
+        <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
       </Routes>
     </Router>
 
