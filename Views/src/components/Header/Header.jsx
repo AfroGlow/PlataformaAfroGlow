@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <Navbar className="navbar" expand="lg">
+    <Navbar className="navbar-header" expand="lg">
       <Container>
         <Navbar.Brand href="/" className='brand'><img src='Logo-afroglow-preto.png' alt='Logo da AfroGlow (rosto com cabelo afro e um pente garfo)'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

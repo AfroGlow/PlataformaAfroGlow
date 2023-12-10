@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import "./HeaderResponsible.css"
+import NewHeaderResponsible from "../NewHeaderResponsible/NewHeaderResponsible"
 
 function HeaderResponsible() {
 
     return (
+        <>
         <div className='responsible-header'>
             <Link to='/'>
                 <img
@@ -23,7 +25,14 @@ function HeaderResponsible() {
                     />
                 </div>
             </Link>
+           
         </div>
+         <div className="new-container-header">
+         <NewHeaderResponsible />
+         </div>
+         </>
+
+      
     )
 }
 
