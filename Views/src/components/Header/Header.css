@@ -1,10 +1,11 @@
-.navbar {
+.navbar-header {
     background-color: #FFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     color: white;
-}
+
 .brand,.navbar a{
     color: #000000;
+
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 500;

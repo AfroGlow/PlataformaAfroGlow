@@ -3,6 +3,7 @@ import CardsVideos from "../../components/CardsVideos/CardsVideos"
 import CardsTop from "../../components/CardsTop/CardsTop"
 import HeaderResponsible from "../../components/HeaderResponsible/HeaderResponsible"
 import LeftSideResponsible from "../../components/LeftSideResponsible/LeftSideResponsible"
+import NewHeaderResponsible from "../../components/NewHeaderResponsible/NewHeaderResponsible"
 
 
 
@@ -12,26 +13,26 @@ const Responsible = () => {
         <div className='tutorials'>
 
 
-            <div className="container-side-cards">
-                <LeftSideResponsible />
-                <HeaderResponsible />
-
+            <div className="container-side-cards">             
+                 <LeftSideResponsible />  
                 <div className="container-tutorials-responsible">
-
+                <HeaderResponsible />
+                <div className="container-new-header">
+                    <NewHeaderResponsible />
+                </div>
                     <div className="cards-top-tutorials">
                         <div className="card-first">
                             <p>Pequenos cachos,<br /> <span>grandes </span>sonhos!</p>
-
-                            <img
-                                className="card-first-img"
-                                src="avatar-card-grande.png"
-                            />
+                            <img src="avatar-card-grande.png"/>
                         </div>
-                        <CardsTop props_img={'../video-icone.svg'} props_alt={"Ícone de câmera de vídeo"} props_p={"Tutoriais simples,"} props_p2={"práticos, explicativos"} props_p3={" e de fácil acesso."} />
-                        <CardsTop props_img={'../pente-icone.svg'} props_alt={"Ícone de pente garfo"} props_p={"Visualize todos os"} props_p2={"materiais que você"} props_p3={" precisa rapidamente."} />
-                        <CardsTop props_img={'../lista-icone.svg'} props_alt={"Ícone de caderno com anotações."} props_p={"Faça anotações"} props_p2={"dos seus tutoriais"} props_p3={"dinamicamente!"} />
+                        
+                            <div className="cards-top-container">
+                                <CardsTop props_img={'../video-icone.svg'} props_alt={"Ícone de câmera de vídeo"} props_p={"Tutoriais simples,"} props_p2={"práticos, explicativos"} props_p3={" e de fácil acesso."} />
+                                <CardsTop props_img={'../pente-icone.svg'} props_alt={"Ícone de pente garfo"} props_p={"Visualize todos os"} props_p2={"materiais que você"} props_p3={" precisa rapidamente."} />
+                                <CardsTop props_img={'../lista-icone.svg'} props_alt={"Ícone de caderno com anotações."} props_p={"Faça anotações"} props_p2={"dos seus tutoriais"} props_p3={"dinamicamente!"} />
+                            </div>
+                        </div>
 
-                    </div>
 
                     <div className="cards-videos">
                         <div className="title-tutorials-responsible">

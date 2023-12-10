@@ -4,7 +4,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
 
-.title-yellow-faleConosco{
+.title-yellow-contactUs{
     color: #F2B705;
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
@@ -13,26 +13,26 @@
     
 }
 
-.subtitle-faleConosco{
+.subtitle-contactUs{
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin-left: 10rem;
     font-weight: 700;
 }
 
-.align-row-faleConosco{
+.align-row-contactUs{
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.align-column-faleConosco{
+.align-column-contactUs{
     display: flex;
     flex-direction: column;
     
 }
 
-.container-purple-faleConosco{
+.container-purple-contactUs{
 width: 100%;
 height: 18rem;
 background-color: #AD4AFF;
@@ -42,18 +42,18 @@ justify-content: center;
 align-items: center;
 }
 
-.container-purple-faleConosco img{
+.container-purple-contactUs img{
     margin-top: 4rem;
     margin-left: 1.5rem;
     width: 2.5rem;
     height: 2.5rem;
 }
-.container-purple-faleConosco p{
+.container-purple-contactUs p{
     color: white;
     font-size: 2rem;
 }
 
-.align-btn-faleConosco{
+.align-btn-contactUs{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ align-items: center;
 }
 
 
-.textField-faleConosco{
+.textField-contactUs{
     height: 10rem; 
     width: 100%;
     border-radius: 1rem;
@@ -72,7 +72,7 @@ align-items: center;
     color: black;
 }
 
-.submit-faleConosco{
+.submit-contactUs{
     width: 10rem;
     height: 3rem;
     background-color: #F2B705;
@@ -87,20 +87,20 @@ align-items: center;
     
 }
 
-.img-principal-faleConosco{
+.img-principal-contactUs{
     width: 23rem;
     height: 30rem;
 }
 
 
 
-@media(max-width:600px)  {
+@media(max-width:800px)  {
     
-    .img-principal-faleConosco{
+    .img-principal-contactUs{
        display: none;
     }
 
-    .title-yellow-faleConosco{
+    .title-yellow-contactUs{
         color: #F2B705;
         font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
@@ -108,7 +108,7 @@ align-items: center;
         
     }
     
-    .subtitle-faleConosco{
+    .subtitle-contactUs{
         font-family: 'Poppins', sans-serif;
         font-size: 1.3rem;
         margin-left: 0rem;
@@ -116,7 +116,7 @@ align-items: center;
     }
 
 
-    .container-purple-faleConosco{
+    .container-purple-contactUs{
         width: 100%;
         height: 13rem;
         background-color: #AD4AFF;
@@ -126,18 +126,18 @@ align-items: center;
         align-items: center;
         }
         
-        .container-purple-faleConosco img{
+        .container-purple-contactUs img{
             margin-top: 2rem;
             margin-left: 1rem;
             width: 2.4rem;
             height: 2.4rem;
         }
-        .container-purple-faleConosco p{
+        .container-purple-contactUs p{
             color: white;
             font-size: 1.5rem;
         }
 
-        .textField-faleConosco{
+        .textField-contactUs{
             height: 7rem; 
             border-radius: 1rem;
             border: solid 2px #F2B705;
