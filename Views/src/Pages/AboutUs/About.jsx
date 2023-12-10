@@ -74,6 +74,9 @@ const About = () => {
             <CardsTeam  ImgTeam={'team-thomas.png'} NameTeam={'Anthony Thomas'} LinkedinTeam={'https://www.linkedin.com/in/anthonythomasmm/'} GithubTeam={'https://github.com/anthonythom'} CategoryTeam={'Full-stack'} />
           </div>
         </div>
+        <div className="futuros"><img src="cap.png" alt="" /></div>
+        
+       
         </section>
       </section>
       <Footer />

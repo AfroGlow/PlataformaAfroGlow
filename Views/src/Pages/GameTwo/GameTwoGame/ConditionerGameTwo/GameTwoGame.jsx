@@ -255,6 +255,7 @@ const GameTwoGame = () => {
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
+        className='modalGameTwo'
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg" className="title-modal">
@@ -263,7 +264,7 @@ const GameTwoGame = () => {
         </Modal.Header>
         <Modal.Body className="modalKids">
           <section className="container-modal-kids">
-            <img src="avatar-main.png" alt="" />
+            <img src="avatar-main.png" alt="" className='gameModalImgGame'/>
             <div className='modalGameContainerTwo'>
               <div>
                 <h2 className='modalTitleContainerOne'>Condicionador</h2>
