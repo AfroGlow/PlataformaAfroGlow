@@ -30,3 +30,34 @@
     padding: 10px 70px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 964px) {
+    .container-hair-types {
+        height: 108vh;
+    }
+    .container-hair-types h2 {
+        text-align: center;
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width:751px) {
+    .back-games{
+        top: 1rem;
+        left: 1rem;
+    }
+    .container-hair-types h2 {
+        margin-top: 3rem;
+    }
+    .container-hair-types img {
+        width: 70%;
+    }
+}
+@media screen and (max-width:460px) {
+    .container-hair-types h2 {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+    .container-hair-types img {
+        width: 80%;
+    }
+}
