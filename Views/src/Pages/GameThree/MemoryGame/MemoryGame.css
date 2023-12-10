@@ -39,7 +39,10 @@
   grid-template: repeat(5, 1fr) / repeat(5, 1fr);
   gap: 15px;
 }
-
+.memory-game-container .cards img {
+  width: 100%;
+  height: 100%;
+}
 .memory-game-container .pokemon-card {
   height: 200px;
   width: 150px;
