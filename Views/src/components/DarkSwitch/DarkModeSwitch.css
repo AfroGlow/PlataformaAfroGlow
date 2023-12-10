@@ -1,0 +1,23 @@
+/* DarkModeSwitch.css */
+
+/* Add your global styles here if needed */
+
+body[data-theme='dark'] {
+    /* Dark mode styles */
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Add more styles for dark mode if needed */
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin-left: 10px;
+  }
+  

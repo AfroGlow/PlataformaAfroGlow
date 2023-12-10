@@ -2,6 +2,7 @@
 *{
     font-family: 'Baloo 2', sans-serif;
 }
+
  .welcomeHome{
     background: url(fundoRoxo.png);
     background-repeat: no-repeat;
@@ -593,3 +594,27 @@
         display: none;
      }
 }
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+  }
+  [data-theme="dark"] .AIscpace {
+    background-color: #d9ff00 !important;
+    color: #eee;
+  }
+  [data-theme="dark"] .bg-white{
+    background-color: #111 !important;
+    color: #eee;
+  }
+  [data-theme="dark"] .btn-primary{
+   background-color: #eee;
+  
+  }
+  
+  .form-check {
+  margin-top: 9px;
+  }
+  [data-theme="dark"] .dropdowm-item {
+    background-color: #222 !important;
+  color: #222 !important ;}

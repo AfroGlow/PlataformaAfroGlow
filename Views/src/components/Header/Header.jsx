@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./Header.css";
 import UniversalButton from '../filledButton/Button';
 import { Link } from "react-router-dom"
+import DarkModeSwitch from '../DarkSwitch/DarkModeSwitch';
 
 const Header = () => {
   return (
@@ -19,6 +20,7 @@ const Header = () => {
           <Nav.Link href="#feedback">Depoimentos</Nav.Link>
           <Nav.Link href="/sobrenos">Sobre</Nav.Link> 
           <Nav.Link href="/faleconosco">Fale conosco</Nav.Link>
+          <DarkModeSwitch />
           </Nav>
           <Nav className='ms-auto container-buttons-header'>
             <Link to="/login"><button type="submit" id="button-login">Login</button></Link>
