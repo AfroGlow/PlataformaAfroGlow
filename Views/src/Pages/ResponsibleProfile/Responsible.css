@@ -7,7 +7,6 @@
     font-family: 'Baloo 2';
     font-size: 18px;
     box-shadow: 2px 2px 2px 4px #00c3ffc8 ;
-    margin-top: 8rem;
     display: flex;
     
 }
@@ -123,7 +122,6 @@
 .cards-top-container{
     display: flex;
     gap: 2rem;
-    margin-top: 8rem;
 }
 
 
