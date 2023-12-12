@@ -44,11 +44,11 @@
 .link{
     font-size: 0.9rem;
     font-weight: 600;
-    color: var(--purple-medium);
+    color: #C9A5FF;
 }
 
 .link:hover{
-    color: var(--purple-primary);
+    color: #AD4AFF;
 }
 
 .link-router{
