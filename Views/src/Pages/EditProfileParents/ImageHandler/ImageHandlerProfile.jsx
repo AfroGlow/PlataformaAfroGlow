@@ -30,7 +30,7 @@ const ImageHandlerParents = ({ defaultImage, onImageChangeP }) => {
       <img
         src={imageSource}
         alt="Profile Avatar"
-        className="avatar-selector-img img-inner-child"
+        className="avatar-selector-img img-inner-parents"
         onClick={openImageModal}
       />
 
