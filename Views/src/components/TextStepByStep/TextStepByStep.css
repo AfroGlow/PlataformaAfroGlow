@@ -5,7 +5,7 @@
     justify-items: center;
     gap: 10px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 4.55rem;
 }
 
 .title-tutorials-lavagem p{
@@ -167,5 +167,11 @@
 @media (max-width: 990px) {
     .container-step-by-step{
         margin-top: 7rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .title-tutorials-lavagem{
+        margin-left: 1rem;
     }
 }

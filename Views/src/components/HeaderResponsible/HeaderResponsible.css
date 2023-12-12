@@ -4,10 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* position: fixed; */
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     
 }
+
+
+
 .responsible-header .img-logo-header{
     width: 4.375rem;
     height: 2.938rem;

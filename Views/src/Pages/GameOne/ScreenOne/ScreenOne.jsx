@@ -1038,7 +1038,7 @@ z"/>
 						</div>
 						<div className="size-game1">
 							<label htmlFor="size-input">Tamanho do pincel:</label>
-							<input type="range" min="5" max="100" value={currentSize} id="size-input" onChange={handleSizeChange} ref={sizeInputRef} style={{ borderRadius: "50px" }} />
+							<input type="range" min="5" max="70" value={currentSize} id="size-input" onChange={handleSizeChange} ref={sizeInputRef} style={{ borderRadius: "50px" }} />
 						</div>
 					</div>
 					<div className="button-game1-draw1">

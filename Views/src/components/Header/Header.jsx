@@ -10,7 +10,7 @@ import DarkModeSwitch from '../DarkSwitch/DarkModeSwitch';
 const Header = () => {
   return (
     <Navbar className="navbar-header" expand="lg">
-      <Container>
+      <Container className='container-header-general'>
         <Navbar.Brand href="/" className='brand'><img src='Logo-afroglow-preto.png' alt='Logo da AfroGlow (rosto com cabelo afro e um pente garfo)'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
