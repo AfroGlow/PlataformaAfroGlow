@@ -3,6 +3,7 @@ import CardKids from "./components/CardsKids/CardKids";
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { Link } from "react-router-dom";
+import ImageHandlerChild from "../EditProfileChild/ImageHandlerChild/ImageHandlerChild";
 
 const ChildrenProfile = () => {
   const [lgShow, setLgShow] = useState(false);
@@ -95,10 +96,14 @@ const ChildrenProfile = () => {
           alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
         />
         <h4>Lili estrelinha brilhante</h4>
-        <Link to="/perfil">
+        <Link to="/perfil" className="router">
           <div className="exit-kids">
             <p>Sair</p>
+<<<<<<< HEAD
+            < ImageHandlerChild defaultImage="perfil-avt-1.png" className="img-profile img-profile-child" />
+=======
             <img src="icon-profile-kids.png" alt="" />
+>>>>>>> main
           </div>
         </Link>
       </header>

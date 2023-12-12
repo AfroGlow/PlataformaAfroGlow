@@ -31,7 +31,6 @@ const BoxPlans = () => {
 
                 <Link to="/ia"><button>Faça o teste</button></Link>
 
-                <button>Faça o teste</button>
 
             </section>
             <div className='purple-line-glowbox2'></div>

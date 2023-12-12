@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom'
 import ArrowButton from '../../Components/ButtonArrow/BtnArrow'
 import './EditProfile.css'
+import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
+import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
+
+
+
+
+
 function EditarPerfil(){
   return(
   <body className='bg-edit'>
@@ -15,14 +22,14 @@ function EditarPerfil(){
     <Link to="/editarresponsavel" className='link-router'>
      <div className="parents-profile">
             <h2 className='name-profile'>Página Responsável</h2>
-            <img src="../public/img-responsavel-g.png" alt="Avatar mulher parda, com cabelo crespo preto, blusa amarela e brincos" className='img-parents'/>
+            <ImageHandlerParents defaultImage="perfil-avt-adult-1.png" className="img-profile-parents"/>
             <img src="public/icon-pen.svg" alt="Botão editar perfil" className='icon-edit'/>
         </div>
         </Link>
    <Link to="/editarcrianca" className='link-router'>
       <div className="children-profile">
       <h2 className='name-profile'>Página Crianças</h2>
-        <img src="../public/img-criança-g.png" alt="Avatar negro, com cabelo cacheado preto e com blusa amarela" />
+      < ImageHandlerChild defaultImage="perfil-avt-1.png" className="img-profile img-profile-child" />
         <img src="public/icon-pen.svg" alt="Botão editar perfil" className='icon-edit' />
       </div>
       </Link>

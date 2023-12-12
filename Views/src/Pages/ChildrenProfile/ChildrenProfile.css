@@ -23,6 +23,13 @@
     gap: 10px;
     
 }
+
+.exit-kids p{
+    font: 800 normal 1.2rem 'Baloo 2';
+    color: black;
+    position: relative;
+    top: 5px;
+}
 .header-kids .logo {
     width: 80px;
 }
