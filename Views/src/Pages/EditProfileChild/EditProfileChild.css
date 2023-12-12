@@ -42,6 +42,10 @@
     gap: 2rem;
 }
 
+.img-profile-child {
+    width: 13rem;
+}
+
 .img-pen{
     width: 2.9rem;
     position: relative;
@@ -90,6 +94,15 @@
     gap: 0.3rem;
 }
 
+.select-img-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
 @media (max-width:1085px) {
     .container-edit-child {
         width: 90%;
@@ -118,6 +131,9 @@
 
     .btn-dark,.btn-clear{
         font-size: 0.8rem;
+    }
+    ::-webkit-scrollbar{
+        display: none;
     }
 
 }
