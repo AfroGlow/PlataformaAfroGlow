@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 .button-universal button:hover {
-    background: var(--purple-primary);
+    background: #AD4AFF;
     color: #000;
     transition: 1.3s;
 }
