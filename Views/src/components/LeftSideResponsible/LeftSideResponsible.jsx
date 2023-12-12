@@ -21,7 +21,7 @@ function LeftSideResponsible() {
                 </Link>
             <p>Notas</p>
 
-            <Link to='/ia'>
+            <Link to='/planosia'>
             <img
                 src="ia-icone.svg"
             />

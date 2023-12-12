@@ -21,8 +21,6 @@
     font-weight: 600;
 }
 
-
-
 .modalCenter-ia img{
     width: 5rem;
     height: 5rem;
@@ -85,11 +83,11 @@
     font-size: 1.2rem;
     
 }
-.modalCenter{
+.modalCenter-ia{
     position: 0;
     right: 0rem;
     width: 30rem;
-    height: 30rem !important;
+    height: 25rem !important;
     background-color: #FFEB68;
     border-radius: 0.6rem !important;
     border: solid 2px #AD4AFF !important;
@@ -142,4 +140,5 @@
 
 .button-modal:focus {
     outline: none;
-}}
+}
+}

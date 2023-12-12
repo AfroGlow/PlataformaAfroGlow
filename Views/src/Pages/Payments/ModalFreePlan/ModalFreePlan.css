@@ -1,0 +1,22 @@
+.btn-free-plan{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   justify-content: center;
+    background-color: #c9a5ff;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.btn-free-plan:hover {
+    color: #fff;
+    background-color: #f29f05;
+    transition: 1.2s;
+    box-shadow: rgb(100 100 111 / 50%) 0 7px 29px 0;
+  }

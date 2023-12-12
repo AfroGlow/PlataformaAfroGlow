@@ -14,6 +14,16 @@
   flex-direction: column;
 }
 
+.display-none{
+  display: none;
+}
+
+.p-analisando-box1-ia{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #AD4AFF;
+}
+
 .img-wrapper-ia {
   width: 300px;
   border-radius: 8px;
@@ -24,7 +34,6 @@
   padding: 15px;
   background-color: #ad4aff;
   border: none;
-  display: none;
 }
 
 .btn-action:hover {
@@ -34,7 +43,7 @@
 }
 
 .align-btn-box2-ia{
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 
 .titleAI{
@@ -113,7 +122,7 @@ height: auto;
     display: flex;
     gap: 10px;
     border-radius: 20px;
-    border: 3px solid #ad4aff;
+    border: 3px solid #AD4AFF;
     background: #fff;
     backdrop-filter: blur(10px);
   }
@@ -126,6 +135,7 @@ height: auto;
     border: 3px solid #AD4AFF;
     background: #FFF;
     backdrop-filter: blur(10px);
+    margin-left: 2rem;
 
   }
 
@@ -134,12 +144,6 @@ height: auto;
   }
  
   .p-title-ia{
-color: #000;
-font-size: 1.7rem;
-font-weight: 700;
-margin-bottom: 2.5rem;
-  }
-  .p-title1-ia{
 color: #000;
 font-size: 2rem;
 font-weight: 700;
@@ -195,5 +199,49 @@ font-size: 2rem;
     }
   }
 
+@media (max-width: 700px) {
+  .box1{
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+   justify-content: space-evenly;
+ padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+    border: 3px solid #AD4AFF;
+    background: #fff;
+    backdrop-filter: blur(10px);
+  }
+
+  .box2{
+    margin-left: 0rem;
+    margin-top: 4rem;
+    width: 20rem;
+    height: 21rem;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #AD4AFF;
+    background: #FFF;
+    backdrop-filter: blur(10px);
+
+  }
+
+  .reqRes {
+    display: flex;
+    width: 97vw;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
   
+   
+  }
+  .p-analisando-box1-ia{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    color: #AD4AFF;
+  }
+
+}
   

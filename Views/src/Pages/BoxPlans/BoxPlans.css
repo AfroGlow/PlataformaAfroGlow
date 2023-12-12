@@ -1,0 +1,97 @@
+.purple-line-glowbox1 {
+    height: 8vh;
+    background-color: #AD4AFF;
+}
+.purple-line-glowbox2 {
+    height: 5vh;
+    background-color: #AD4AFF;
+    margin: 1rem 0px;
+}
+.section-box-plans {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+
+    justify-content: center;
+}
+.section-box-plans h1 {
+    font-size: 1.7rem;
+    margin: 1rem 0px;
+    font-weight: 800;
+}
+.logo-glowbox img {
+    width: 25rem;
+}
+.cards-glowbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 390px;
+}
+.cards-glowbox h3 {
+    font-weight: 800;
+    color: #AD4AFF;
+    font-size: 2rem;
+}
+.cards-glowbox p {
+    text-align: center;
+    max-width: 70%;
+    margin-top: 1rem;
+}
+.cards-glowbox span {
+    font-weight: 800;
+}
+.container-cards-glowbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+.section-box-plans button {
+    background-color: #0ABBB5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 45px;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 1.6rem 0px;
+}
+.section-plans-box h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 1rem 0px;
+    font-weight: 800;
+}
+.container-provisorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.section-plans-box img {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 932px) {
+    .container-cards-glowbox {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:540px) {
+    .logo-glowbox img {
+        width: 20rem;
+    }
+    .section-box-plans h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

@@ -4,10 +4,15 @@ import UniversalButton from "../../Components/Button/Button"
 import { Link } from "react-router-dom"
 import { Icon } from '@iconify/react';
 import ButtonArrow from "../../Components/ButtonArrow/BtnArrow"
+import ImageHandlerChild from './ImageHandlerChild/ImageHandlerChild';
+import DarkModeSwitch from '../../components/DarkSwitch/DarkModeSwitch';
 
+const EditProfileChild = () => {
 
+    const handleImageChange = (newImage) => {
+        console.log('Nova imagem:', newImage);
+    };
 
-function EditProfileChild() {
     return (
         <body className='bg-edit-child'>
             <section className='container-edit-child'>
@@ -17,9 +22,12 @@ function EditProfileChild() {
                 <h2 className='title-edit-child'>Editar Perfil</h2>
                 <div className='edit-profile-child'>
                     <div className='img-edit-child'>
-                        <img className='img-profile' src="../public/img-criança-g.png" alt="Avatar menino negro, com cabelo cacheado e com blusa amarela" id='img-child' />
-                        <Link to="/perfil" className='link-router'><UniversalButton propsBtn={'SALVAR ALTERAÇÕES'} /></Link>
-                        <Link to="/image-child-select"><img src="Icon-pen.svg" alt="Botão de editar avatar" className='img-pen'/></Link>
+
+                        < ImageHandlerChild defaultImage="perfil-avt-1.png" onImageChange={handleImageChange} />
+                        <Link to="/perfil">
+                            <UniversalButton propsBtn={'SALVAR ALTERAÇÕES'} onClick={() => alert('Alterações salvas!')} />
+                        </Link>
+                        <img src="Icon-pen.svg" alt="Botão de editar avatar" className='img-pen' />
                     </div>
                     <div className="forms-edit">
                         <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
@@ -27,6 +35,7 @@ function EditProfileChild() {
                             <h2 className='subtitle-edit'>Temas</h2>
                             <div className='btn-mode'>
                                 <button className='btn-clear'> <Icon icon="twemoji:sun" width="24" height="24" />Modo Claro</button>
+                                <DarkModeSwitch />
                                 <button className='btn-dark'> <Icon icon="akar-icons:moon-fill" color="#ccc" width="24" height="24" /> Modo Escuro</button>
                             </div>
                         </div>
@@ -35,6 +44,8 @@ function EditProfileChild() {
                         <Input label={'Genero'} labelFor={'genero'} type={'text'} id={'genero'} />
                     </div>
                 </div>
+
+
             </section>
         </body>
     )

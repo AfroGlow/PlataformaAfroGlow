@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom"
 import "./HeaderResponsible.css"
+import ImageHandlerParents from "../../Pages/EditProfileParents/ImageHandler/ImageHandlerProfile"
+import NewHeaderResponsible from "../NewHeaderResponsible/NewHeaderResponsible"
 
 function HeaderResponsible() {
 
     return (
+        <>
         <div className='responsible-header'>
             <Link to='/'>
                 <img
@@ -17,13 +20,17 @@ function HeaderResponsible() {
             <Link to="/perfil">
                 <div className="avatar-header">
                     <a href="/">Sair</a>
-                    <img
-                        className="img-avatar-header"
-                        src='avatar-barra.png'
-                    />
+                    <ImageHandlerParents defaultImage="perfil-avt-adult-1.png" className="img-profile-parents img-avatar-header" />
                 </div>
             </Link>
+           
         </div>
+         <div className="new-container-header">
+         <NewHeaderResponsible />
+         </div>
+         </>
+
+      
     )
 }
 

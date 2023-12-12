@@ -1,0 +1,25 @@
+.button-draw-game button {
+    background-color: #31CEFF;
+    color: #1E1E1E;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 13rem;
+    
+}
+.button-draw-game button:hover {
+    background: #a7cfdb;
+    color: #1E1E1E;
+    transition: 0.3s;
+}
+
+@media  (max-width: 768px) {
+    .button button {
+        margin-left: 40px;
+        font-size: 0.6rem; 
+    }
+}

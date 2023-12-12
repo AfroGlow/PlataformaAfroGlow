@@ -1,50 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Montserrat:wght@100;300;600;700&family=Poppins:wght@100;300;400;500&display=swap');
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-p, button {
-	font-family: 'Poppins', sans-serif;
-}
-h1 {
-	font-family: 'Montserrat', sans-serif;
-}
-h2,h3,h4,h5,h6{
-	font-family: 'Baloo 2', sans-serif;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 
 .card-first{
     width: 22rem;
@@ -52,10 +5,16 @@ table {
     background-color: #F2F2F2;
     border-radius: 15px;
     font-family: 'Baloo 2';
-    display: flex;
-    flex-direction: row;
     font-size: 18px;
     box-shadow: 2px 2px 2px 4px #00c3ffc8 ;
+    display: flex;
+    margin-top: 6rem;
+    
+}
+
+.card-first img{
+    width: 9rem;
+    height: 10rem;
     
 }
 
@@ -64,9 +23,8 @@ table {
 .card-first p{
     color: #000;
     font-weight: bold;
-    position: relative;
-    left: 2.4375rem;
-    top: 1.875rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
 }
 
 .card-first span{
@@ -76,18 +34,12 @@ table {
 
 
 
-.card-first-img {
-    width: 9rem;
-    height: 10rem;
-    margin-left: 2rem;
-   
-}
+
 
 
 
 .cards-top-tutorials{
     height: 30vh;
-    width: 100%;
     display: flex;
     align-items: center;
     display: flex;
@@ -95,14 +47,18 @@ table {
     align-items: center;
     gap: 5rem;
     margin-left:1.875rem;
+    
+    
+    
    
     
 }
 
 .cards-videos{
-    margin-left: 4.375rem;
+   margin-left: 4.78rem;
     margin-top: 3.125rem;
     max-width: 100%;
+    flex-wrap: wrap;
   
 }
 
@@ -112,8 +68,8 @@ table {
     align-items: center;
     flex-direction: row;
     gap: 2.1875rem;
-    position: relative;
     margin-bottom: 3.125rem;
+    flex-wrap: wrap;
    
 }
 
@@ -123,9 +79,9 @@ table {
     align-items: center;
     flex-direction: row;
     gap: 2.1875rem;
-    position: relative;
     margin-top: 0.625rem;
     margin-bottom: 3.125rem;
+    flex-wrap: wrap;
    
 }
 
@@ -135,7 +91,7 @@ table {
     align-items: center;
     flex-direction: row;
     gap: 2.1875rem;
-    position: relative;
+    flex-wrap: wrap;
    
    
 }
@@ -145,9 +101,11 @@ table {
     flex-direction: row;
     margin-left: 4.25rem;
     justify-items: center;
-    gap: 0.625rem;
     margin-bottom: 1.875rem;
+    gap: 0.625rem;
 }
+
+
 
  .title-tutorials-responsible p{
     color: #000;
@@ -162,73 +120,77 @@ table {
     color: #F1B709;
 }
 
+.cards-top-container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+}
 
 
-@media screen and (max-width: 48rem) {
-    .tutorials-header h2 {
-        margin: 0 1rem; /* Adjusted margin for smaller screens */
-    }
-    
-    .left-side-tutorials {
-        width: 100%; /* Full width for smaller screens */
-        position: relative;
-        margin-bottom: 1.25rem;
-    }
-    
-    .container-tutorials {
-        display: flex;
-        flex-direction: column;
 
-    }
-    
-    .cards-top-tutorials {
-        flex-direction: column;
-        gap: 1.25rem;
-        margin-left: 0;
-        
-    }
-    
-    .cards-videos {
-        margin-left: 0;
-    }
-    
-    .cards-videos-1,
-    .cards-videos-2,
-    .cards-videos-3 {
-        flex-direction: column;
-        gap: 1.25rem;
-    }
-    
-    .title-tutorials-responsible {
-        margin-left: 1rem; 
-    }
-    
 
-    @media (min-width: 48rem) {
-        .left-side-tutorials {
-            width: 3.4375rem; 
-            margin-bottom: 0;
-        }
-    
-        .cards-top-tutorials {
-            flex-direction: row;
-            gap: 5rem;
-            margin-left: 1.875rem;
-        }
-    
-        .cards-videos {
-            margin-left: 4.375rem;
-        }
-    
-        .cards-videos-1,
-        .cards-videos-2,
-        .cards-videos-3 {
-            flex-direction: row;
-            margin-top: 0.625rem;
-        }
-    
-        .title-tutorials {
-            margin-left: 4.6875rem; 
-        }
+
+@media (min-width: 990px) {
+    .container-new-header {
+        display: none; 
     }
 }
+
+@media (max-width: 990px) {
+    .cards-top-tutorials{
+        display: none; 
+    }
+    .title-tutorials-responsible{
+        margin-top: 8rem;
+    }
+    .cards-videos{
+        margin: 0rem; 
+    }
+
+    .cards-videos-1{
+        margin: 0rem; 
+    }
+}
+
+@media (max-width: 610px) {
+    .cards-videos{
+        margin: 0rem; 
+    }
+
+    .cards-videos-1{
+        margin: 0rem; 
+    }
+    .title-tutorials-responsible p{
+       margin-left: 0.4rem;
+       
+       
+    }
+
+    .title-tutorials-responsible{
+        gap: 0rem;
+    }
+    .header-responsible-new{
+        background-color: #00C2FF;
+    }
+    
+}
+
+@media (max-width: 1270px) {
+      
+    .card-first{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1041px) {
+      
+    .cards-videos{
+        padding-left: 0.5rem;
+    }
+    
+}
+
+
+
+
