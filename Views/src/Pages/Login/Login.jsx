@@ -23,7 +23,7 @@ function Login() {
                     <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Digite sua senha'} />
                     </div>
                     <div className="btn-login">
-                    <p className="login-paragraf">Ainda não possui uma conta<Link to={'/'} className="link-router"><span className="link-login"> Cadastro</span></Link></p>
+                    <p className="login-paragraf">Ainda não possui uma conta<Link to={'/cadastro'} className="link-router"><span className="link-login" > Cadastro</span></Link></p>
                     <Link to="/perfil" className="link-router"><UniversalButton propsBtn={'Fazer login'} /></Link>
                     </div>
                 </div>

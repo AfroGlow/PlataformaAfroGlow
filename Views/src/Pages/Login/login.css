@@ -57,11 +57,11 @@
     font-size: 0.9rem;
     margin-left: 0.2rem;
     font-weight: 600;
-    color: var(--purple-medium);
+    color: #C9A5FF;
 }
 
 .link-login:hover{
-    color: var(--purple-primary);
+    color: #AD4AFF;
 }
 
 

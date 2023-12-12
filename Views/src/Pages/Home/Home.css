@@ -46,6 +46,7 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    
 }
 
 .homeWelcomeText span {
@@ -56,6 +57,7 @@
     width: 575px;
     height: 350px;
 }
+
 
 .homeWelcomeButton{
     background-color: #F2B705;
@@ -592,3 +594,5 @@
         display: none;
      }
 }
+
+
