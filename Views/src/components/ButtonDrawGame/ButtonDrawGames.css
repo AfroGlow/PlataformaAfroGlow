@@ -17,7 +17,7 @@
     transition: 0.3s;
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
     .button button {
         margin-left: 40px;
         font-size: 0.6rem; 

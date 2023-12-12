@@ -5,10 +5,10 @@
 
 .text-notes h1 {
     font-weight: bold;
-    margin-top: 1rem; /* Changed from 2rem to 1rem */
-    margin-bottom: 0.5rem; /* Changed from 1rem to 0.5rem */
+    margin-top: 4.55rem; 
+    margin-bottom: 0.5rem; 
     font-size: 1.4rem;
-    margin-left: 1.875rem; /* Changed from 30px to 1.875rem */
+    margin-left: 1.875rem; 
 }
 
 .text-notes p {
@@ -16,7 +16,7 @@
 
     max-width: 50%; 
 
-    max-width: 50%; /* Changed from 50% to 3.125rem */
+    max-width: 50%; 
 }
 
 .container-notes {
@@ -100,22 +100,21 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 990px) {
-      
-    .text-notes  {
-      padding: 0rem;
-      margin-top: 8rem;
-      text-align: center;
-      margin-left: 2rem;
-    }
-    .text-notes h1  {
-        margin-left: 2rem;
+    .text-notes   {
+        margin-left: 0rem;
         padding: 0rem;
         margin-top: 8rem;
         text-align: center;
       }
+      .text-notes p  {
+        margin-left: 1rem;
+        padding: 0rem;
+        text-align: center;
+        max-width: 90%;
+      }
     .container-notes{
         text-align: center;
-        margin-left: 0rem;
+        margin-left: 5rem;
     }
    
 }

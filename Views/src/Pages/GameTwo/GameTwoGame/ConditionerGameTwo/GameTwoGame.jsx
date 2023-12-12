@@ -218,7 +218,7 @@ const GameTwoGame = () => {
         const pressDuration = currentTime - pressStartTime;
 
         // Check if the mouse has been continuously pressed for at least 7 seconds
-        if (pressDuration >= 7000) {
+        if (pressDuration >= 5000) {
           setLgShow(true);
           setElapsedTime(pressDuration);
         } else {
