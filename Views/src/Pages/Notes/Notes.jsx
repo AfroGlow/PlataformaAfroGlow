@@ -106,8 +106,10 @@ const Notes = () => {
   return (
     <>
       <div className="notes">
-        <LeftSideResponsible />
-        <HeaderResponsible />
+      <LeftSideResponsible />
+      <HeaderResponsible />
+        
+       
         <div className="text-notes">
           <h1>Notas - Meus registros</h1>
           <p>Aqui, você pode fazer registros e anotações sobre os tutoriais assistidos e o que mais preferir! Organize-se de maneira prática e objetiva, veja suas anotações sempre que quiser!</p>

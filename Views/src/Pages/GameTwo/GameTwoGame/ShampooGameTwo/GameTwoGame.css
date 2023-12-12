@@ -1,0 +1,102 @@
+.areaGameTwo {
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameTwoShampoo {
+    background-color: #9E13C0;
+    border: 0.2px solid #FFBF00;
+    border-radius: 10px;
+    width: 200px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+}   
+
+.nextPageButton {
+    border: none;
+    color: #1E1E1E;
+    background-color: #FFBF00;
+    border-radius: 10px;
+    width: 186.23px;
+    height: 46.92px;
+}
+
+.nextPageButton:hover {
+    background-color: #ffbf00b6;
+    color: #fff;
+}
+
+.modalTitleContainerOne {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.modalKids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container-modal-kids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.modalKids img {
+    width: 190px;
+}
+.title-modal h1 {
+    font-weight: 600;
+}
+.modalKids p {
+    border: 1px solid #AD4AFF;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px #AD4AFF;
+    margin: 10px 0px;
+}
+
+.description-avatars {
+    max-width: 380px;
+}
+
+.modalGameContainerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width: 635px) {
+    .gameModalImgGame{
+        display: none;
+    }
+
+    .modalGameTwo {
+        width: 450px;
+    }
+}
+
+@media (max-width: 450px) {
+    .modalGameTwo {
+        width: 350px;
+    }
+}

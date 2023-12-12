@@ -13,7 +13,7 @@ function ModalReconhecimentoCapilar() {
   return (
     <>
       <Button className='button-modal-ia'  variant="primary" onClick={handleShow}>
-      Próximo Passo
+      Proximo Passo
       </Button>
 
 
@@ -31,8 +31,8 @@ function ModalReconhecimentoCapilar() {
             </div>
         <div className='align-btn-modal-ia'>
           
-          <Link to="/Form1"> <Button className='btnmodal' onClick={handleClose}>
-          Preencher Formulário
+          <Link to="/form1"> <Button className='btnmodal' onClick={handleClose}>
+          Preencher Formulario
           </Button>  </Link>
           </div>
         </Modal.Body>

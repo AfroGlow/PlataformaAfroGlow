@@ -4,6 +4,7 @@ import LogoA from '/public/Logo.svg'
 import UniversalButton from "../../Components/Button/Button"
 import './login.css'
 import { Link } from "react-router-dom"
+import AuthGoogle from "./Auth/authGoogle";
 
 function Login() {
     return (
@@ -21,9 +22,11 @@ function Login() {
                     <div className="forms-login">
                     <Input label={'E-mail'} labelFor={'email'} type={'text'} id={'email'} PlaceH={'Email'} />
                     <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Digite sua senha'} />
+                    <div><AuthGoogle /></div>
                     </div>
+
                     <div className="btn-login">
-                    <p className="login-paragraf">Ainda não possui uma conta<Link to={'/cadastro'} className="link-router"><span className="link-login" > Cadastro</span></Link></p>
+                    <p className="login-paragraf">Ainda não possui uma conta<Link to='/cadastro' className="link-router"><span className="link-login"> Cadastro</span></Link></p>
                     <Link to="/perfil" className="link-router"><UniversalButton propsBtn={'Fazer login'} /></Link>
                     </div>
                 </div>

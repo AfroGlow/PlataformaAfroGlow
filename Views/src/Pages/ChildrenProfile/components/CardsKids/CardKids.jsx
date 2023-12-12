@@ -18,12 +18,12 @@ const CardKids = () => {
                 <Link to="/jogo3"><button>JOGAR<img className='icon-arrow' src="./icon-arrow-button.svg" alt="" /></button></Link>
             </article>
             <article className='cardKid'>
-                <img src="game-cover-4.png" alt="" />
-                <Link to="/jogo5"><button>JOGAR<img className='icon-arrow' src="./icon-arrow-button.svg" alt="" /></button></Link>
-            </article>
-            <article className='cardKid'>
                 <img src="game-cover-5.png" alt="" />
                 <Link to="/jogo4"><button>JOGAR<img className='icon-arrow' src="./icon-arrow-button.svg" alt="" /></button></Link>
+            </article>
+            <article className='cardKid'>
+                <img src="game-cover-4.png" alt="" />
+                <Link to="/jogo5"><button>JOGAR<img className='icon-arrow' src="./icon-arrow-button.svg" alt="" /></button></Link>
             </article>
             <article className='cardKid'>
                 <img src="game-cover-6.png" alt="" />

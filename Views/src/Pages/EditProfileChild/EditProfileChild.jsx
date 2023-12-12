@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import { Icon } from '@iconify/react';
 import ButtonArrow from "../../Components/ButtonArrow/BtnArrow"
 import ImageHandlerChild from './ImageHandlerChild/ImageHandlerChild';
+import DarkModeSwitch from '../../components/DarkSwitch/DarkModeSwitch';
 
 const EditProfileChild = () => {
 
@@ -34,6 +35,7 @@ const EditProfileChild = () => {
                             <h2 className='subtitle-edit'>Temas</h2>
                             <div className='btn-mode'>
                                 <button className='btn-clear'> <Icon icon="twemoji:sun" width="24" height="24" />Modo Claro</button>
+                                <DarkModeSwitch />
                                 <button className='btn-dark'> <Icon icon="akar-icons:moon-fill" color="#ccc" width="24" height="24" /> Modo Escuro</button>
                             </div>
                         </div>

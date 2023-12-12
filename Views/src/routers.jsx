@@ -29,17 +29,34 @@ import TutorialFour from './Pages/GameFour/TutorialFour/TutorialFour.jsx'
 import CoverThree from './Pages/GameThree/CoverThree/CoverThree.jsx'
 import TutorialThree from './Pages/GameThree/TutorialThree/TutorialThree.jsx'
 import CoverTwo from './Pages/GameTwo/CoverTwo/CoverTwo.jsx'
+import ShampooGameTwo from './Pages/GameTwo/GameTwoGame/ShampooGameTwo/GameTwoGame.jsx'
+import ConditionerGameTwo from './Pages/GameTwo/GameTwoGame/ConditionerGameTwo/GameTwoGame.jsx'
+import FinishGameTwo from './Pages/GameTwo/GameTwoGame/FinishGameTwo/GameTwoGame.jsx'
 import TutorialTwo from './Pages/GameTwo/TutorialTwo/TutorialTwo.jsx'
 import CoverOne from './Pages/GameOne/CoverOne/CoverOne.jsx'
 import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+<<<<<<< HEAD
 import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
+=======
+import ContactUs from './Pages/pagesIA/pagesFaleConosco/ContactUs.jsx'
+import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
+import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
+import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
+import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
+import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
+import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
+import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
+import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
+>>>>>>> main
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
+import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
+import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 
 function RouterApp() {
 
@@ -47,19 +64,10 @@ function RouterApp() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
-
-
-
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
-
-
-       
         <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
         <Route path="/pagamento-planoplus" element={<PaymentsPlus />}>Tela de Pagamento</Route>
         <Route path="/pagamento-planopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
-       
-
-
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
@@ -71,10 +79,12 @@ function RouterApp() {
         <Route path='/perfilresponsavel' element={< Responsible />}>Perfil Responsável</Route>
         <Route path='/video1' element={< StepByStepVideo1 />}>Tutorial 1</Route>
         <Route path='/video2' element={< StepByStepVideo2 />}>Tutorial 2</Route>
+        <Route path='/video9' element={< StepByStepVideo9 />}>Tutorial 2</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
-        <Route path="ia" element={<ImageClassification />} />
-        <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
+        <Route path="/ia" element={<ImageClassification />} />
+        <Route path="planosia" element={<PlanesIa />} />
+        <Route path="/faleconosco" element={<ContactUs />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
@@ -94,10 +104,24 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
+<<<<<<< HEAD
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
         <Route path='/posia' element={<BoxPlans />}></Route> 
+=======
+        <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
+        <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
+        <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 
+        <Route path='/jogo1tela1' element={< ScreenOne/>}></Route> 
+        <Route path='/jogo1tela2' element={< ScreenTwo/>}></Route> 
+        <Route path='/jogo1tela3' element={< ScreenThree/>}></Route> 
+        <Route path='/jogo1tela4' element={< ScreenFour/>}></Route> 
+        <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
+        <Route path='/posia' element={<BoxPlans />}></Route> 
+        <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
+        <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
+        <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
+>>>>>>> main
       </Routes>
-
     </Router>
 
   )

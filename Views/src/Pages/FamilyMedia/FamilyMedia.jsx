@@ -11,14 +11,23 @@ function FamilyMedia() {
             <div className="family-media">
                 <div className="family-media-components">
                     <LeftSideResponsible />
-                    <HeaderResponsible />
+                        <HeaderResponsible />
+                    
+
+
+
+
+
 
                     <div className="container-family-media">
 
-                        <h1>Mídias - Momentos em família</h1>
-                        <p>Aqui você encontra uma junção de músicas, livros e conteúdos inspiradores que colhemos com muito carinho e atenção. Aproveite cada minuto com a sua família, leve carinho, e afeto.</p>
-                        <iframe src="https://open.spotify.com/embed/playlist/182vRN63aljy3c98Dv0r8t?utm_source=generator" ></iframe>
-                        <h1>Livros brilhantes AfroGlow</h1>
+                        <div className="text-medias">
+                            <h1>Mídias - Momentos em família</h1>
+                            <p>Aqui você encontra uma junção de músicas, livros e conteúdos inspiradores que colhemos com muito carinho e atenção. Aproveite cada minuto com a sua família, leve carinho, e afeto.</p>
+                            <div className="iframe-playlist"><iframe src="https://open.spotify.com/embed/playlist/182vRN63aljy3c98Dv0r8t?utm_source=generator" ></iframe></div>
+                            <h1>Livros brilhantes AfroGlow</h1>
+                        </div>
+
 
                         <div className="card-media-container">
                             <div className="first-row-media">
@@ -36,7 +45,9 @@ function FamilyMedia() {
 
                                 <CardsMedia props_img_media={"../midia6.png"} props_h1_media={"Pente Quente"} props_p_media={"O primeiro alisamento capilar de uma garota, o bulling,  mas também a despertar da consciência, o desenvolvimento da autoestima, a alegria da vida nas comunidades"} props_alt_media={""} props_link_media={"https://www.amazon.com.br/PENTE-QUENTE-Ebony-Flowers/dp/8595711402/ref=sr_1_6?adgrpid=108602061802&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMoboanmNFywT0odyZY7AGfdrpuaNq6hxQS8u5av13WsnhOHqZfEJVcaAqnzEALw_wcB&hvadid=595935984212&hvdev=c&hvlocphy=9074235&hvnetw=g&hvqmt=e&hvrand=12995353671650839343&hvtargid=kwd-365389433254&hydadcr=9026_13561469&keywords=pente+quente&qid=1700522074&sr=8-6"} />
                             </div>
-                            <h1>Podcasts</h1>
+                            <div className="title-poadcast">
+                                <h1>Podcasts</h1>
+                            </div>
                             <div className="poadcasts">
 
 
@@ -51,13 +62,13 @@ function FamilyMedia() {
                         </div>
                     </div>
 
-
                 </div>
+            </div>
 
-            </div>
-            <div className="footer-media">
-                <Footer />
-            </div>
+
+
+            <Footer />
+
         </>
     )
 }
