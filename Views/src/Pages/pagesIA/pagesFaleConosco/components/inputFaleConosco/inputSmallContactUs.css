@@ -1,4 +1,4 @@
-.inputSmallFaleConosco{
+.inputSmallContactUs{
     width: 18rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -6,7 +6,7 @@
     box-shadow: 2px 2px 4px 2px #F2B705;
 }
 
-.inputSmallFaleConosco:focus {
+.inputSmallContactUs:focus {
     outline: none;
 }
 
@@ -14,7 +14,7 @@
     
 
 
-.inputSmallFaleConosco{
+.inputSmallContactUs{
     width: 11rem;
     padding: 1rem;
     border-radius: 1rem;

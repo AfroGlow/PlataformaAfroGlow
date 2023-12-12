@@ -38,7 +38,7 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
-import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
+import ContactUs from './Pages/pagesIA/pagesFaleConosco/ContactUs.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -46,11 +46,12 @@ import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
 import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
-import MemoryGame from './Pages/MemoryGame/MemoryGame.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
+import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
+import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 
 
 function RouterApp() {
@@ -79,7 +80,7 @@ function RouterApp() {
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="/ia" element={<ImageClassification />} />
         <Route path="planosia" element={<PlanesIa />} />
-        <Route path="/faleconosco" element={<TelaFaleConosco />}></Route>
+        <Route path="/faleconosco" element={<ContactUs />}></Route>
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
@@ -110,6 +111,7 @@ function RouterApp() {
         <Route path='/posia' element={<BoxPlans />}></Route> 
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
+        <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
       </Routes>
     </Router>
 
