@@ -43,13 +43,13 @@ const ImageHandlerChild = ({ defaultImage, onImageChange }) => {
             <div className="select-img-child">
               <img
                 src="/perfil-avt-1.png"
-                alt="Personagem Mateus, menino negro com cabelo castanho e blusa amarela"
+                alt=""
                 className="img-inner-child edit-child-characters"
                 onClick={() => changeImage('/perfil-avt-1.png', onImageChange)}
               />
               <img
                 src="/perfil-avt-2.png"
-                alt="Personagem Helena, menina negra com cabelo cachedo castanho e blusa amarela"
+                alt=""
                 className="img-inner-child edit-child-characters"
                 onClick={() => changeImage('/perfil-avt-2.png', onImageChange)}
               />

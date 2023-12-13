@@ -4,17 +4,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
 
-.info-contact{
-    margin-top: 9rem;
-}
-
 .title-yellow-contactUs{
     color: #F2B705;
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10rem;
-    margin-top: 3rem;
-
+    margin-top: 8rem;
     
 }
 
@@ -34,7 +29,6 @@
 .align-column-contactUs{
     display: flex;
     flex-direction: column;
-    margin-left: 1.3rem;
     
 }
 
@@ -99,16 +93,12 @@ margin-bottom: 5rem;
     width: 23rem;
     height: 30rem;
 }
-
-
-
-@media(max-width:800px)  {
 .inputContactUs{
     width: 37rem;
     padding: 1rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
-    box-shadow: 2px 2px 4px 2px #F2B705;}
+    box-shadow: 2px 2px 4px 2px #F2B705;
 }
 
 .inputContactUs:focus {
@@ -129,6 +119,7 @@ margin-bottom: 5rem;
 
 
 @media(max-width:1000px)  {
+    
     .img-principal-contactUs{
        display: none;
     }
@@ -181,6 +172,9 @@ margin-bottom: 5rem;
     }
 
     @media(max-width:600px)  {
+    
+
+
         .inputContactUs{
             width: 23rem;
             padding: 1rem;
@@ -195,5 +189,6 @@ margin-bottom: 5rem;
             border: solid 2px #F2B705;
             box-shadow: 2px 2px 4px 2px #F2B705;
         }
-
+    
     }
+    

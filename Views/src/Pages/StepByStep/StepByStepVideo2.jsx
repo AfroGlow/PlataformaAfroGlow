@@ -20,13 +20,13 @@ const StepByStepVideo2 = () => {
 
                     props_p={"O shampoo é formulado principalmente para lavar o couro cabeludo, parte mais importante e essencial se queremos fios que cresçam com saúde. Ele não pode ter acúmulo de sebo, células mortas, umidade nem sujeira do dia a dia, por isso comece aplicando seu shampoo diretamente no couro e massageando suavemente, mas limpando de forma eficaz."}
 
-                    props_p2={"Os movimentos não podem ser agressivos nem suaves demais. Se a crianças tem feridas, cuide das regiões onde elas estão para não machucá-las. Se ele(a) tem caspa e você sentir necessidade, lave 2x até sentir que couro está limpinho e sem resíduos. Essa limpeza não precisa levar mais que 2-3 minutos.  É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
+                    props_p2={"Os movimentos não podem ser agressivos nem suaves demais. Se a crianças tem feridas, cuide das regiões onde elas estão para não machucá-las. Se ele(a) tem caspa e você sentir necessidade, lave 2x até sentir que couro está limpinho e sem resíduos. Essa limpeza não precisa levar mais que 2-3 minutos. <span> É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
 
                     props_span2={"É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
 
-                    props_p3={"Os fios cacheados possuem cutículas mais sensíveis a danos, sendo a fricção durante o banho uma das principais causas. Simplesmente deslize a espuma pelos fios para realizar a limpeza necessária, removendo as partículas de sujeira. É crucial realizar todos os movimentos de lavagem da raiz às pontas, preservando a cutícula, e nunca o contrário ou lateralmente. Após esse processo, enxágue abundantemente. "}
+                    props_p3={"Fios cacheados têm a cutícula mais suscetível a danos, e a fricção durante o banho é uma das formas mais comuns de agredi-las. O simples arraste da espuma pelos fios já é capaz de fazer a limpeza necessária, carregando as partículas de sujeira. Também é essencial que todo movimento de lavagem seja feito sempre da raiz às pontas para preservação da cutícula, nunca o contrário e nem lateralmente. Depois disso basta enxáguar e pronto. "}
 
-                    props_p4={"Antes de aplicar o condicionador, umedeça o cabelo com água morna ou fria. Em seguida, aplique o condicionador nos fios da altura da orelha para baixo, massageando-o bem no comprimento do cabelo. Deixe agir por alguns minutos, seguindo as indicações de tempo na embalagem do produto. Após o período, enxágue completamente até remover todo o condicionador."} />
+                    props_p4={"Antes de aplicar o condicionador, é importante umidecer o cabelo (água morna ou fria). Logo após, aplique o condicionador nos fios da altura da orelha para baixo, massageie bem o produto no comprimento do cabelo e deixe agir por alguns minutos (o tempo estará especificado na embalagem do produto). Passado o tempo, enxágue o cabelo até todo condicionador ser removido completamente. "} />
             </div>
 
 

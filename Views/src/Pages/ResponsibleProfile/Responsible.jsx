@@ -35,48 +35,48 @@ const Responsible = () => {
 
                 <div className="cards-videos">
                     <div className="title-tutorials-responsible">
-                        <img src="../lavagem-icone.svg" alt="ícone de shampoo e condicionador" />
+                        <img src="../lavagem-icone.svg" alt="" />
                         <p>Lavagem e hidratação<span> (4)</span></p>
                     </div>
 
                     <div className="cards-videos-1">
-                        <CardsVideos props_img={'../public/video1.jpg'} props_p={'Aprenda tudo sobre os primeiros cuidados na hora de lavar o cabelo da sua estrela!'} props_alt={'criança negra sorrindo em banheira'} props_video={"/video1"}
+                        <CardsVideos props_img={'../public/video1.jpg'} props_p={'Aprenda tudo sobre os primeiros cuidados na hora de lavar o cabelo da sua estrela!'} props_alt={'criança'} props_video={"/video1"}
                             props_p2={'4:30 minutos'} />
-                        <CardsVideos props_img={'../public/video2.jpg'} props_p={'Hora de saber como lavar o cabelo do seu pequeno da melhor forma.'} props_alt={'criança loira em banheira com espuma no cabelo'} props_video={"/video2"}
+                        <CardsVideos props_img={'../public/video2.jpg'} props_p={'Hora de saber como lavar o cabelo do seu pequeno da melhor forma.'} props_alt={'criança'} props_video={"/video2"}
                             props_p2={'8:18 minutos'} />
-                        <CardsVideos props_img={'../public/video3.jpg'} props_p={'Venha aprender como hidratar os pequenos cachinhos da forma mais prazerosa.'} props_alt={'criança negra com cabelo crespo sorrindo enrolado em um roupão'} props_video={"/video3"}
+                        <CardsVideos props_img={'../public/video3.jpg'} props_p={'Venha aprender como hidratar os pequenos cachinhos da forma mais prazerosa.'} props_alt={'criança'} props_video={"/video3"}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video4.jpg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança loira lavando o cabelo em banheira'} props_video={"/video4"}
+                        <CardsVideos props_img={'../public/video4.jpg'} props_p={'Vamos nos preparar da maneira mais adequada para oa próximos passos.'} props_alt={'criança'} props_video={"/video4"}
                             props_p2={'10 minutos'} />
                     </div>
                     <div className="title-tutorials-responsible">
-                        <img src="../desembaraco-icone.svg" alt="ícone de creme para pentear amarelo" />
+                        <img src="../desembaraco-icone.svg" alt="" />
                         <p>Desembaraçamento e finalização<span> (4)</span></p>
                     </div>
 
                     <div className="cards-videos-2">
-                        <CardsVideos props_img={'../public/video5.jpg'} props_p={'Vamos aprender a desembaraçar o cabelo de uma maneira divertida.'} props_alt={'foto de um pente desembraçando um cabelo'} props_video={"/video5"}
+                        <CardsVideos props_img={'../public/video5.jpg'} props_p={'Vamos aprender a desembaraçar o cabelo de uma maneira divertida.'} props_alt={'criança'} props_video={"/video5"}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video6.jpg'} props_p={'Quais são as formas de finalização para os cabelos encaracolados? Vem aprender!'} props_alt={'menina negra com cabelo cacheado castanho'}
+                        <CardsVideos props_img={'../public/video6.jpg'} props_p={'Quais são as formas de finalização para os cabelos encaracolados? Vem aprender!'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video7.jpg'} props_p={'Aprenda algumas maneiras de finalizar o cabelo do seu pequeno.'} props_alt={'menino branco com cabelo ondulado castanho'}
+                        <CardsVideos props_img={'../public/video7.jpg'} props_p={'Aprenda algumas maneiras de finalizar o cabelo do seu pequeno.'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video8.jpg'} props_p={'Vamos aos toques finais, e nos preparar para os próximos passos.'} props_alt={'criança ruiva com cabelo cacheado'}
+                        <CardsVideos props_img={'../public/video8.jpg'} props_p={'Vamos aos toques finais, e nos preparar para os próximos passos.'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
                     </div>
                     <div className="title-tutorials-responsible">
-                        <img src="../pente-comum-icone.svg" alt="ícone de pente amarelo" />
+                        <img src="../pente-comum-icone.svg" alt="" />
                         <p>Penteados<span> (4)</span></p>
                     </div>
 
                     <div className="cards-videos-3">
-                        <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'imagem com diversos elementos para cuidados capilares, como pentes, escovas, creme, grampos e prendedores'} props_video={"/video9"}
+                        <CardsVideos props_img={'../public/video9.jpg'} props_p={'Vamos fazer penteados incríveis, e tornar um momento de diversão para toda a família!'} props_alt={'criança'} props_video={"/video9"}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video10.jpg'} props_p={'Aqui você encontra um penteado simples, que demanda pouco tempo e muitos sorrisos.'} props_alt={'criança negra com cabelo crespo'}
+                        <CardsVideos props_img={'../public/video10.jpg'} props_p={'Aqui você encontra um penteado simples, que demanda pouco tempo e muitos sorrisos.'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video11.jpg'} props_p={'Esse penteado tem dificuldade média, separe um tempo na sua agenda e divirta-se!'} props_alt={'criança negra fazendo um penteado'}
+                        <CardsVideos props_img={'../public/video11.jpg'} props_p={'Esse penteado tem dificuldade média, separe um tempo na sua agenda e divirta-se!'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
-                        <CardsVideos props_img={'../public/video12.jpg'} props_p={'Se você quer passar um tempo em família com uma tarefa divertida, aqui é o lugar.'} props_alt={'criança ruiva sorrindo'}
+                        <CardsVideos props_img={'../public/video12.jpg'} props_p={'Se você quer passar um tempo em família com uma tarefa divertida, aqui é o lugar.'} props_alt={'criança'}
                             props_p2={'10 minutos'} />
                     </div>
 

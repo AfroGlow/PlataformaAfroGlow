@@ -22,7 +22,7 @@
     border-radius: 9px;
     border: 1px solid #AD4AFF;
     padding: 0.6em;
-    filter: drop-shadow(5px 2px 6px #AD4AFF);
+    filter: drop-shadow(5px 2px 6px #AD4AFF)
 }
 
 .inputM{
