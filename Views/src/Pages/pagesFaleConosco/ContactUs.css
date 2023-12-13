@@ -4,17 +4,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
 
-.info-contact{
-    margin-top: 9rem;
-}
-
 .title-yellow-contactUs{
     color: #F2B705;
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10rem;
     margin-top: 3rem;
-
     
 }
 
@@ -34,7 +29,6 @@
 .align-column-contactUs{
     display: flex;
     flex-direction: column;
-    margin-left: 1.3rem;
     
 }
 
@@ -46,7 +40,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-bottom: 5rem;
 }
 
 .container-purple-contactUs img{
@@ -71,7 +64,6 @@ margin-bottom: 5rem;
 .textField-contactUs{
     height: 10rem; 
     width: 100%;
-    margin-left: 0.5rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
     box-shadow: 2px 2px 4px 2px #F2B705;
@@ -103,32 +95,7 @@ margin-bottom: 5rem;
 
 
 @media(max-width:800px)  {
-.inputContactUs{
-    width: 37rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: solid 2px #F2B705;
-    box-shadow: 2px 2px 4px 2px #F2B705;
-}
-
-.inputContactUs:focus {
-    outline: none;
-}
-.inputSmallContactUs{
-    width: 18rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: solid 2px #F2B705;
-    box-shadow: 2px 2px 4px 2px #F2B705;
-}
-
-.inputSmallContactUs:focus {
-    outline: none;
-}
-
-
-
-@media(max-width:1000px)  {
+    
     .img-principal-contactUs{
        display: none;
     }
@@ -179,22 +146,4 @@ margin-bottom: 5rem;
             resize: none;
         } 
     }
-    @media(max-width:600px)  {
-        .inputContactUs{
-            width: 23rem;
-            padding: 1rem;
-            border-radius: 1rem;
-            border: solid 2px #F2B705;
-            box-shadow: 2px 2px 4px 2px #F2B705;
-        }
-        .inputSmallContactUs{
-            width: 11rem;
-            padding: 1rem;
-            border-radius: 1rem;
-            border: solid 2px #F2B705;
-            box-shadow: 2px 2px 4px 2px #F2B705;
-        }
-    
-    }
-
     

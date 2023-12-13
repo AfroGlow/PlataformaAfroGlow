@@ -138,7 +138,9 @@ height: auto;
     margin-left: 2rem;
 
   }
-
+  .imgBackIa{
+    margin: 1rem;
+  }
   .imgUp {
     width: 50px;
   }

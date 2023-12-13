@@ -24,7 +24,7 @@
 
 <h2> ⚙️ Nossos padrões:</h2>
    <p>
-      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado. Outra boa prática que adotamos foi uma comunicação efetiva, para que o alinhamente estivesse sempre presente em nosso ambiente de desenvolvimento.
+      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado. Outra boa prática que adotamos foi uma comunicação efetiva, para que o alinhamento estivesse sempre presente em nosso ambiente de desenvolvimento.
    </p>
 <br/>
 

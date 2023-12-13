@@ -20,8 +20,13 @@
     margin-top: 1.3rem;
 }
 
-.footer-up p{
-    margin-top: 45px;
+
+
+.footer-up a{
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  top: 1rem;
 }
 
  .footer-p{

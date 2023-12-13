@@ -4,14 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
-Link
+
 
 
 function PlanesIaScreen(){
     return(
         <>
       <div className='align-img-plans-title-ia'>
-        <img  src="./logo-glowbox.svg" alt="" />
+        <img  src="./logo-glowbox.svg" alt="GlowBox" />
         </div>
         <h1 className='h1-plans-ia'>Revolucione o cuidado capilar</h1>
         <Container>
@@ -38,16 +38,24 @@ function PlanesIaScreen(){
         </div>
        </Col>
       </Row>
-    </Container>
+    
     <div className='align-input-plans-green-ia'>
     <Link to="/ia"><input type="submit" className='input-plans-green-ia' value={"Faça o teste"} /></Link>
     </div>
     <div className='div-bg-purple'></div>
         <h1 className='h1-plans-ia'>Assine seu plano</h1>
-        <div className='align-row-planes-ia'>
-       <PlansIa props_title_box={"Glowbox"}/> 
-       <PlansIa props_title_box={"GlowKids"}/> 
-        </div>
+        
+      <Row className='plans-ia-row'>
+        <Col>
+        <PlansIa props_title_box={"GlowKids"}/>
+        </Col>
+        <Col>
+        <PlansIa props_title_box={"Glowbox"}/> 
+        </Col>
+        </Row> 
+         </Container>
+        
+      
         </>
     )
 } export default PlanesIaScreen
