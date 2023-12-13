@@ -45,7 +45,7 @@ function PlanesIaScreen(){
     <div className='div-bg-purple'></div>
         <h1 className='h1-plans-ia'>Assine seu plano</h1>
         
-      <Row className='plans-ia-row'>
+      <Row>
         <Col>
         <PlansIa props_title_box={"GlowKids"}/>
         </Col>

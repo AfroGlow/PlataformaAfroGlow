@@ -3,7 +3,7 @@ import EditButton from '../../Components/ButtonEdit/btnEdit'
 import LeaveButton from '../../Components/ButtonLeave/btnLeave'
 import './Profile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
-import ImageHandlerParents from '../EditProfileParents/ImageHandler,jsx/ImageHandlerProfile'
+import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
 
 function Perfil() {
   return (
