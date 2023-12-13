@@ -16,8 +16,6 @@ function ModalAi() {
         Finalizar
       </Button>
 
-
-
    
       <Modal  show={show} onHide={handleClose} animation={false} centered>
       

@@ -4,12 +4,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
-
+import ArrowButton from '../../../Components/ButtonArrow/BtnArrow';
 
 
 function PlanesIaScreen(){
     return(
         <>
+
+        <div className='btn-arrow-ia'>
+          <Link to="/perfilresponsavel" style={{textDecoration:"none"}}>
+            <ArrowButton props_arrow={"Voltar"}/>
+          </Link>
+        </div>
       <div className='align-img-plans-title-ia'>
         <img  src="./logo-glowbox.svg" alt="GlowBox" />
         </div>
