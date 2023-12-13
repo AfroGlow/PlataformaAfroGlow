@@ -39,6 +39,7 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -84,7 +85,7 @@ function RouterApp() {
         <Route path="/Form2" element={<Form2 />} ></Route>
         <Route path="/Form3" element={<Form3 />} ></Route>
         <Route path="/CalcularFrete" element={<CalculateShipping />}></Route>
-        <Route path="/parceiros" element={<AllPartners />}></Route>
+        <Route path="Parceiros" element={<AllPartners />}></Route>
         <Route path='/sobrenos' element={< About/>}></Route> 
         <Route path='/perfilcrianca' element={< ChildrenProfile/>}></Route> 
         <Route path='/jogo1' element={< CoverOne/>}></Route> 

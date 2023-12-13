@@ -37,10 +37,10 @@ const ImageHandlerChild = ({ defaultImage, onImageChange }) => {
       />
 
 
-      <Modal show={isModalOpen} onHide={closeImageModal} centered >
-        <Modal.Body >
-          <section >
-            <div >
+      <Modal show={isModalOpen} onHide={closeImageModal} centered className='modal-edit-child'>
+        <Modal.Body className='container-modal-edit'>
+          <section className='img-select' >
+            <div className="select-img-child">
               <img
                 src="/perfil-avt-1.png"
                 alt=""
