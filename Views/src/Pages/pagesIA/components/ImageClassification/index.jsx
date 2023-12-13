@@ -1,5 +1,6 @@
 import { useState } from "react";
 import * as tf from "@tensorflow/tfjs";
+import { Link } from "react-router-dom";
 // import modelJson from './AfroGlow_v2.json';
 import { useDropzone } from 'react-dropzone'; 
 import './index.css'
@@ -57,7 +58,10 @@ const ImageClassification = () => {
     });
 
     return (
+        <>
+        <Link to="/planosia"><img className='imgBackIa' src="./botaoEsquerda.svg" alt="botao de voltar" /></Link>
         <section className="wrapper">
+            
             <div className="align-title-AI">
                 <div className="titleAI">
             <h2 className="p-title-ia ">Faça upload de uma foto, para nossa IA </h2>
@@ -142,6 +146,7 @@ const ImageClassification = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
