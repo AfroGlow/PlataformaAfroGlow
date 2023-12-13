@@ -9,7 +9,7 @@ const FinishGameThree = () => {
      <h2 className='titleFinishGameThree'>Parabéns!</h2>  
      <p>Todos os cachos estão ainda mais redondinhos!</p>
      <img src="emojiFinishGameTwo.svg" alt="" />
-     <Link to="/perfilcrianca"  style={{ textDecoration: 'none' }}>
+     <Link to="/perfilcrianca">
         <button className="Button-game-three">
           FINALIZAR
         </button>

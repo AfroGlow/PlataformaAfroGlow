@@ -8,12 +8,12 @@ function LeftSideResponsible() {
         <div className="left-side-tutorials">
             <Link to='/perfilresponsavel'> 
             <img
-                src="house-icone.svg" alt="ícone de casa branco"/>
+                src="house-icone.svg"/>
                 </Link>
             <p>Home</p>
             <Link to='/midias'>
             <img
-                src="midia-icone.svg" alt="ícone de mídias branco"/>
+                src="midia-icone.svg"/>
                 </Link>
             <p>Mídias</p>
             <Link to='/notas'>
@@ -23,7 +23,7 @@ function LeftSideResponsible() {
 
             <Link to='/planosia'>
             <img
-                src="ia-icone.svg" alt="ícone de inteligência artificial"
+                src="ia-icone.svg"
             />
             </Link>
             <p className="ia-left">I A</p>
