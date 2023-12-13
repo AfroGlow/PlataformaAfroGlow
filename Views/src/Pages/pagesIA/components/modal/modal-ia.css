@@ -9,13 +9,13 @@
     border: solid 2px #AD4AFF !important;
 }
 
-.h4-title-modal{
+.h4-title-modal-ia{
     font-size: 2rem;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
 }
 
-.h5-subtitle-modal{
+.h5-subtitle-modal-ia{
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
 }
-.align-center-modal-text{
+.align-center-modal-text-ia{
     text-align: center;
 }
 .align-btn-modal-ia{
@@ -54,7 +54,7 @@
     font-weight: 600;
     
 }
-.btnmodal{
+.btnmodal-ia{
     background-color: #AD4AFF !important;
     color: white !important;
     font-weight: 700 !important;
@@ -71,7 +71,7 @@
 
 
 @media (max-width: 600px) {
-.button-modal{
+.button-modal-ia{
     background-color: #AD4AFF;
     color: white;
     border: none;
@@ -92,52 +92,53 @@
     border: solid 2px #AD4AFF !important;
 }
 
-.h4-title-modal{
+.h4-title-modal-ia{
     font-size: 2rem;
     font-weight: 800;
 }
 
-.h5-subtitle-modal{
+.h5-subtitle-modal-ia{
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 
-
-.modalCenter img{
+.modalCenter-ia img{
     width: 5rem;
     height: 5rem;
     border-radius: 5rem !important;
 }
-.align-center-modal-img{
+.align-center-modal-img-ia{
     display: flex;
     justify-content: center;
 }
-.align-center-modal-text{
+.align-center-modal-text-ia{
     text-align: center;
 }
-.align-btn-modal{
+.align-btn-modal-ia{
     display: flex;
     justify-content: space-around;
     background-color: #FFEB68;
     margin-top: 5rem;
 }
-.container-modal{
+.container-modal-ia{
     margin: 0 auto !important;
 }
 
-.btnmodal{
+.btnmodal-ia{
+    width: 200px !important;
     background-color: #AD4AFF !important;
     color: white !important;
     font-weight: 700 !important;
     font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
 }
-.button-modal:hover{
+.button-modal-ia:hover{
     background-color: #AD4AFF !important;
     color: white !important;
 }
 
-.button-modal:focus {
+.button-modal-ia:focus {
     outline: none;
 }
 }

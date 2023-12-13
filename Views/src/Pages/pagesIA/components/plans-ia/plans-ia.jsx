@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './plans-ia.css'
 
 
@@ -24,7 +25,7 @@ function PlansIa({props_label, props_title_box}){
         <label className='label-input-radio-ia' htmlFor="input-form">Semestral <p className='p-yellow-plans-ia'>49,90/mês</p></label>
        </div>
        </div>
-       <input type="submit" className='input-plans-purple-ia' value={"Assinar o plano"} />
+       <Link to="/pagamento"><input type="submit" className='input-plans-purple-ia' value={"Assinar o plano"} /></Link>
        </div>
         </>
     )
