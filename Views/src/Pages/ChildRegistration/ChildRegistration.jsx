@@ -10,7 +10,9 @@ function CadastroC() {
         <body className="bg-register">
             <section className="container-register">
                 <div className="info">
+                <Link to="/">
                     <img src={LogoA} alt="" className="logo" />
+                </Link>
                     <h2 className="subtitle">Para finalizar, preencha os dados da criança</h2>
                 </div>
                 <div className="forms-center">
