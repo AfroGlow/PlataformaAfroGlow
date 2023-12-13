@@ -99,11 +99,7 @@ const ChildrenProfile = () => {
         <Link to="/perfil" className="router">
           <div className="exit-kids">
             <p>Sair</p>
-<<<<<<< HEAD
             < ImageHandlerChild defaultImage="perfil-avt-1.png" className="img-profile img-profile-child" />
-=======
-            <img src="icon-profile-kids.png" alt="" />
->>>>>>> main
           </div>
         </Link>
       </header>

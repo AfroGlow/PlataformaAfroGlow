@@ -38,20 +38,14 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
-<<<<<<< HEAD
-import TelaFaleConosco from './Pages/pagesFaleConosco/telaFaleConosco.jsx'
 import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
-=======
-import ContactUs from './Pages/pagesIA/pagesFaleConosco/ContactUs.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
 import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
 import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
-import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
->>>>>>> main
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
@@ -84,7 +78,7 @@ function RouterApp() {
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="/ia" element={<ImageClassification />} />
         <Route path="planosia" element={<PlanesIa />} />
-        <Route path="/faleconosco" element={<ContactUs />}></Route>
+        {/* <Route path="/faleconosco" element={<ContactUs />}></Route> */}
         <Route path="Form1" element={<Form1 />}></Route>
         <Route path="Form2" element={<Form2 />} ></Route>
         <Route path="Form3" element={<Form3 />} ></Route>
@@ -104,10 +98,8 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
-<<<<<<< HEAD
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
         <Route path='/posia' element={<BoxPlans />}></Route> 
-=======
         <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
         <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
         <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 
@@ -120,7 +112,6 @@ function RouterApp() {
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
         <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
->>>>>>> main
       </Routes>
     </Router>
 
