@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@300&display=swap');
 
-.modalCenter-ai{
+.modalCenter{
     position: relative;
     width: 50rem;
     background-color: #FFEB68 !important;
@@ -8,73 +8,71 @@
     border: solid 2px #AD4AFF !important;
 }
 
-.h4-title-modal-ai{
+.h4-title-modal{
     font-size: 2rem;
     font-weight: 800;
 }
 
-.h5-subtitle-modal-ai{
+.h5-subtitle-modal{
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 
-.modalCenter-ai img{
+
+.modalCenter img{
     width: 5rem;
     height: 5rem;
     border-radius: 5rem !important;
 }
-.align-center-modal-img-ai{
+.align-center-modal-img{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.align-center-modal-text-ai{
+.align-center-modal-text{
     text-align: center;
 }
-.align-btn-modal-ai{
+.align-btn-modal{
     display: flex;
     justify-content: space-around;
     background-color: #FFEB68;
     margin-top: 5rem;
 }
-.container-modal-ai{
+.container-modal{
     margin: 0 auto !important;
 }
 
-.button-modal-ai{
-    background-color: #AD4AFF!important;
-    color: white !important;
-    border: none !important;
-    width: 20rem !important;
-    height: 3rem !important;
-    height: 3rem !important;
-    border-radius: 1rem !important;
-    margin-top: 2rem !important;
-    font-size: 1.2rem !important;
-    font-family: 'Poppins', sans-serif !important;
+.button-modal{
+    background-color: #AD4AFF;
+    color: white;
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
     
 }
-.btnmodal-ai{
-    width: 200px !important;
+.btnmodal{
     background-color: #AD4AFF !important;
     color: white !important;
     font-weight: 700 !important;
     font-family: 'Poppins', sans-serif !important;
-    font-size: 1rem !important;
 }
-.button-modal-ai:hover{
+.button-modal:hover{
     background-color: #AD4AFF !important;
     color: white !important;
 }
 
-.button-modal-ai:focus {
+.button-modal:focus {
     outline: none;
 }
 
 
 @media (max-width: 600px) {
-.button-modal-ai{
+.button-modal{
     background-color: #AD4AFF;
     color: white;
     border: none;
@@ -85,7 +83,7 @@
     font-size: 1.2rem;
     
 }
-.modalCenter-ai{
+.modalCenter{
     position: 0;
     right: 0rem;
     width: 30rem;
@@ -95,51 +93,51 @@
     border: solid 2px #AD4AFF !important;
 }
 
-.h4-title-modal-ai{
+.h4-title-modal{
     font-size: 2rem;
     font-weight: 800;
 }
 
-.h5-subtitle-modal-ai{
+.h5-subtitle-modal{
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 
 
-.modalCenter-ai img{
+.modalCenter img{
     width: 5rem;
     height: 5rem;
     border-radius: 5rem !important;
 }
-.align-center-modal-img-ai{
+.align-center-modal-img{
     display: flex;
     justify-content: center;
 }
-.align-center-modal-text-ai{
+.align-center-modal-text{
     text-align: center;
 }
-.align-btn-modal-ai{
+.align-btn-modal{
     display: flex;
     justify-content: space-around;
     background-color: #FFEB68;
     margin-top: 5rem;
 }
-.container-modal-ai{
+.container-modal{
     margin: 0 auto !important;
 }
 
-.btnmodal-ai{
+.btnmodal{
     background-color: #AD4AFF !important;
     color: white !important;
     font-weight: 700 !important;
     font-family: 'Poppins', sans-serif !important;
 }
-.button-modal-ai:hover{
+.button-modal:hover{
     background-color: #AD4AFF !important;
     color: white !important;
 }
 
-.button-modal-ai:focus {
+.button-modal:focus {
     outline: none;
 }}
