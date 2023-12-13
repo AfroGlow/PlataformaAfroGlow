@@ -5,7 +5,7 @@ Link
 function Footer() {
 
     return (
-        <div className="footer">
+        <div className="footer footer-c">
             <div className="footer-up">
                 <a href="/">Home</a>
                 <a href="#plans">Planos</a>
