@@ -103,6 +103,25 @@
     font-weight: bold;
     padding: 10px 70px;
     border-radius: 10px;
+    position: relative;
+    top: -10rem;
+}
+
+.button-memory-game img{
+  position: relative;
+  left: -40rem;
+}
+
+@media screen and (max-width: 1334px) {
+  .button-memory-game img{
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 1027px) {
+  .button-memory-game img{
+    margin-left: 34rem;
+  }
 }
 
 @media screen and (max-width: 836px) {
@@ -110,6 +129,13 @@
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     gap: 10px;
   }
+  .memory-game-container button {
+    margin-top: 12rem;
+}
+
+.button-memory-game img{
+  margin-left: 49rem;
+}
 }
 @media screen and (max-width: 648px) {
   .memory-game-container .cards {
@@ -131,9 +157,20 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 548px) {
+  .button-memory-game img{
+    margin-left: 54rem;
+    margin-top: -4rem;
+    width: 2rem;
+  }
+}
 @media screen and (max-width: 488px) {
   .memory-game-container .cards {
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     gap: 10px;
+  }
+  .button-memory-game img{
+    margin-left: 62rem;
   }
 }
