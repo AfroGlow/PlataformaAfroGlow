@@ -1,29 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import emailjs from 'emailjs-com';
-import { init } from 'emailjs-com';
+// import emailjs from 'emailjs-com';
+// import { init } from 'emailjs-com';
 import './ContactUs.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 
 
-init('yYVQ1FNnnICXJU7Fc');
+// init('yYVQ1FNnnICXJU7Fc');
 
 function ContactUs() {
-  const  sendEmail =  (e)  => {
-    e.preventDefault();
+  // const  sendEmail =  (e)  => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_qqmaoq1', 'template_rs99tgc', e.target, 'yYVQ1FNnnICXJU7Fc')
-      .then((result) => {
-        console.log(result.text);
-        window.alert('E-mail enviado com sucesso!');
-        // Aqui você pode fazer algo após o envio bem-sucedido, como exibir uma mensagem de sucesso
-      }, (error) => {
-        console.error(error.text);
-        window.alert('Erro ao enviar o e-mail.');
-        // Trate erros aqui, como exibir uma mensagem de erro para o usuário
-      });
-  };
+    // emailjs.sendForm('service_qqmaoq1', 'template_rs99tgc', e.target, 'yYVQ1FNnnICXJU7Fc')
+    //   .then((result) => {
+    //     console.log(result.text);
+    //     window.alert('E-mail enviado com sucesso!');
+    //     // Aqui você pode fazer algo após o envio bem-sucedido, como exibir uma mensagem de sucesso
+    //   }, (error) => {
+    //     console.error(error.text);
+    //     window.alert('Erro ao enviar o e-mail.');
+    //     // Trate erros aqui, como exibir uma mensagem de erro para o usuário
+    //   });
+ 
 
   return (
     <>
@@ -64,6 +64,6 @@ function ContactUs() {
       <Footer />
     </>
   );
-}
+  }
 
 export default ContactUs;
