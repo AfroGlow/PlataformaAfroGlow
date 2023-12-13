@@ -102,7 +102,11 @@ const ChildrenProfile = () => {
 
             < ImageHandlerChild defaultImage="perfil-avt-1.png" className="img-profile img-profile-child" />
 
-            <img src="icon-profile-kids.png" alt="" />
+
+            
+
+           
+
 
           </div>
         </Link>
