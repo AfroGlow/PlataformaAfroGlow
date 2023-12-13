@@ -28,11 +28,11 @@ function ModalAi() {
         <div className='align-center-modal-text'>
             <h4 className='h4-title-modal'>Gabriela, a condição do seu cabelo é:  </h4>
             <h5 className='h5-subtitle-modal'>Levemente Danificado</h5>
-            <p className='p-text-modal'>Lorem ipsum dolor sit amet consectetur. Morbi nisl egestas volutpat et mus luctus cras convallis. In sit pharetra mauris tincidunt molestie in egestas cursus pellentesque.</p>
+            <p className='p-text-modal'></p>
             </div>
         <div className='align-btn-modal'>
           
-          <Link to="/TelaFinal"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/CalcularFrete"> <Button className='btnmodal' onClick={handleClose}>
             Comprar GlowBox
           </Button>  </Link>
           <Link to="/ia"> <Button className='btnmodal' onClick={handleClose}>

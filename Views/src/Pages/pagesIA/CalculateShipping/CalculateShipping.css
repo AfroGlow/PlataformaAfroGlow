@@ -37,6 +37,7 @@
     display: flex;
     justify-content: right;
     margin-right: 7rem;
+    margin-bottom: 3rem;
 
   }
 
@@ -97,9 +98,31 @@
   .flex-row-big input{
     margin-left: 1rem;
   }
+  .inputTelaFinal{
+    width: 37rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #ae4aff96;
+    box-shadow: 2px 2px 4px 2px #ae4aff70;
+}
+
+.inputTelaFinal:focus {
+    outline: none;
+}
+.inputTelaFinaSmall{
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 2px #ae4aff96;
+  box-shadow: 2px 2px 4px 2px #ae4aff70;
+}
+
+.inputTelaFinaSmall:focus {
+  outline: none;
+}
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
 
 
   
@@ -186,3 +209,23 @@
   }
 
 }
+
+@media(max-width:600px)  {
+    
+
+.inputTelaFinaSmall{
+  width: 11rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 2px #ae4aff96;
+  box-shadow: 2px 2px 4px 2px #ae4aff70;
+}
+
+
+  .inputTelaFinal{
+      width: 23rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: solid 2px #ae4aff96;
+      box-shadow: 2px 2px 4px 2px #ae4aff70;
+  }}

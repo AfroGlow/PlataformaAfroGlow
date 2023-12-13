@@ -2,9 +2,8 @@
 
 .modalCenter{
     position: relative;
-    right: 7.9rem;
     width: 50rem;
-    background-color: #FFEB68;
+    background-color: #FFEB68 !important;
     border-radius: 0.6rem !important;
     border: solid 2px #AD4AFF !important;
 }
