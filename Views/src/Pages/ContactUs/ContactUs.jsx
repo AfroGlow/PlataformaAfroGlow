@@ -1,48 +1,69 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import emailjs from 'emailjs-com';
+import { init } from 'emailjs-com';
 import './ContactUs.css'
-import InputContactUs from './Components/inputContactUs'
-import InputSmallContactUs from './Components/inputSmallContactUs'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 
 
+init('yYVQ1FNnnICXJU7Fc');
+
 function ContactUs() {
-    return (
-        <>
-        <Header/>
-            <h1 className='title-yellow-contactUs'>Fale Conosco</h1>
-            <h5 className='subtitle-contactUs'>Como podemos te ajudar?</h5>
-            
-            <div className='align-row-contactUs'>
-                <div className='align-column-contactUs'>
-                    <InputContactUs  props_placeholder={"Nome Completo"}/>
-                    <div className='align-row-contactUs'>
-                        <InputSmallContactUs props_placeholder={"Email"}/>
-                        <InputSmallContactUs props_placeholder={"Telefone"} />
-                    </div>
-                    <InputContactUs props_placeholder={"Assunto"} />
-                    <textarea className='textField-contactUs' placeholder='Mensagem'></textarea>
-                    <div className='align-btn-contactUs'>
-                    <input className='submit-contactUs' value={"Enviar"} type="submit" />
-                    </div>
-                </div>
-                <img className='img-principal-contactUs' src="./imgCriançaFaleConosco.png" alt="" />
-            </div>
+  const  sendEmail =  (e)  => {
+    e.preventDefault();
 
-            <div className='container-purple-contactUs'>
-                <p>Fique por dentro das novidades nas nossas redes sociais</p>
-                <div className='align-row-contactUs'>
-                <img src="./imgLogoInstagram.png" alt="" />
-                <img src="./imgLogoLinkedin.png" alt="" />
-                <img src="./imgLogoTiktok.png" alt="" />
-                <img src="./imgLogoYoutube.png" alt="" />
-                </div>
-            </div>
-            <Footer/>
+    emailjs.sendForm('service_qqmaoq1', 'template_rs99tgc', e.target, 'yYVQ1FNnnICXJU7Fc')
+      .then((result) => {
+        console.log(result.text);
+        window.alert('E-mail enviado com sucesso!');
+        // Aqui você pode fazer algo após o envio bem-sucedido, como exibir uma mensagem de sucesso
+      }, (error) => {
+        console.error(error.text);
+        window.alert('Erro ao enviar o e-mail.');
+        // Trate erros aqui, como exibir uma mensagem de erro para o usuário
+      });
+  };
+
+  return (
+    <>
+      <Header />
+      <h1 className='title-yellow-contactUs'>Fale Conosco</h1>
+      <h5 className='subtitle-contactUs'>Como podemos te ajudar?</h5>
+
+      <form onSubmit={sendEmail}>
+        <div className='align-row-contactUs'>
+          <div className='align-column-contactUs'>
+          <input type="text" className='inputContactUs' name="name" placeholder={"Nome Completo"} required/>
            
-        </>
+            <div className='align-row-contactUs'>
+            <input type="text" className='inputSmallContactUs' name="email" placeholder={"Email"} required/>
+            <input type="text" className='inputSmallContactUs' name="phone" placeholder={"Telefone"} required/>
+              
+            </div>
+            <input type="text" name="subject" className='inputContactUs' placeholder={"Assunto"} required/>
+           
+            <textarea className='textField-contactUs' name="message" placeholder='Mensagem' required></textarea>
+            <div className='align-btn-contactUs'>
+              <input className='submit-contactUs' value={"Enviar"} type="submit" />
+            </div>
+          </div>
+          <img className='img-principal-contactUs' src="./imgCriançaFaleConosco.png" alt="" />
+        </div>
+      </form>
 
-    )
-} export default ContactUs
+      <div className='container-purple-contactUs'>
+        <p>Fique por dentro das novidades nas nossas redes sociais</p>
+        <div className='align-row-contactUs'>
+          <img src="./imgLogoInstagram.png" alt="" />
+          <img src="./imgLogoLinkedin.png" alt="" />
+          <img src="./imgLogoTiktok.png" alt="" />
+          <img src="./imgLogoYoutube.png" alt="" />
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+}
 
+export default ContactUs;
