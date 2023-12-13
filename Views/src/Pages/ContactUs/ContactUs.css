@@ -93,6 +93,28 @@ margin-bottom: 5rem;
     width: 23rem;
     height: 30rem;
 }
+.inputContactUs{
+    width: 37rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #F2B705;
+    box-shadow: 2px 2px 4px 2px #F2B705;
+}
+
+.inputContactUs:focus {
+    outline: none;
+}
+.inputSmallContactUs{
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #F2B705;
+    box-shadow: 2px 2px 4px 2px #F2B705;
+}
+
+.inputSmallContactUs:focus {
+    outline: none;
+}
 
 
 
@@ -147,5 +169,26 @@ margin-bottom: 5rem;
             margin-top: 1rem;
             resize: none;
         } 
+    }
+
+    @media(max-width:600px)  {
+    
+
+
+        .inputContactUs{
+            width: 23rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: solid 2px #F2B705;
+            box-shadow: 2px 2px 4px 2px #F2B705;
+        }
+        .inputSmallContactUs{
+            width: 11rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: solid 2px #F2B705;
+            box-shadow: 2px 2px 4px 2px #F2B705;
+        }
+    
     }
     
