@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './ContactUs.css'
-import InputContactUs from './components/inputFaleConosco/inputContactUs'
-import InputSmallContactUs from './components/inputFaleConosco/inputSmallContactUs'
-import Header from '../../../components/Header/Header'
-import Footer from '../../../components/Footer/Footer'
+import InputContactUs from './Components/inputContactUs'
+import InputSmallContactUs from './Components/inputSmallContactUs'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 
 function ContactUs() {
