@@ -19,7 +19,7 @@
     --bs-modal-width: 900px;
 }
 
-.modal-content-edit{
+.modal-content{
     display: flex;
     justify-content: center;
     flex-direction: row;

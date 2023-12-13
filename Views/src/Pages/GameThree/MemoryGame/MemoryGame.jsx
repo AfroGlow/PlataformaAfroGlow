@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './MemoryGame.css';
 import { Link } from 'react-router-dom';
 
-
 const MemoryGame = () => {
   const [openedCard, setOpenedCard] = useState([]);
   const [matched, setMatched] = useState([]);
@@ -57,11 +56,7 @@ const MemoryGame = () => {
   }, [openedCard, matched]);
 
   return (
-    <> 
     <div className="memory-game-container">
-    <div className="button-memory-game">
-        <Link to="/tutorial3"><img className='back-game-memory' src="../public/icon-button-left.svg" alt="" /></Link>
-      </div>
         <div className="timer">
           <h2>Encontre os pares</h2>
           <h3>Tempo: {seconds}</h3>
@@ -89,7 +84,6 @@ const MemoryGame = () => {
       </div>
       <Link to="/jogo3-conclusao"><button>AVANÇAR</button></Link>
     </div>
-    </>
   );
 };
 

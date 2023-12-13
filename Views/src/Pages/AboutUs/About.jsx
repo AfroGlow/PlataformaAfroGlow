@@ -23,7 +23,7 @@ const About = () => {
                 </div>
             </article>
             <article className="box-mvv">
-              <img src="icon-target-visao.svg" alt="Icone alvo" />
+              <img src="icon-target-visao.svg" alt="Alvo" />
                 <div className="missionVisionValues">
                   <h3>Visão</h3>
                   <p>
@@ -34,7 +34,7 @@ const About = () => {
               </div>
             </article>
             <article className="box-mvv">
-              <img src="icon-diamond-values.svg" alt="Icone Diamante" />
+              <img src="icon-diamond-values.svg" alt="Diamante" />
                 <div className="missionVisionValues">
                   <h3>Valores</h3>
                   <div className="text-spacing">

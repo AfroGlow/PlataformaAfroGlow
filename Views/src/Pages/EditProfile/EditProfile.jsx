@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import ArrowButton from '../../Components/ButtonArrow/BtnArrow'
 import './EditProfile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
-import ImageHandlerParents from '../EditProfileParents/ImageHandler,jsx/ImageHandlerProfile'
+import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
 
 
 
