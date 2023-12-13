@@ -55,10 +55,10 @@ function ContactUs() {
       <div className='container-purple-contactUs'>
         <p>Fique por dentro das novidades nas nossas redes sociais</p>
         <div className='align-row-contactUs'>
-          <img src="./imgLogoInstagram.png" alt="" />
-          <img src="./imgLogoLinkedin.png" alt="" />
-          <img src="./imgLogoTiktok.png" alt="" />
-          <img src="./imgLogoYoutube.png" alt="" />
+          <a href="https://www.instagram.com/afroglow__" target='blank'><img src="./imgLogoInstagram.png" alt="" /></a>
+          <a href="https://www.linkedin.com/company/99488135/admin/feed/posts/" target='blank'><img src="./imgLogoLinkedin.png" alt="" /></a>
+          <a href="https://www.tiktok.com/@afroglow_" target='blank'><img src="./imgLogoTiktok.png" alt="" /></a>
+          <a href="https://www.youtube.com/@AfroGlow" target='blank'><img src="./imgLogoYoutube.png" alt="" /></a>
         </div>
       </div>
       <Footer />
