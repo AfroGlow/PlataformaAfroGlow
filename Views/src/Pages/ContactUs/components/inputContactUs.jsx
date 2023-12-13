@@ -8,4 +8,6 @@ function InputContactUs({props_placeholder}){
     <input type="text" className='inputContactUs' placeholder={props_placeholder}/>
     </>
     )
-} export default InputContactUs
+} 
+
+export default InputContactUs;

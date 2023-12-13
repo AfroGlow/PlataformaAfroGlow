@@ -1,17 +1,17 @@
-import { useState } from 'react'
 import './ContactUs.css'
-import InputSmallContactUs from './components/inputFaleConosco/inputSmallContactUs'
-import InputContactUs from './components/inputFaleConosco/inputContactUs'
-
-
+import InputSmallContactUs from './components/inputSmallContactUs'
+import InputContactUs from './components/inputContactUs'
+import Header from '../../components/Header/Header'
 
 function ContactUs() {
     return (
         <>
         <Header/>
-            <h1 className='title-yellow-contactUs'>Fale Conosco</h1>
-            <h5 className='subtitle-contactUs'>Como podemos te ajudar?</h5>
-            
+            <div className='info-contact'>
+                <h1 className='title-yellow-contactUs'>Fale Conosco</h1>
+                <h5 className='subtitle-contactUs'>Como podemos te ajudar?</h5>
+                
+            </div>
             <div className='align-row-contactUs'>
                 <div className='align-column-contactUs'>
                     <InputContactUs  props_placeholder={"Nome Completo"}/>

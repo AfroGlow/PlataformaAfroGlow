@@ -1,12 +1,12 @@
-.inputSmallContactUs{
-    width: 18rem;
-    padding: 1rem;
+.inputContactUs{
+    width: 37rem;
+    padding: 0.8rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
     box-shadow: 2px 2px 4px 2px #F2B705;
 }
 
-.inputSmallContactUs:focus {
+.inputContactUs:focus {
     outline: none;
 }
 
@@ -14,8 +14,8 @@
     
 
 
-.inputSmallContactUs{
-    width: 11rem;
+.inputContactUs{
+    width: 23rem;
     padding: 1rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
