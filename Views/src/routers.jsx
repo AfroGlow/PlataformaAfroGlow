@@ -51,7 +51,7 @@ import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
-import MemoryGame from './Pages/GameThree/Memory
+import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 
 function RouterApp() {
 
