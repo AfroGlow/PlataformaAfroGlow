@@ -118,7 +118,7 @@ const ImageHandlerParents = ({ defaultImage, onImageChangeP }) => {
                 src="/perfil-avt-adult-13.png"
                 alt=""
                 className="img-inner-child edit-child-characters"
-                onClick={() => changeImage('/perfil-avt-adult-12.png', onImageChangeP)}
+                onClick={() => changeImage('/perfil-avt-adult-13.png', onImageChangeP)}
               />
 
                 <img
