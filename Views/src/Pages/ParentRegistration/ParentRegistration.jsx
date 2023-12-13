@@ -46,7 +46,7 @@ function CadastroR() {
             <div className="forms-left">
 
                 <div className="info-register">
-                    <img src={LogoA} alt="Logo" className="logo" />
+                    <Link to="/"><img src={LogoA} alt="Logo" className="logo-ag" /></Link>
                     <h2 className="subtitle">Olá,seja bem vindo(a)!</h2>
                     <p className="paragraf">Crie uma conta para iniciar sua jornada de experiencia conosco.</p>
                 </div>
