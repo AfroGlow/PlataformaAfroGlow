@@ -8,8 +8,8 @@ import Notes from './Pages/Notes/Notes'
 import Form2 from './Pages/pagesIA/Form2/Form2.jsx'
 import Form3 from './Pages/pagesIA/Form3/Form3.jsx'
 import Form1 from './Pages/pagesIA/Form1/Form1.jsx'
-//  import ContactUs from '.Pages/pagesFaleConosco/ContactUs.jsx'
-import TelaFinal from './Pages/pagesIA/TelaFinal/TelaFinal.jsx'
+import ContactUs from './Pages/ContactUs/ContactUs.jsx'
+import CalculateShipping from './Pages/pagesIA/CalculateShipping/CalculateShipping.jsx'
 import ImageClassification from './Pages/pagesIA/components/ImageClassification/index.jsx';
 import ChildRegistration from "./Pages/ChildRegistration/ChildRegistration";
 import ParentRegistration from "./Pages/ParentRegistration/ParentRegistration";
@@ -78,12 +78,19 @@ function RouterApp() {
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="/ia" element={<ImageClassification />} />
-        <Route path="planosia" element={<PlanesIa />} />
-       {/* <Route path="/faleconosco" element={<ContactUs />}></Route>  */}
-        <Route path="Form1" element={<Form1 />}></Route>
-        <Route path="Form2" element={<Form2 />} ></Route>
-        <Route path="Form3" element={<Form3 />} ></Route>
+
+       
+        {/* <Route path="/faleconosco" element={<ContactUs />}></Route> */}
+
         <Route path="TelaFinal" element={<TelaFinal />}></Route>
+
+        <Route path="/planosia" element={<PlanesIa />} />
+        <Route path="/faleconosco" element={<ContactUs />}></Route>
+        <Route path="/Form1" element={<Form1 />}></Route>
+        <Route path="/Form2" element={<Form2 />} ></Route>
+        <Route path="/Form3" element={<Form3 />} ></Route>
+        <Route path="/CalcularFrete" element={<CalculateShipping />}></Route>
+
         <Route path="Parceiros" element={<AllPartners />}></Route>
         <Route path='/sobrenos' element={< About/>}></Route> 
         <Route path='/perfilcrianca' element={< ChildrenProfile/>}></Route> 
@@ -100,7 +107,9 @@ function RouterApp() {
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
         <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
+
         <Route path='/posia' element={<BoxPlans />}></Route> 
+
         <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
         <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
         <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 

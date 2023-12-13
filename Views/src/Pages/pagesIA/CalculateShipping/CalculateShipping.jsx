@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './TelaFinal.css';
+import './CalculateShipping.css';
 import { Link } from 'react-router-dom';
 import Footer from '../../../components/Footer/Footer';
 
-function TelaFinal() {
+function CalculateShipping() {
   const [cep, setCep] = useState('');
   const [endereco, setEndereco] = useState({
     logradouro: '',
@@ -83,4 +83,4 @@ function TelaFinal() {
   );
 }
 
-export default TelaFinal;
+export default CalculateShipping;
