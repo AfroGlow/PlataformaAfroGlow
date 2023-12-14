@@ -1,5 +1,5 @@
 .container-hair-types {
-    background: url(bg-hair-types.jpg) center no-repeat;
+    background: url(../../../assets/bg-hair-types.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
