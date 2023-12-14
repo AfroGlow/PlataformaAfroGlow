@@ -5,19 +5,26 @@
   flex-direction: column;
   border-top: 1.5rem solid #AD4AFF;
   margin-bottom: 1rem;
+  background-color: #F5F5F5;
 }
 
 .footer-up{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 50px;
     justify-content: center;
     gap: 60px;
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 1rem;
     margin-top: 1.3rem;
+}
+
+.footer-up a{
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  top: 1rem;
 }
 
 .footer-up p{

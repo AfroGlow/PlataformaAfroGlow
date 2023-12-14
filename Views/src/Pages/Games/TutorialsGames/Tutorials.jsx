@@ -6,7 +6,7 @@ const Tutorials = ({Images, Images2, Instructions, Instructions2, Button, Backgr
     return(
         <section className='container-tutorials'>
             <div className='container-tutorials-secondary'>
-                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt="" /></Link>
+                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt=""  style={{ textDecoration: 'none' }}/></Link>
                 <div className='container-cards-tutorials'>
                     <article className='card-tutorials'>
                         <img src={Images} alt="" />

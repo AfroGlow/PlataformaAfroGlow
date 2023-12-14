@@ -11,7 +11,7 @@
     font-size: 2rem;
     font-weight:900;
     text-align: center;
-    margin-top: -1.5rem;
+    margin-top: -2rem;
 }
 
 
@@ -93,14 +93,14 @@
     margin-top: 1rem;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1230px) {
     .container-draw svg {
-        width: 20rem;
-        height: 18rem;
+        width: 24rem;
+        height: 20rem;
         border-radius: 3rem;
         background-color: #ffffff;
         margin-top: 2rem;
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
 
     .options-game1 {
@@ -117,23 +117,35 @@
 }
 
 @media (max-width: 487px) {
-    .options-game1 {
-        padding: 0.5em;
-        max-width: 80%;
-        text-align: center;
-        margin-left: 2.4rem;
+  .options-game1 {
+    padding: 0.5em;
+   text-align: center;
+   max-width: 85%;
+   position: relative;
+   left: 3.2rem;
 
-    }
 }
 
-@media (max-width: 418px) {
+.size-game1 {
+ text-align: center;
+}
+
+.container-draw svg{
+margin-left: 3rem;
+}
+
+.screen-1-game-1 h1{
+margin-top: 0.5rem;
+}
+}
+
+@media (max-width: 430px) {
   .options-game1 .color-options .size-game1 {
       padding: 0rem;
       text-align: center;
-      
   }
   .container-draw svg{
-    margin-left: 2rem;
+    margin-left: 2.7rem;
   }
 }
 @media (max-width: 400px) {

@@ -4,10 +4,6 @@ import './EditProfile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
 import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
 
-
-
-
-
 function EditarPerfil(){
   return(
   <body className='bg-edit'>

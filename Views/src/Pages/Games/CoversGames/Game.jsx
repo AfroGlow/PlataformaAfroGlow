@@ -5,7 +5,7 @@ Link
 const Games = ({iconSound, titleGame, ButtonGame}) => {
     return(
         <section className='container-games'>
-                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt="" /></Link>
+                <Link to="/perfilcrianca"><img className='back-games' src="icon-button-left.svg" alt=""  style={{ textDecoration: 'none' }}/></Link>
             <article className='secondary-container-games'>
                 <div className='sound-games'>
                     <img src={iconSound} alt={iconSound} />
