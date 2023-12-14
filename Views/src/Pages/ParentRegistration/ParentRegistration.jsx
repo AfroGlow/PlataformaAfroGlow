@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { validate } from 'cpf-check';
-import Input from "../../Components/Input/input"
+import Input from "../../components/Input/input"
 import LogoA from '/public/Logo.svg'
 import ImgDir from '/public/imagem direita.png'
-import InputDuo from "../../Components/Input/InputDuo";
-import UniversalButton from "../../Components/Button/Button";
+import InputDuo from "../../components/Input/InputDuo";
+import UniversalButton from "../../components/Button/Button";
 import "./ParentRegistration.css";
 import { Link } from "react-router-dom";
 

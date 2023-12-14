@@ -1,5 +1,5 @@
 import"./Nopage.css"
-import UniversalButton from "../../Components/Button/Button"
+import UniversalButton from "../../components/Button/Button"
 import { Link } from "react-router-dom"
 
 function Nopage(){

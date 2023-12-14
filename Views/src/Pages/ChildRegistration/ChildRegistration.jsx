@@ -1,9 +1,9 @@
-import Input from "../../Components/Input/input"
+import Input from "../../components/Input/input"
 import './ChildRegistration.css'
 import LogoA from '/public/Logo.svg'
-import UniversalButton from "../../Components/Button/Button"
+import UniversalButton from "../../components/Button/Button"
 import { Link } from "react-router-dom"
-import InputSelect from "../../Components/Input/InputSelect"
+import InputSelect from "../../components/Input/InputSelect"
 
 function CadastroC() {
     return (

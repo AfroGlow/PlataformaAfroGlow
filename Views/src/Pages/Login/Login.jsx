@@ -1,7 +1,7 @@
-import Input from "../../Components/Input/input"
+import Input from "../../components/Input/input"
 import ImgEsq from '/public/imagem-esquerda.jpg'
 import LogoA from '/public/Logo.svg'
-import UniversalButton from "../../Components/Button/Button"
+import UniversalButton from "../../components/Button/Button"
 import './login.css'
 import { Link } from "react-router-dom"
 
