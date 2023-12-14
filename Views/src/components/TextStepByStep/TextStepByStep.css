@@ -126,6 +126,11 @@
     padding: 0;
 }
 
+.footer-steps{
+    max-width: 95%;
+    margin-left: 5.7rem;
+}
+
 
 @media (max-width: 560px) {
     .explanation-step-by-step{
@@ -167,6 +172,10 @@
 @media (max-width: 990px) {
     .container-step-by-step{
         margin-top: 7rem;
+    }
+    .footer-steps{
+        max-width: 100%;
+        margin-left: 0rem;
     }
 }
 

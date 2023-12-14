@@ -7,6 +7,7 @@
     font-family: Poppins;
     font-size: 0.8rem;
     font-weight: 500;
+    text-decoration: none;
 }
 .button-steps button:hover {
     background: #ffbf00c0;

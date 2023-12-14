@@ -28,7 +28,7 @@ const PaymentsFree = () => {
   return (
     <div>
       <header className='paymentFormHeader'>
-      <Link to="/"><img src="botaoVoltar.svg" alt="" /></Link>
+      <Link to="/paginadepagamento"><img src="botaoVoltar.svg" alt="" /></Link>
         <h2>Voltar</h2>
       </header>
       <main>

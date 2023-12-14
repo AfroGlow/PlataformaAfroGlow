@@ -21,7 +21,7 @@ function CadastroC() {
                     <InputSelect />
                 </div>
                 <div className="btn-register">
-                    <Link to="/login" className="link-router"><UniversalButton propsBtn={'Cadastre-se'} /></Link>
+                    <Link to="/paginadepagamento" className="link-router"><UniversalButton propsBtn={'Cadastre-se'} /></Link>
                 </div>
             </section>
         </body>
