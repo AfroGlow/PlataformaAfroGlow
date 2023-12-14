@@ -8,7 +8,7 @@
 }
 
 .box-all-partners-1 {
-    background: url('./background-FlorNago.jpg') center center no-repeat;
+    background: url(../../../assets/background-FlorNago.jpg) center center no-repeat;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -17,7 +17,7 @@
     flex-direction: column;
 }
 .box-all-partners-2 {
-    background: url('./background-Nutri.jpg') center center no-repeat;
+    background: url(../../../assets/background-Nutri.jpg) center center no-repeat;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 .box-all-partners-3 {
-    background: url('./background-NPPE.jpg') center center no-repeat;
+    background: url(../../../assets/background-NPPE.jpg) center center no-repeat;
     background-size: cover;
     height: 90vh;
     display: flex;

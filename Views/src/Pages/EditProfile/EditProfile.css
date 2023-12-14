@@ -1,6 +1,6 @@
 
 .bg-edit{
-    background: linear-gradient(to top, #0000003a 100%,  #7a292999 50%  ), url(bgPerfil.jpg) no-repeat;
+    background: linear-gradient(to top, #0000003a 100%,  #7a292999 50%  ), url(../../assets/bgPerfil.jpg) no-repeat;
     width: 100%;
     background-size: cover;
     height: 100vh;
