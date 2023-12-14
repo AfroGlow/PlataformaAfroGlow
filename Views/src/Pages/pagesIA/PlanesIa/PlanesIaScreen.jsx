@@ -15,7 +15,7 @@ function PlanesIaScreen(){
         </div>
         <h1 className='h1-plans-ia'>Revolucione o cuidado capilar</h1>
         <Container>
-      <Row>
+      <Row >
         <Col>
         <div className='align-p-plans-ia-number'>
         <p className='p-plans-ia-number'>1°</p>
@@ -45,7 +45,7 @@ function PlanesIaScreen(){
     <div className='div-bg-purple'></div>
         <h1 className='h1-plans-ia'>Assine seu plano</h1>
         
-      <Row>
+      <Row className='plans-ia-row'>
         <Col>
         <PlansIa props_title_box={"GlowKids"}/>
         </Col>

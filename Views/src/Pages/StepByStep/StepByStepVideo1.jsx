@@ -20,7 +20,7 @@ const StepByStepVideo1 = () => {
 
                     props_p={"O shampoo é formulado principalmente para lavar o couro cabeludo, parte mais importante e essencial se queremos fios que cresçam com saúde. Ele não pode ter acúmulo de sebo, células mortas, umidade nem sujeira do dia a dia, por isso comece aplicando seu shampoo diretamente no couro e massageando suavemente, mas limpando de forma eficaz."}
 
-                    props_p2={"Os movimentos não podem ser agressivos nem suaves demais. Se a crianças tem feridas, cuide das regiões onde elas estão para não machucá-las. Se ele(a) tem caspa e você sentir necessidade, lave 2x até sentir que couro está limpinho e sem resíduos. Essa limpeza não precisa levar mais que 2-3 minutos. <span> É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
+                    props_p2={"Os movimentos não podem ser agressivos nem suaves demais. Se a crianças tem feridas, cuide das regiões onde elas estão para não machucá-las. Se ele(a) tem caspa e você sentir necessidade, lave 2x até sentir que couro está limpinho e sem resíduos. Essa limpeza não precisa levar mais que 2-3 minutos."}
 
                     props_span2={"É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
 

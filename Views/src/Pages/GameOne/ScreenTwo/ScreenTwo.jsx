@@ -87,7 +87,7 @@ const ScreenTwo = () => {
     <>
 
       <div className="screen-2-game-1">
-        <Link to="/jogo1tela2"><img className='back-game-draw' src="../public/icon-button-left.svg" alt="" /></Link>
+        <Link to="/jogo1tela1"><img className='back-game-draw' src="../public/icon-button-left.svg" alt="" /></Link>
         <h1>Cachinhos cacheados</h1>
         <div className="title-game1">
 

@@ -59,6 +59,7 @@ import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
+import PlanesIaScreen from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 
 function RouterApp() {
 
@@ -112,7 +113,7 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
-        <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
+        <Route path='/iaplanos' element={< PlanesIaScreen/>}></Route> 
         <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
         <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
         <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 
@@ -120,7 +121,6 @@ function RouterApp() {
         <Route path='/jogo1tela2' element={< ScreenTwo/>}></Route> 
         <Route path='/jogo1tela3' element={< ScreenThree/>}></Route> 
         <Route path='/jogo1tela4' element={< ScreenFour/>}></Route> 
-        <Route path='/iaplanos' element={< BoxPlans/>}></Route> 
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
         <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 

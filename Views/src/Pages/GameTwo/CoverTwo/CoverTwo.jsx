@@ -7,7 +7,7 @@ const CoverTwo = () => {
     return(
         <section className='container-cover-two'>
           
-           <Link to="/tutorial2">
+           <Link to="/tutorial2"  style={{ textDecoration: 'none' }}>
                <Games iconSound={'icon-sound-yellow.svg'} titleGame= {'Bolinhas de diversão'} ButtonGame={'button-game-2.svg'}/>
            </Link>
            

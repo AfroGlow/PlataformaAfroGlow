@@ -1,7 +1,6 @@
 import Input from "../../Components/Input/input"
 import UniversalButton from "../../Components/Button/Button"
 import { Link } from "react-router-dom"
-import { Icon } from '@iconify/react';
 import ButtonArrow from "../../Components/ButtonArrow/BtnArrow"
 import './EditProfileParents.css'
 import ImageHandlerParents from "./ImageHandler/ImageHandlerProfile";
@@ -28,13 +27,6 @@ function EditProfileParents() {
                     </div>
                     <div className="forms-edit">
                         <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
-                        <div className='modes'>
-                            <h2 className='subtitle-edit'>Temas</h2>
-                            <div className='btn-mode'>
-                                <button className='btn-clear'> <Icon icon="twemoji:sun" width="24" height="24" />Modo Claro</button>
-                                <button className='btn-dark'> <Icon icon="akar-icons:moon-fill" color="#ccc" width="24" height="24" /> Modo Escuro</button>
-                            </div>
-                        </div>
                         <h2 className='subtitle-edit'>Dados da conta</h2>
                         <Input label={'Email'} labelFor={'name'} type={'text'} id={'userName'} />
                         <Input label={'CPF'} labelFor={'cpf'} type={'tel'} id={'tel'} />

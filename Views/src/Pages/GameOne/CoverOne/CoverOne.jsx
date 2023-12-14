@@ -6,7 +6,7 @@ Link
 const CoverOne = () => {
     return(
         <section className='container-cover-one'>
-            <Link to="/tutorial1">
+            <Link to="/tutorial1" style={{ textDecoration: 'none' }}>
                 <Games iconSound={'icon-sound-white.svg'} titleGame={'Conhecendo os cachos'} ButtonGame={'button-game-1.svg'} />
             </Link>
         </section>
