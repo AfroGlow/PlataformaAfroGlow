@@ -13,7 +13,7 @@ function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props
             <div className='step-by-step'>
                 <HeaderResponsible />
                 <LeftSideResponsible />
-            </div>
+           
 
             <div className="container-step-by-step">
 
@@ -76,10 +76,14 @@ function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props
                         <img className="notes-img-step" src="../anotacao-icone.svg" alt="" />
                     </Link>
                 </div>
-
+               
+                <div className="footer-steps">
+                    <Footer />
+                </div>
+                
 
             </div>
-
+            </div>
 
         </>
     )

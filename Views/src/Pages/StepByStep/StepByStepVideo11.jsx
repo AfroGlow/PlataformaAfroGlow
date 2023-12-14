@@ -29,9 +29,6 @@ const StepByStepVideo11 = () => {
                     props_p4={"Una as tranças na parte de trás da cabeça, formando uma maria-chiquinha. Repita o processo na parte de trás, umedecendo e aplicando creme de pentear. Ao unir as tranças na parte de trás, deixe as pontas soltas para um acabamento natural. Abra a maria-chiquinha, ajuste para que fique redonda e adicione um acessório, se desejar. Lembre-se de manter os dedos próximos ao couro cabeludo para facilitar os movimentos da trança. Ajuste a tensão se sentir que está muito apertado e, ao finalizar, abra e ajuste o penteado conforme desejado."} />
             </div>
 
-            <div className="footer-steps">
-                <Footer />
-                </div>
         </>
 
     )

@@ -118,7 +118,7 @@ const Home = () => {
                   <p>Notas</p>
                 </div>
               </div>
-              <div><ModalFreePlan/></div>
+              <Link to="/cadastro"><button><a href="">Assinar</a></button></Link>
             </div>
 
             <div className="plansCardContent">

@@ -29,9 +29,6 @@ const StepByStepVideo9 = () => {
                     props_p4={"Ao chegar à última mecha, prenda-a de forma simples, sem dividir em duas partes. Dedique um momento para ajustar e ajeitar as mechas, assegurando que o penteado fique equilibrado e estiloso. Se necessário, faça pequenos ajustes nos cachinhos ou no formato geral para um resultado final perfeito. Agora, seu penteado está pronto para um passeio rápido durante as férias, com um visual encantador e fácil de realizar."} />
             </div>
 
-            <div className="footer-steps">
-                <Footer />
-                </div>
         </>
 
     )

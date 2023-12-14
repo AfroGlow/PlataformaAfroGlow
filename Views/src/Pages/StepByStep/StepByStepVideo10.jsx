@@ -22,16 +22,15 @@ const StepByStepVideo10 = () => {
 
                     props_p2={"Escolha um óleo vegetal, como óleo de coco ou azeite de oliva extra virgem. Aplique o óleo na mecha pequena da frente, garantindo que esteja desembaraçado. Penteie o cabelo com os dedos ou um pente de dentes largos para distribuir uniformemente o óleo."}
 
-                    
+
 
                     props_p3={"Divida a mecha em três partes iguais e inicie a trança nagô. Trançar cuidadosamente até o final da mecha. Utilize elásticos de silicone para prender as pontas da trança. Repita esse processo em várias mechas pequenas na parte da frente do cabelo."}
 
                     props_p4={"Ao desfazer o penteado, recomendamos cortar os elásticos com uma tesoura, pois isso facilita o processo em vez de tentar remover com os dedos."} />
+
             </div>
 
-            <div className="footer-steps">
-                <Footer />
-                </div>
+
         </>
 
     )
