@@ -39,6 +39,7 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
+import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -51,6 +52,7 @@ import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
+import PlanesIaScreen from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 
 function RouterApp() {
 
@@ -83,7 +85,7 @@ function RouterApp() {
         <Route path="/Form2" element={<Form2 />} ></Route>
         <Route path="/Form3" element={<Form3 />} ></Route>
         <Route path="/CalcularFrete" element={<CalculateShipping />}></Route>
-        <Route path="/parceiros" element={<AllPartners />}></Route>
+        <Route path="Parceiros" element={<AllPartners />}></Route>
         <Route path='/sobrenos' element={< About/>}></Route> 
         <Route path='/perfilcrianca' element={< ChildrenProfile/>}></Route> 
         <Route path='/jogo1' element={< CoverOne/>}></Route> 
@@ -98,6 +100,7 @@ function RouterApp() {
         <Route path='/tutorial3' element={< TutorialThree/>}></Route> 
         <Route path='/tutorial4' element={< TutorialFour/>}></Route> 
         <Route path='/tutorial5' element={< TutorialFive/>}></Route> 
+        <Route path='/iaplanos' element={< PlanesIaScreen/>}></Route> 
         <Route path='/jogo2-jogoShampoo' element={< ShampooGameTwo/>}></Route> 
         <Route path='/jogo2-jogoCondicionador' element={< ConditionerGameTwo/>}></Route> 
         <Route path='/jogo2-conclusao' element={< FinishGameTwo/>}></Route> 

@@ -25,13 +25,13 @@ function ModalReconhecimentoCapilar() {
             <div className='align-center-modal-img-ia'>
         <img src="./logoAfroGlow2.svg" alt="" />
         </div>
-        <div className='align-center-modal-text-ia'>
-            <h4 className='h4-title-modal-ia'>Muito bem, seu cabelo é “Cacheado”  </h4>
-            <p className='p-text-modal-ia'>Agora precisamos de mais algumas informações, pra isso clique para preencher o formulario</p>
+        <div className='align-center-modal-text'>
+            <h4 className='h4-title-modal'>Muito bem, seu cabelo é “Cacheado”  </h4>
+            <p className='p-text-modal'>Agora precisamos de mais algumas informações, pra isso clique para preencher o formulario</p>
             </div>
         <div className='align-btn-modal-ia'>
           
-          <Link to="/form1"> <Button className='btnmodal-ia' onClick={handleClose}>
+          <Link to="/form1"> <Button className='btnmodal' onClick={handleClose}>
           Preencher Formulario
           </Button>  </Link>
           </div>
