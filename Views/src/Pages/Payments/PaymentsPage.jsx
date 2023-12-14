@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./PaymentsPage.css"
 import { Link } from 'react-router-dom';
-import ModalFreePlan from './ModalFreePlan/ModalFreePlan';
 import Footer from '../../components/Footer/Footer';
+import BtnArrow from '../../components/ButtonArrow/BtnArrow'
 
 
 
@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer';
 const PaymentsPage = () => {
   return (
     <>
+      <div className="btn-payments"><Link to="/"><BtnArrow/></Link></div>
       <div className="custom-plans" id='custom-plans'>
         <h2>Escolha seu plano</h2>
         <div className="custom-plans-cards">
@@ -42,7 +43,7 @@ const PaymentsPage = () => {
           <p>Notas</p>
         </div>
       </div>
-      <div><ModalFreePlan/></div>
+      <Link to="/pagamentoplanoanual"><button><a href="">Começar jornada!</a></button></Link>
     </div>
 
     <div className="custom-plans-card-content">
@@ -112,7 +113,7 @@ const PaymentsPage = () => {
     </div>
   </div>
 </div>
-<Footer/>
+
       </>
     );
   };
