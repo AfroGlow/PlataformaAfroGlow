@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 function PlanesIaScreen(){
     return(
         <>
+        <Link to="/"><img className='imgBack' src="./botaoEsquerda.svg" alt="botao de voltar" /></Link>
       <div className='align-img-plans-title-ia'>
         <img  src="./logo-glowbox.svg" alt="GlowBox" />
         </div>
