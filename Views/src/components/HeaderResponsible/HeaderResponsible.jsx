@@ -23,19 +23,15 @@ function HeaderResponsible() {
                     <ImageHandlerParents defaultImage="perfil-avt-adult-1.png" className="img-profile-parents img-avatar-header" />
                 </div>
             </Link>
-           
+
         </div>
          <div className="new-container-header">
          <NewHeaderResponsible />
          </div>
          </>
 
-      
+
     )
 }
 
 export default HeaderResponsible
-
-
-
-

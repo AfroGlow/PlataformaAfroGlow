@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    
+
 }
 
 
@@ -29,7 +29,7 @@
     color: #F5F5F5;
     font-family: Montserrat;
     font-size: 1.25rem;
-    font-weight: bold;  
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -42,24 +42,24 @@
     justify-content: right;
     margin-left: 1rem;
     gap: 1rem;
-    
+
 }
 
 .avatar-header img{
     width: 60px;
 }
-    
+
 
 @media (max-width: 990px) {
     .responsible-header{
         display: none;
     }
-   
-}  
+
+}
 
 @media (min-width: 990px) {
     .new-container-header{
         display: none;
     }
-   
-}  
+
+}

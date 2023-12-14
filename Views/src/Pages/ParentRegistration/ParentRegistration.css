@@ -1,11 +1,8 @@
-
 .containerSection{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-
 }
-
 
 .subtitle{
     font-size: 1.7rem;
@@ -13,7 +10,6 @@
 }
 
 .forms-left{
-
     display: flex;
     flex-direction: column;
     justify-content:start;
@@ -22,13 +18,11 @@
     padding: 0.2em;
 }
 
-
 .forms-register{
     width: 70vh;
     padding: 0.2em;
 
 }
-
 
 .btn-register{
     margin-top: 0.6em;

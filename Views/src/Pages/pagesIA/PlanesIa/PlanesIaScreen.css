@@ -10,7 +10,7 @@
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 .p-plans-ia-number{
     font-size: 2rem;
@@ -67,9 +67,8 @@
     display: flex;
     margin-top: -5rem;
     justify-content: center;
-    margin-left: -5rem;
+    margin-left: -10rem;
 }
-
 
 @media (max-width: 800px) {
     .align-row-planes-ia{
