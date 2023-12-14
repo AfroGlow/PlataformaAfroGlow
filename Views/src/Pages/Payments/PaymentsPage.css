@@ -109,3 +109,17 @@
     transition: 1.3s;
     color: #000;
 }
+
+.btn-payments{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 385px) {
+      
+    .custom-plans h2{
+        text-align: center;
+    }
+    
+    
+}
