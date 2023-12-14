@@ -66,3 +66,13 @@ table {
 .footer{
 	background-color: #f5f5f5;
 }
+
+@media (max-width: 1070px) {
+          
+    #userwayAccessibilityIcon {
+      position: fixed;
+        left: 10px; /* Ajuste a posição conforme necessário */
+        top: 25%; /* Centralize verticalmente ou ajuste conforme necessário */
+        transform: translateY(-50%);
+    }
+}
