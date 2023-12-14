@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './ScreenThree.css';
 import ButtonDrawGames from '../../../components/ButtonDrawGame/ButtonDrawGames'
 import { Link } from 'react-router-dom';
-Link
+
 
 const ScreenThree = () => {
     const containerRef = useRef(null);
