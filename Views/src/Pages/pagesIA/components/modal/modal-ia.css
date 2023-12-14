@@ -54,11 +54,14 @@
     font-weight: 600;
     
 }
-.btnmodal{
+.btnmodal-ia{
     background-color: #AD4AFF !important;
     color: white !important;
     font-weight: 700 !important;
     font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    width: 15rem !important;
+    border-radius: 1rem !important;
 }
 .button-modal-ia:hover{
     background-color: #AD4AFF !important;

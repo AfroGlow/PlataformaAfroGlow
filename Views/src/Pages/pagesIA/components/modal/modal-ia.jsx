@@ -31,7 +31,7 @@ function ModalReconhecimentoCapilar() {
             </div>
         <div className='align-btn-modal-ia'>
           
-          <Link to="/form1"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/form1"> <Button className='btnmodal-ia' onClick={handleClose}>
           Preencher Formulario
           </Button>  </Link>
           </div>
