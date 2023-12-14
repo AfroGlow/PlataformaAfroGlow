@@ -15,18 +15,19 @@ const StepByStepVideo2 = () => {
                     props_img={"../foto-shampoo.svg"} props_alt={"Imagem de shampoo e condicionador Salom Line Infantil"} props_img2={"../foto-escova.svg"} props_alt2={"Imagem de escova de pentear cabelo amarela e de plástico"} props_products={"Shampoo/condicionador "} props_products2={"Escova"}
                     props_title1={" - Aplique o Shampoo diretamente no couro cabeludo"}
                     props_title2={" - Massageie até formar espuma e sentir a raiz limpa"}
-                    props_title3={" - Arraste a espuma formada pelos fios sem esfregar"}
-                    props_title4={" - Aplique o Condicionador"}
+                    props_title3={" - Aplique o Condicionador"}
+                    props_title4={" - Desembaraço e Finalização"}
+                    props_link_next={"/video3"}
 
-                    props_p={"O shampoo é formulado principalmente para lavar o couro cabeludo, parte mais importante e essencial se queremos fios que cresçam com saúde. Ele não pode ter acúmulo de sebo, células mortas, umidade nem sujeira do dia a dia, por isso comece aplicando seu shampoo diretamente no couro e massageando suavemente, mas limpando de forma eficaz."}
+                    props_p={"Comece preparando a criança para o banho, assegurando um ambiente confortável e seguro. Enxágue suavemente o cabelo com água morna, garantindo que a criança se sinta relaxada durante esse processo."}
 
-                    props_p2={"Os movimentos não podem ser agressivos nem suaves demais. Se a crianças tem feridas, cuide das regiões onde elas estão para não machucá-las. Se ele(a) tem caspa e você sentir necessidade, lave 2x até sentir que couro está limpinho e sem resíduos. Essa limpeza não precisa levar mais que 2-3 minutos. <span> É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
+                    props_p2={"Escolha um shampoo suave e adequado para cabelos infantis. Aplique o shampoo apenas no couro cabeludo da criança, massageando delicadamente com as pontas dos dedos. Transforme essa etapa em uma brincadeira, usando espuma para criar formas divertidas e envolvendo a criança no processo."}
 
                     props_span2={"É importante ressaltar que não é preciso lavar o cumprimento dos fios."}
 
-                    props_p3={"Fios cacheados têm a cutícula mais suscetível a danos, e a fricção durante o banho é uma das formas mais comuns de agredi-las. O simples arraste da espuma pelos fios já é capaz de fazer a limpeza necessária, carregando as partículas de sujeira. Também é essencial que todo movimento de lavagem seja feito sempre da raiz às pontas para preservação da cutícula, nunca o contrário e nem lateralmente. Depois disso basta enxáguar e pronto. "}
+                    props_p3={"Após enxaguar o shampoo, aplique um condicionador suave nas pontas do cabelo da criança, evitando a região próxima à raiz. Faça disso uma experiência agradável, incentivando a criança a participar do processo, seja com uma massagem suave ou até mesmo deixando-a escolher um condicionador com um aroma agradável."}
 
-                    props_p4={"Antes de aplicar o condicionador, é importante umidecer o cabelo (água morna ou fria). Logo após, aplique o condicionador nos fios da altura da orelha para baixo, massageie bem o produto no comprimento do cabelo e deixe agir por alguns minutos (o tempo estará especificado na embalagem do produto). Passado o tempo, enxágue o cabelo até todo condicionador ser removido completamente. "} />
+                    props_p4={"Retire o excesso de água com as mãos e, para evitar o frizz, seque o cabelo com um tecido de algodão. Transforme a secagem em um momento lúdico, incentivando a criança a participar e se divertir durante essa etapa. "} />
             </div>
 
 

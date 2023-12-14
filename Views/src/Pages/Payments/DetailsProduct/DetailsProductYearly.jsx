@@ -8,7 +8,7 @@ const DetailsProductPlus = () => {
           <h2>Resumo do Pedido</h2>
           <div>
             <p className='containerTwoSubTitle'>Item do Pedido</p>
-            <h3 className='containerTwoProduct'>Plano Plus</h3>
+            <h3 className='containerTwoProduct'>Plano Premium Anual</h3>
           </div>
           <div>
             <p className='containerTwoSubTitle'>Forma de Pagamento</p>

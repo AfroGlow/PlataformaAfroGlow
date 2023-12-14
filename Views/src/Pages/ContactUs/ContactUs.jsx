@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import emailjs from 'emailjs-com';
-import { init } from 'emailjs-com';
+// import emailjs from 'emailjs-com';
+// import { init } from 'emailjs-com';
 import './ContactUs.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 
 
-init('yYVQ1FNnnICXJU7Fc');
+// init('yYVQ1FNnnICXJU7Fc');
 
 function ContactUs() {
   const  sendEmail =  (e)  => {

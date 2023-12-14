@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import "./Payments.css"
-import Credit from './CreditDebit/Credit';
-import Debit from './CreditDebit/Debit';
+import Credit from './CreditDebit/Credit.jsx';
+import Debit from './CreditDebit/Debit.jsx';
 import { Link } from 'react-router-dom';
 
-import Pix from './Pix/Pix';
-import DetailsProductPlus from './DetailsProduct/DetailsProductPlus';
+import Pix from './Pix/Pix.jsx';
+import DetailsProductPlus from './DetailsProduct/DetailsProductYearly.jsx';
 
 
 
@@ -28,7 +28,7 @@ const PaymentsFree = () => {
   return (
     <div>
       <header className='paymentFormHeader'>
-      <Link to="/"><img src="botaoVoltar.svg" alt="" /></Link>
+      <Link to="/paginadepagamento"><img src="botaoVoltar.svg" alt="" /></Link>
         <h2>Voltar</h2>
       </header>
       <main>

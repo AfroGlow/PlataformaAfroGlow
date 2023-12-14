@@ -6,8 +6,7 @@ import Footer from "../Footer/Footer"
 import { Link } from "react-router-dom"
 
 
-
-function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props_iframe, props_img, props_alt, props_img2, props_alt2, props_products, props_products2, props_title1, props_title2, props_title3, props_title4, props_p, props_p2, props_p3, props_p4, props_span1, props_span2, props_span3, props_span4, }) {
+function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props_iframe, props_img, props_alt, props_img2, props_alt2, props_products, props_products2, props_title1, props_title2, props_title3, props_title4, props_p, props_p2, props_p3, props_p4, props_span1, props_span2, props_span3, props_span4, props_link_next}) {
 
     return (
         <>
@@ -69,7 +68,9 @@ function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props
                 </div>
 
                 <div className="button-steps">
-                    <ButtonSteps />
+                    <Link to={props_link_next}>
+                        <ButtonSteps />
+                    </Link>
 
                     <Link to="/notas">
                         <img className="notes-img-step" src="../anotacao-icone.svg" alt="" />
