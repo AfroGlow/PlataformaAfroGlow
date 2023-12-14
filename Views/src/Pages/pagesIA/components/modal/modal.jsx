@@ -12,7 +12,7 @@ function ModalAi() {
 
   return (
     <>
-      <Button className='button-modal'  variant="primary" onClick={handleShow}>
+      <Button className='button-modal-ai'  variant="primary" onClick={handleShow}>
         Finalizar
       </Button>
 
@@ -32,10 +32,10 @@ function ModalAi() {
             </div>
         <div className='align-btn-modal'>
           
-          <Link to="/CalcularFrete"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/CalcularFrete"> <Button className='btnmodal-ai' onClick={handleClose}>
             Comprar GlowBox
           </Button>  </Link>
-          <Link to="/ia"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/ia"> <Button className='btnmodal-ai' onClick={handleClose}>
            Refazer avaliação
           </Button> </Link>
           </div>

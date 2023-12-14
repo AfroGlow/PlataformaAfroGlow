@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import EditButton from '../../Components/ButtonEdit/btnEdit'
-import LeaveButton from '../../Components/ButtonLeave/btnLeave'
+import EditButton from '../../components/ButtonEdit/btnEdit'
+import LeaveButton from '../../components/ButtonLeave/btnLeave'
 import './Profile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
 import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'

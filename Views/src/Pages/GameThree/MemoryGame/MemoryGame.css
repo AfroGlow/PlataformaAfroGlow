@@ -1,5 +1,5 @@
 .memory-game-container {
-  background: url(bg.jpg) center center no-repeat;
+  background: url(../../../assets/bg.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -85,7 +85,7 @@
 }
 
 .memory-game-container .pokemon-card .back {
-  background: url(back-card.png) center center no-repeat;
+  background: url(../../../assets/back-card.png) center center no-repeat;
   background-size: cover;
   font-size: 100px;
   transition: 0.3s ease all;

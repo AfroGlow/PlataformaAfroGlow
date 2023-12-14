@@ -7,7 +7,7 @@
 }
 
 .CareCard-item {
-    background-image: url(backgroundCareCard.png);
+    background-image: url(../../assets/backgroundCareCard.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 370px;

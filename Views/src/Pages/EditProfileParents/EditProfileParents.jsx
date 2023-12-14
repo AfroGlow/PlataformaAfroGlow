@@ -1,7 +1,7 @@
-import Input from "../../Components/Input/input"
-import UniversalButton from "../../Components/Button/Button"
+import Input from "../../components/Input/input"
+import UniversalButton from "../../components/Button/Button"
 import { Link } from "react-router-dom"
-import ButtonArrow from "../../Components/ButtonArrow/BtnArrow"
+import ButtonArrow from "../../components/ButtonArrow/BtnArrow"
 import './EditProfileParents.css'
 import ImageHandlerParents from "./ImageHandler/ImageHandlerProfile";
 

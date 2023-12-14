@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@300;400;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@300;400;600;700&display=swap);
 *{
     font-family: 'Baloo 2', sans-serif;
 }
 
  .welcomeHome{
-    background: url(fundoRoxo.png);
+    background: url(../../assets/fundoRoxo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
@@ -87,7 +87,7 @@
 }
 
 .mainHome{
-    background: url(Bg-session-kids.png) center center no-repeat;
+    background: url(../../assets/Bg-session-kids.png) center center no-repeat;
     background-size: cover;
 }
 

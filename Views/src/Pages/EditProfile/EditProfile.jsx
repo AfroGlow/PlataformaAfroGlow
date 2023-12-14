@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import ArrowButton from '../../Components/ButtonArrow/BtnArrow'
+import ArrowButton from '../../components/ButtonArrow/BtnArrow'
 import './EditProfile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
 import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
