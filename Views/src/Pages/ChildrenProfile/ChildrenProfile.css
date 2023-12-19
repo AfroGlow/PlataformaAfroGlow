@@ -1,11 +1,11 @@
 .container-kids {
-    background: url(Bg-session-kids.jpg) center no-repeat;
+    background: url(../../assets/Bg-session-kids.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .container-avatars {
-    background: url(Bg-session-kids.jpg) center center no-repeat;
+    background: url(../../assets/Bg-session-kids.jpg) center center no-repeat;
     background-size: cover;
 }
 .header-kids {

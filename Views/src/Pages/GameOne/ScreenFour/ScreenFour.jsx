@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const ScreenFour = () => {
   return (
     <>
-      
       <div className='finishGameOne'>
     <img src="logoWhite.png" alt="logo afroglow com cor branca" />
    <h2 className='titleFinishGameOne'>Parabéns, Lili!</h2>  
@@ -17,9 +16,7 @@ const ScreenFour = () => {
       </button>
     </Link>
   </div>
-      
     </>
   );
-};
 
 export default ScreenFour;

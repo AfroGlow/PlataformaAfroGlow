@@ -4,7 +4,6 @@ import ButtonDrawGames from '../../../components/ButtonDrawGame/ButtonDrawGames'
 import { Link } from 'react-router-dom';
 import { Howl } from 'howler';
 
-
 const ScreenThree = () => {
 	const containerRef = useRef(null);
 	const colorInputRef = useRef(null);

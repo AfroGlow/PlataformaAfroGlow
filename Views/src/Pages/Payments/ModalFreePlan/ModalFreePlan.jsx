@@ -10,12 +10,13 @@ function ModalFreePlan(args) {
 
   return (
     <div>
-      <Button  className='btn-free-plan' color="danger" onClick={toggle}>Começar Jornada!</Button>
+      <Button  className='btn-free-plan' color="danger"  onClick={toggle}><a href="">Começar Jornada!</a></Button>
+      
       <Modal isOpen={modal} toggle={toggle} {...args}>
         <ModalHeader toggle={toggle}>Bem-vindo à AfroGlow!</ModalHeader>
         <ModalBody>
          
-                 img
+              <img src='../public/mateus-avatar.png'></img>
         É com grande alegria e entusiasmo que damos as boas-vindas a todos à AfroGlow, uma plataforma inovadora dedicada a fortalecer a autoestima de crianças ao redor do mundo. Estamos comprometidos em criar um ambiente inclusivo e empoderador, onde cada criança possa se sentir única, especial e valorizada.
 
 

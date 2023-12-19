@@ -4,7 +4,7 @@
 }
 
  .welcomeHome{
-    background: url(fundoRoxo.png);
+    background: url(../../assets/fundoRoxo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
@@ -87,7 +87,7 @@
 }
 
 .mainHome{
-    background: url(Bg-session-kids.png) center center no-repeat;
+    background: url(../../assets/Bg-session-kids.png) center center no-repeat;
     background-size: cover;
 }
 

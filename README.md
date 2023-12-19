@@ -47,6 +47,9 @@ npm install --save-dev @iconify-icon/react
 ```
 npm i swiper
 ```
+```
+npm install emailjs-com
+```
 <br/>
 
 <h2> ✅ Rodando o projeto:</h2>

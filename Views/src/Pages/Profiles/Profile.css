@@ -1,6 +1,6 @@
 
   .bg-profile{
-    background: linear-gradient(to top, #00000099 50%,  #00000099 50%  ), url(bgPerfil.jpg) no-repeat;
+    background: linear-gradient(to top, #00000099 50%,  #00000099 50%  ), url(../../assets/bgPerfil.jpg) no-repeat;
     width: 100%;
     background-size: cover;
     height: 100vh;

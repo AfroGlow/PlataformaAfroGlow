@@ -2,6 +2,7 @@ import './EditProfileChild.css'
 import Input from "../../components/Input/input"
 import UniversalButton from "../../components/Button/Button"
 import { Link } from "react-router-dom"
+import { Icon } from '@iconify/react';
 import ButtonArrow from "../../components/ButtonArrow/BtnArrow"
 import ImageHandlerChild from './ImageHandlerChild/ImageHandlerChild';
 

@@ -52,7 +52,9 @@ import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
 import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
+import PaymentsPage from './Pages/Payments/PaymentsPage.jsx'
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
@@ -70,6 +72,7 @@ function RouterApp() {
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
         <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoplanoanual" element={<PaymentsPlus />}>Tela de Pagamento</Route>
         <Route path="/pagamentoplanopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
@@ -82,11 +85,11 @@ function RouterApp() {
         <Route path='/perfilresponsavel' element={< Responsible />}>Perfil Responsável</Route>
         <Route path='/video1' element={< StepByStepVideo1 />}>Tutorial 1</Route>
         <Route path='/video2' element={< StepByStepVideo2 />}>Tutorial 2</Route>
-        <Route path='/video9' element={< StepByStepVideo9 />}>Tutorial 2</Route>
         <Route path='/video3' element={< StepByStepVideo3 />}>Tutorial 3</Route>
         <Route path='/video5' element={< StepByStepVideo5 />}>Tutorial 5</Route>
         <Route path='/video6' element={< StepByStepVideo6 />}>Tutorial 6</Route>
         <Route path='/video7' element={< StepByStepVideo7 />}>Tutorial 6</Route>
+        <Route path='/video9' element={< StepByStepVideo9 />}>Tutorial 9</Route>
         <Route path='/video10' element={< StepByStepVideo10 />}>Tutorial 10</Route>
         <Route path='/video11' element={< StepByStepVideo11 />}>Tutorial 11</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
