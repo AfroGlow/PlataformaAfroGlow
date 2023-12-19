@@ -11,6 +11,7 @@
    </p>
 
 - Acesso ao figma: [Figma AfroGlow](https://www.figma.com/file/tmMpKY6U0T90iErD8FBUMQ/AfroGlow?type=design&node-id=111%3A3&mode=design&t=Hwyg8OOIwznCqFHY-1)
+- Acesso ao site: [Plataforma AfroGlow](https://www.afroglow.com.br/)
 <br/>
 
 <h2> 🔍 Pré requisitos:</h2>
