@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
 import './ContactUs.css'

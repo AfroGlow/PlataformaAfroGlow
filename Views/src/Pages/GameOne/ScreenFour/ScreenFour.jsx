@@ -18,5 +18,5 @@ const ScreenFour = () => {
   </div>
     </>
   );
-
+  }
 export default ScreenFour;

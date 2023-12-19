@@ -52,14 +52,11 @@ import StepByStepVideo9 from './Pages/StepByStep/StepByStepVideo9.jsx'
 import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
-import PaymentsPage from './Pages/Payments/PaymentsPage.jsx'
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
-import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 import PlanesIaScreen from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
-import PaymentsPage from './Pages/Payments/PaymentsPage/PaymentsPage.jsx'
 import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
 import PaymentsIa from './Pages/Payments/PaymentsIa.jsx'
 import PaymentsIaKids from './Pages/Payments/PaymentsIaKids.jsx'
@@ -72,7 +69,6 @@ function RouterApp() {
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
         <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
-        <Route path="/pagamentoplanoanual" element={<PaymentsPlus />}>Tela de Pagamento</Route>
         <Route path="/pagamentoplanopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
@@ -127,7 +123,6 @@ function RouterApp() {
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
         <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
-        <Route path='/paginadepagamento' element={< PaymentsPage />}>Pagamento</Route>
         <Route path="/pagamentoplanoanual" element={<PaymentsPlus />}>Tela de Pagamento</Route>
         <Route path="/pagamentoGlow" element={<PaymentsIa />}>Tela de Pagamento</Route>
         <Route path="/pagamentoGlowKids" element={<PaymentsIaKids />}>Tela de Pagamento</Route>
