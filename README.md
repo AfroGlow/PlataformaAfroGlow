@@ -50,6 +50,9 @@ npm i swiper
 ```
 npm install emailjs-com
 ```
+```
+npm install howler
+```
 <br/>
 
 <h2> ✅ Rodando o projeto:</h2>
