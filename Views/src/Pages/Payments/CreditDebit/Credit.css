@@ -90,16 +90,3 @@ input[type="number"] {
     }
   }
 
-  @media (max-width: 440px) {
-    .formCard div input {
-        width: 80%;
-    }
-    .formCard input[type="number"], 
-    input[type="text"] {
-        width: 80%;
-    }
-    .confirmationBuy {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-  }

@@ -14,9 +14,9 @@ const Partners = () => {
   return (
     <div id='FlorNagoPage' className="logos" ref={logosRef}>
       <div className="logos-slide">
-        <Link to='/Parceiros'> <img src="public/logoflornagô.png" alt="Logo 1" /></Link>
-        <Link to='/Parceiros'> <img  src="public/Logo-nutri.png" alt="Logo 2" /></Link>
-        <Link to='/Parceiros'> <img src="public/nppelogo.png" alt="Logo 3" /></Link>
+        <Link to='/Parceiros'> <img src="./logoflornagô.png" alt="Logo 1" /></Link>
+        <Link to='/Parceiros'> <img  src="./Logo-nutri.png" alt="Logo 2" /></Link>
+        <Link to='/Parceiros'> <img src="./nppelogo.png" alt="Logo 3" /></Link>
       </div>
     </div>
   );

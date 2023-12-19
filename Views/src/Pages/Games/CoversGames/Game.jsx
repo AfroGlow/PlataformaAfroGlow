@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Game.css';
-Link
+
 
 const Games = ({iconSound, titleGame, ButtonGame}) => {
     return(

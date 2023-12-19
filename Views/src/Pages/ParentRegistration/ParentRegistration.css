@@ -1,10 +1,15 @@
+
 .containerSection{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
 }
 
-.subtitle{
+::-webkit-scrollbar{
+    display: none;
+}
+
+.subtitle-register{
     font-size: 1.7rem;
     font-weight: 800;
 }
@@ -58,35 +63,82 @@
     .img-rigth{
         display: none;
     }
+    
 }
 
-@media (max-width:530px) {
+@media (max-width:660px) {
 
     .info-register{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
     .forms-left{
-        width: 70vh;
-
+        width: 22rem;
+        margin: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
 
     .forms-register{
-        width: 100%;
+        width: 22rem;
+        
     }
 
     .btn-register{
         justify-content: space-between;
     
     }
+    .containerSection{
+        display: flex;
+        justify-content:center;
+    }
+
+
+}
+
+@media (max-width:480px) {
+
+    .info-register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;    
+        margin: auto;
+    }
+
+    .forms-left{
+        width: 22rem;
+        margin: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .register-form-p{
+        margin: 1.3rem;
+    }
+
+    .forms-register{
+        width: 100%;
+    }
+
+    .btn-register{
+        justify-content: center;
+    
+    }
 
     .btn p, span{
         font-size: 0.7em;
     }
-
 }

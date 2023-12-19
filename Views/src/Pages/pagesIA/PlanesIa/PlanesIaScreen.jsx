@@ -4,12 +4,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import ArrowButton from '../../../components/ButtonArrow/BtnArrow';
 
 
 
 function PlanesIaScreen(){
     return(
         <>
+        <div className='btn-arrow-ia'>
+          <Link to="/perfilresponsavel" style={{textDecoration:'none'}}>
+            <ArrowButton props_arrow={'Voltar'}/>
+          </Link>
+        </div>
       <div className='align-img-plans-title-ia'>
         <img  src="./logo-glowbox.svg" alt="GlowBox" />
         </div>
@@ -46,11 +52,11 @@ function PlanesIaScreen(){
         <h1 className='h1-plans-ia'>Assine seu plano</h1>
         
       <Row className='plans-ia-row'>
-        <Col>
-        <PlansIa props_title_box={"GlowKids"}/>
+        <Col className='align-center-column-planesIa'>
+        <PlansIa props_link={"/pagamentoGlowKids"} props_title_box={"GlowKids"}/>
         </Col>
-        <Col>
-        <PlansIa props_title_box={"Glowbox"}/> 
+        <Col className='align-center-column-planesIa'>
+        <PlansIa props_link={"/pagamentoGlow"} props_title_box={"Glowbox"}/> 
         </Col>
         </Row> 
          </Container>

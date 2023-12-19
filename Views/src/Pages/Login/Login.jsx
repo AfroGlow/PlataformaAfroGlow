@@ -1,7 +1,5 @@
-import Input from "../../Components/Input/input"
-import ImgEsq from '/public/imagem-esquerda.jpg'
-import LogoA from '/public/Logo.svg'
-import UniversalButton from "../../Components/Button/Button"
+import Input from "../../components/Input/input"
+import UniversalButton from "../../components/Button/Button"
 import './login.css'
 import { Link } from "react-router-dom"
 
@@ -10,12 +8,12 @@ function Login() {
         <body className="bg-login">
             <section className="login-container">
                 <div className="img-left">
-                    <img src={ImgEsq} className="image-left" alt="Imagem decorativa da pagina de login"/>
+                    <img src="imagem-esquerda.jpg" className="image-left" alt="Imagem decorativa da pagina de login"/>
                 </div>
                 <div className="forms-rigth">
                     <div className="info-login">
                     <Link to="/">
-                            <div className="logo"><img src={LogoA} alt="Logo"/></div>
+                            <div className="logo"><img src="Logo.svg" alt="Logo"/></div>
                     </Link>
                         <h2 className="subtitleL">Fazer login(a)!</h2>
                         <p className="paragrafL">Faça login para embarcar em nosso mundo de diversão</p>

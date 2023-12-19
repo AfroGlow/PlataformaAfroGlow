@@ -1,7 +1,3 @@
-.img-select{
-    width: 900px;
-}
-
 .edit-child-characters{
     width: 150px;
     height: 150px;
@@ -14,23 +10,10 @@
     cursor: pointer;
 }
 
-.modal {
-    --bs-modal-zindex: 1055;
-    --bs-modal-width: 900px;
-}
-
-.modal-content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    border: 1px solid #AD4AFF;
-    border-radius: 30px;
-    outline: 0;
-}
 @media (max-width:868px) {
 
     .img-select{
-        width: 250px;
+        width: 150px;
     }
 
     .modal-edit-child{

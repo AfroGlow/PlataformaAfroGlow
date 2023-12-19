@@ -22,6 +22,7 @@
     "cpf-check": "^3.0.0",
     "firebase": "^10.7.1",
     "google-translate-api": "^2.3.0",
+    "howler": "^2.2.4",
     "node-google-translate-skidz": "^1.1.2",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "path-browserify": "^1.0.1",

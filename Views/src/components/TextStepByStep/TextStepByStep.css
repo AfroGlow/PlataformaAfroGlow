@@ -23,6 +23,10 @@
     
 }
 
+.video-step-by-step iframe{
+    border-radius: 40px;
+}
+
 .text-step-by-step{
     display: flex;
     justify-content: center;
@@ -108,6 +112,8 @@
     margin-top: 1.5rem;
     gap: 28px;
     margin-bottom: 2rem;
+    text-decoration: none;
+    
 }
 
 
@@ -124,6 +130,11 @@
 .step-left{
     margin: 0;
     padding: 0;
+}
+
+.footer-steps{
+    max-width: 95%;
+    margin-left: 5.7rem;
 }
 
 
@@ -162,11 +173,18 @@
         width: 22rem; 
         height: 20rem; 
       }
+      .content-steps{
+        text-align: left;
+      }
 }
 
 @media (max-width: 990px) {
     .container-step-by-step{
         margin-top: 7rem;
+    }
+    .footer-steps{
+        max-width: 100%;
+        margin-left: 0rem;
     }
 }
 

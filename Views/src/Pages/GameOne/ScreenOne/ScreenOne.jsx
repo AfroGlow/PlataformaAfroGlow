@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './ScreenOne.css';
 import ButtonDrawGames from '../../../components/ButtonDrawGame/ButtonDrawGames'
 import { Link } from 'react-router-dom';
+import { Howl } from 'howler';
 
 
 const ScreenOne = () => {
@@ -10,6 +11,7 @@ const ScreenOne = () => {
 	const sizeInputRef = useRef(null);
 	const groupRef = useRef(null);
 
+
 	const [currentColor, setCurrentColor] = useState('#0075ff');
 	const [currentSize, setCurrentSize] = useState(5);
 	const [svgWidth, setSvgWidth] = useState(500);
@@ -17,16 +19,21 @@ const ScreenOne = () => {
 	const [initialX, setInitialX] = useState(0);
 	const [initialY, setInitialY] = useState(0);
 	const [circles, setCircles] = useState([]);
-
+	const [drawing, setDrawing] = useState(false);
 	const handleColorChange = () => {
 		setCurrentColor(colorInputRef.current.value);
-	};
+	 };
 
 	const handleSizeChange = () => {
 		setCurrentSize(sizeInputRef.current.value);
 	};
 
 	const handleMouseDown = (e) => {
+		if (containerRef.current) {
+			setInitialX(containerRef.current.clientWidth / svgWidth);
+			
+		 }
+		 setDrawing(true);
 		setInitialX(containerRef.current.clientWidth / svgWidth);
 		setInitialY(containerRef.current.clientHeight / svgHeight);
 
@@ -50,6 +57,7 @@ const ScreenOne = () => {
 	};
 
 	const handleMouseMove = (e) => {
+		if (drawing) { }
 		const mouseX = e.clientX || e.touches[0].clientX;
 		const mouseY = e.clientY || e.touches[0].clientY;
 		const relativeX = mouseX - containerRef.current.getBoundingClientRect().left;
@@ -72,22 +80,43 @@ const ScreenOne = () => {
 	};
 
 	useEffect(() => {
-		containerRef.current.addEventListener('mousedown', handleMouseDown);
+		if (containerRef.current) {
+		   containerRef.current.addEventListener('mousedown', handleMouseDown);
+		}
+	 
 		return () => {
-			containerRef.current.removeEventListener('mousedown', handleMouseDown);
+		   if (containerRef.current) {
+			  containerRef.current.removeEventListener('mousedown', handleMouseDown);
+		   }
 		};
-	}, [currentColor, currentSize, initialX, initialY]);
+	 }, [currentColor, currentSize, initialX, initialY]);
 
 	useEffect(() => {
 		setInitialX(containerRef.current.clientWidth / svgWidth);
 		setInitialY(containerRef.current.clientHeight / svgHeight);
 	}, [svgWidth, svgHeight]);
 
+	useEffect(() => {
+		// Reprodução automática de música ao carregar a página
+		const sound = new Howl({
+		  src: ['../Conhecendo-os-cachos.mp3'], // Substitua pelo caminho real do seu arquivo de música
+		  autoplay: true,
+		  loop: true,
+		});
+	
+		// Limpeza ao desmontar o componente
+		return () => {
+		  sound.stop();
+		};
+	  }, []); // O array vazio assegura que o efeito seja executado apenas uma vez
+	
+	
+
 	return (
 		<>
 
 			<div className="screen-1-game-1">
-				<Link to="/tutorial1"><img className='back-game-draw' src="../public/icon-button-left.svg" alt="" /></Link>
+				<Link to="/tutorial1"><img className='back-game-draw' src="../icon-button-left.svg" alt="botão de voltar" /></Link>
 				<h1>Cachinhos ondulados</h1>
 				<div className="title-game1">
 

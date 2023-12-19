@@ -14,7 +14,8 @@
 .container-buttons-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 15px;
 }
 .container-buttons-header #button-login {

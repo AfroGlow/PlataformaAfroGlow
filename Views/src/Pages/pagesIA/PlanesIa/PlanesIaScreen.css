@@ -7,7 +7,7 @@
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 6rem;
+   margin-top: 2rem;
 }
 .p-plans-ia-number{
     font-size: 2rem;
@@ -66,6 +66,14 @@
     justify-content: center;
     margin-left: -10rem;
 }
+.plans-ia-row{
+    margin-bottom: 2rem;
+
+}
+
+.btn-arrow-ia{
+    margin: 10px;
+}
 
 @media (max-width: 800px) {
     .align-row-planes-ia{
@@ -73,5 +81,17 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .plans-ia-row{
+        margin-bottom: 2rem;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+    .align-center-column-planesIa{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }

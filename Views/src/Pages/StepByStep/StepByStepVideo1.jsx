@@ -16,6 +16,7 @@ const StepByStepVideo1 = () => {
                     props_title2={" - Massageie até formar espuma e sentir a raiz limpa"}
                     props_title3={" - Arraste a espuma formada pelos fios sem esfregar"}
                     props_title4={" - Aplique o Condicionador"}
+                    props_link_next={"/video2"}
 
                     props_p={"O shampoo é formulado principalmente para lavar o couro cabeludo, parte mais importante e essencial se queremos fios que cresçam com saúde. Ele não pode ter acúmulo de sebo, células mortas, umidade nem sujeira do dia a dia, por isso comece aplicando seu shampoo diretamente no couro e massageando suavemente, mas limpando de forma eficaz."}
 
@@ -28,9 +29,7 @@ const StepByStepVideo1 = () => {
                     props_p4={"Antes de aplicar o condicionador, é importante umidecer o cabelo (água morna ou fria). Logo após, aplique o condicionador nos fios da altura da orelha para baixo, massageie bem o produto no comprimento do cabelo e deixe agir por alguns minutos (o tempo estará especificado na embalagem do produto). Passado o tempo, enxágue o cabelo até todo condicionador ser removido completamente. "} />
             </div>
 
-            <div className="footer-steps">
-                <Footer />
-                </div>
+            
         </>
 
     )

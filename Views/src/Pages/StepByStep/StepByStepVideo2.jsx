@@ -5,7 +5,7 @@ const StepByStepVideo2 = () => {
     return (
 
         <>
-            <div className='step-by-step'>
+            <div className='step-by-step' id="top">
                 <TextStepByStep
                     props_img_title={"../lavagem-icone.svg"}
                     props_alt_title={"ícone de shampoo amarelo"} props_p_title={"Módulo - Lavagem e hidratação"}
@@ -17,6 +17,7 @@ const StepByStepVideo2 = () => {
                     props_title2={" - Massageie até formar espuma e sentir a raiz limpa"}
                     props_title3={" - Arraste a espuma formada pelos fios sem esfregar"}
                     props_title4={" - Aplique o Condicionador"}
+                    props_link_next={"/video3"}
 
                     props_p={"O shampoo é formulado principalmente para lavar o couro cabeludo, parte mais importante e essencial se queremos fios que cresçam com saúde. Ele não pode ter acúmulo de sebo, células mortas, umidade nem sujeira do dia a dia, por isso comece aplicando seu shampoo diretamente no couro e massageando suavemente, mas limpando de forma eficaz."}
 

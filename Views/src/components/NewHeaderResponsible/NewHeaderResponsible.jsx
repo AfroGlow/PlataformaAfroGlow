@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import "./NewHeaderResponsible.css";
-import { Link } from 'react-router-dom';
+
 
 const NewHeaderResponsible = () => {
     return (
@@ -14,11 +14,11 @@ const NewHeaderResponsible = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto header-brand">
-                            <Nav.Link href="/perfilresponsaveis">Home</Nav.Link>
-                            <Nav.Link href="#plans">Mídias</Nav.Link>
-                            <Nav.Link href="#feedback">Notas</Nav.Link>
-                            <Nav.Link href="/aboutus">IA</Nav.Link>
-                            <Nav.Link href="/aboutus">Sair</Nav.Link>
+                            <Nav.Link href="/perfilresponsavel">Home</Nav.Link>
+                            <Nav.Link href="/midias">Mídias</Nav.Link>
+                            <Nav.Link href="/notas">Notas</Nav.Link>
+                            <Nav.Link href="/planosia">IA</Nav.Link>
+                            <Nav.Link href="/perfil">Sair</Nav.Link>
                         </Nav>
                      
                     </Navbar.Collapse>

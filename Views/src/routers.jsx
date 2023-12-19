@@ -3,6 +3,12 @@ import React from 'react'
 import Responsible from "./Pages/ResponsibleProfile/Responsible"
 import StepByStepVideo1 from "./Pages/StepByStep/StepByStepVideo1"
 import StepByStepVideo2 from "./Pages/StepByStep/StepByStepVideo2"
+import StepByStepVideo3 from "./Pages/StepByStep/StepByStepVideo3"
+import StepByStepVideo5 from "./Pages/StepByStep/StepByStepVideo5"
+import StepByStepVideo6 from "./Pages/StepByStep/StepByStepVideo6"
+import StepByStepVideo7 from "./Pages/StepByStep/StepByStepVideo7"
+import StepByStepVideo10 from "./Pages/StepByStep/StepByStepVideo10"
+import StepByStepVideo11 from "./Pages/StepByStep/StepByStepVideo11"
 import FamilyMedia from "./Pages/FamilyMedia/FamilyMedia"
 import Notes from './Pages/Notes/Notes'
 import Form2 from './Pages/pagesIA/Form2/Form2.jsx'
@@ -10,7 +16,7 @@ import Form3 from './Pages/pagesIA/Form3/Form3.jsx'
 import Form1 from './Pages/pagesIA/Form1/Form1.jsx'
 import ContactUs from './Pages/ContactUs/ContactUs.jsx'
 import CalculateShipping from './Pages/pagesIA/CalculateShipping/CalculateShipping.jsx'
-import ImageClassification from './Pages/pagesIA/components/ImageClassification/index.jsx';
+import ImageClassification from './Pages/ImageClassification/ImageClassification.jsx'
 import ChildRegistration from "./Pages/ChildRegistration/ChildRegistration";
 import ParentRegistration from "./Pages/ParentRegistration/ParentRegistration";
 import Login from "./Pages/Login/Login";
@@ -39,7 +45,6 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
-import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -48,11 +53,14 @@ import PlanesIa from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
 import ScreenFour from './Pages/GameOne/ScreenFour/ScreenFour.jsx'
 import HairTypes from './Pages/GameThree/HairTypes/HairTypes.jsx'
 import PaymentsFree from './Pages/Payments/PaymentsFree.jsx'
-import PaymentsPlus from './Pages/Payments/PaymentsPlus.jsx'
 import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 import PlanesIaScreen from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
+import PaymentsPage from './Pages/Payments/PaymentsPage/PaymentsPage.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
+import PaymentsIa from './Pages/Payments/PaymentsIa.jsx'
+import PaymentsIaKids from './Pages/Payments/PaymentsIaKids.jsx'
 
 function RouterApp() {
 
@@ -62,8 +70,7 @@ function RouterApp() {
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/pagamento" element={<Payments />}>Tela de Pagamento</Route>
         <Route path="/pagamento-planobasic" element={<PaymentsFree />}>Tela de Pagamento</Route>
-        <Route path="/pagamento-planoplus" element={<PaymentsPlus />}>Tela de Pagamento</Route>
-        <Route path="/pagamento-planopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoplanopremium" element={<PaymentsPremium />}>Tela de Pagamento</Route>
         <Route path="/cadastro" element={<ParentRegistration />}>Cadastro</Route>
         <Route path="/cadastrocrianca" element={<ChildRegistration />}>Cadastro Criança</Route>
         <Route path="/login" element={<Login />}>Login</Route>
@@ -76,6 +83,12 @@ function RouterApp() {
         <Route path='/video1' element={< StepByStepVideo1 />}>Tutorial 1</Route>
         <Route path='/video2' element={< StepByStepVideo2 />}>Tutorial 2</Route>
         <Route path='/video9' element={< StepByStepVideo9 />}>Tutorial 2</Route>
+        <Route path='/video3' element={< StepByStepVideo3 />}>Tutorial 3</Route>
+        <Route path='/video5' element={< StepByStepVideo5 />}>Tutorial 5</Route>
+        <Route path='/video6' element={< StepByStepVideo6 />}>Tutorial 6</Route>
+        <Route path='/video7' element={< StepByStepVideo7 />}>Tutorial 6</Route>
+        <Route path='/video10' element={< StepByStepVideo10 />}>Tutorial 10</Route>
+        <Route path='/video11' element={< StepByStepVideo11 />}>Tutorial 11</Route>
         <Route path='/midias' element={< FamilyMedia />}>Mídias em família</Route>
         <Route path='/notas' element={< Notes />}>Notas</Route>
         <Route path="/ia" element={<ImageClassification />} />
@@ -111,6 +124,10 @@ function RouterApp() {
         <Route path='/jogo3tela4' element={<MemoryGame />}></Route> 
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
         <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
+        <Route path='/paginadepagamento' element={< PaymentsPage />}>Pagamento</Route>
+        <Route path="/pagamentoplanoanual" element={<PaymentsPlus />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoGlow" element={<PaymentsIa />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoGlowKids" element={<PaymentsIaKids />}>Tela de Pagamento</Route>
       </Routes>
     </Router>
 

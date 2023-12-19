@@ -4,7 +4,7 @@ function EditButton(){
     return(
         <button className='edit-btn'>
             <p className='p-edit'>editar perfil</p>
-            <img src="../public/iconEdit.svg" alt="" className='img-edit'/>
+            <img src="../iconEdit.svg" alt="" className='img-edit'/>
         </button>
     )
 }

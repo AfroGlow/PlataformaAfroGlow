@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@300;400;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@300;400;600;700&display=swap);
 *{
     font-family: 'Baloo 2', sans-serif;
 }
@@ -595,4 +595,26 @@
     .identifyImg {
         display: none;
      }
+
+     .plansValueMoney {
+        font-size: 1.5rem;
+        color: #FFBF00;
+    }
+    
+    .plansValueMoney span {
+        font-size: 14px;
+    }
+    
+    .plansValue {
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    .plans h2{
+        text-align: center;
+    }
+
+    .AIscpaceText{
+        margin-left: 1rem;
+    }
 }

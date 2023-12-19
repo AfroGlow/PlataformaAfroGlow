@@ -17,7 +17,7 @@ const AudioPlayer = ({LinkAudio}) => {
   return (
     <div>
       <audio ref={audioRef} src={LinkAudio} />
-      <button onClick={togglePlay} className='buttonAudioGame'>
+      <button className='buttonAudioGame' onClick={togglePlay} >
         {isPlaying ? 'Pausar' : 'Ouvir'}
       </button>
     </div>

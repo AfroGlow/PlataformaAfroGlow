@@ -95,7 +95,7 @@ const ChildrenProfile = () => {
           src="Logo-afroglow-preto.png"
           alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
         />
-        <h4>Lili estrelinha brilhante</h4>
+        <h4>Pequenha estrelinha</h4>
         <Link to="/perfil" className="router">
           <div className="exit-kids">
             <p>Sair</p>

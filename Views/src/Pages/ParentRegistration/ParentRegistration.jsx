@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { validate } from 'cpf-check';
-import Input from "../../Components/Input/input"
-import LogoA from '/public/Logo.svg'
-import ImgDir from '/public/imagem direita.png'
-import InputDuo from "../../Components/Input/InputDuo";
-import UniversalButton from "../../Components/Button/Button";
+import Input from "../../components/Input/input"
+import InputDuo from "../../components/Input/InputDuo";
+import UniversalButton from "../../components/Button/Button";
 import "./ParentRegistration.css";
 import { Link } from "react-router-dom";
 
@@ -41,40 +39,37 @@ function CadastroR() {
       };
 
     return (    
-        <section className="containerSection">
-
-            <div className="forms-left">
-
-                <div className="info-register">
-                    <Link to="/"><img src={LogoA} alt="Logo" className="logo-ag" /></Link>
-                    <h2 className="subtitle">Olá,seja bem vindo(a)!</h2>
-                    <p className="paragraf">Crie uma conta para iniciar sua jornada de experiencia conosco.</p>
-                </div>
-
-                <div className="forms-register">
-                    <form action="" onSubmit={handleSubmit} method='post'>
-                        <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} PlaceH={'Insira seu Nome'} />
-                        <Input label={'Nome Social'} labelFor={'socialName'} type={'text'} id={'socialName'} PlaceH={'Nome Social'} />
-                        <Input label={'E-mail'} labelFor={'email'} type={'text'} id={'email'} PlaceH={'Email'} />
-                        <InputDuo label={'CPF'} labelFor={'cpf'} type={'text'} id={'userCpf'} PlaceH={'CPF'} value={cpf} onChange={handleCpf} label2={'Telefone'} labelFor2={'tel'} type2={'tel'} id2={'telUsuario'} PlaceH2={'Telefone'} />
-                        {!isValid && formSubmitted && <p style={{ color: 'red' }}>CPF inválido</p>}
-                        <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Crie uma senha'} />
-                        <div className="buttonRegister">
-                            <UniversalButton Link propsBtn={'Cadastre-se'} type="submit" />
-                        </div>
-                    </form>
-                </div>
-                    <div className="btn-register">
-                        <p className="paragrafS">Você já tem uma conta? <Link to={'/login'} className="link-router"><span className="link">Realizar login</span></Link></p>
+        <body id='c-register-parents'>
+            <section className="containerSection" >
+                <div className="forms-left">
+                    <div className="info-register">
+                        <Link to="/"><img src="Logo.svg"  alt="Logo" className="logo-ag" /></Link>
+                        <h2 className="subtitle-register">Olá,seja bem vindo(a)!</h2>
+                        <p className="paragraf">Crie uma conta para iniciar sua jornada de experiencia conosco.</p>
                     </div>
+                    <div className="forms-register">
+                        <form className='register-form-p' action="" onSubmit={handleSubmit} method='post'>
+                            <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} PlaceH={'Insira seu Nome'} />
+                            <Input label={'Nome Social'} labelFor={'socialName'} type={'text'} id={'socialName'} PlaceH={'Nome Social'} />
+                            <Input label={'E-mail'} labelFor={'email'} type={'text'} id={'email'} PlaceH={'Email'} />
+                            <InputDuo label={'CPF'} labelFor={'cpf'} type={'text'} id={'userCpf'} PlaceH={'CPF'} value={cpf} onChange={handleCpf} label2={'Telefone'} labelFor2={'tel'} type2={'tel'} id2={'telUsuario'} PlaceH2={'Telefone'} />
+                            {!isValid && formSubmitted && <p style={{ color: 'red' }}>CPF inválido</p>}
+                            <Input label={'Senha'} labelFor={'password'} type={'password'} id={'userPassword'} PlaceH={'Crie uma senha'} />
+                            <div className="buttonRegister">
+                                <UniversalButton Link propsBtn={'Cadastre-se'} type="submit" />
+                            </div>
+                        </form>
+                    </div>
+                        <div className="btn-register">
+                            <p className="paragrafS">Você já tem uma conta? <Link to={'/login'} className="link-router"><span className="link">Realizar login</span></Link></p>
+                        </div>
+                    </div>
+            
+                <div className="img-rigth">
+                    <img src="imagem direita.png" className="image-rigth" />
                 </div>
-        
-
-            <div className="img-rigth">
-                <img src={ImgDir} className="image-rigth" />
-            </div>
-
-        </section>
+            </section>
+        </body>
 
 
     )

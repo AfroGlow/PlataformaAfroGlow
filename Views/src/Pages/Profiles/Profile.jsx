@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import EditButton from '../../Components/ButtonEdit/btnEdit'
-import LeaveButton from '../../Components/ButtonLeave/btnLeave'
+import EditButton from '../../components/ButtonEdit/btnEdit'
+import LeaveButton from '../../components/ButtonLeave/btnLeave'
 import './Profile.css'
 import  ImageHandlerChild from '../EditProfileChild/ImageHandlerChild/ImageHandlerChild'
 import ImageHandlerParents from '../EditProfileParents/ImageHandler/ImageHandlerProfile'
@@ -13,7 +13,7 @@ function Perfil() {
           <LeaveButton props_leave={'Sair'} />
         </Link>
         <div className='info-edit'>
-          <h2 className='title-page'>Quem está acessando?</h2>
+          <h2 className='title-page-edit'>Quem está acessando?</h2>
           <Link to="/editar" className='router'><EditButton /></Link>
         </div>
         <div className="profiles card-1">
@@ -35,5 +35,4 @@ function Perfil() {
   )
 
 }
-
 export default Perfil

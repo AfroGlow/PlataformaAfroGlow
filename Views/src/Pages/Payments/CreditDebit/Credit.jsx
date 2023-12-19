@@ -112,7 +112,7 @@ const Credit = () => {
       console.log('Formulário enviado:', formData);
       // Adicione aqui a lógica de envio do formulário para o servidor ou qualquer outra ação desejada
       alert("Compra finalizada")
-      window.location.reload();
+      window.location.href = '/';
     }
   };
 

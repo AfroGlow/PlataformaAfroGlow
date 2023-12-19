@@ -2,92 +2,121 @@ import React, { useState, useRef, useEffect } from 'react';
 import './ScreenThree.css';
 import ButtonDrawGames from '../../../components/ButtonDrawGame/ButtonDrawGames'
 import { Link } from 'react-router-dom';
-Link
+import { Howl } from 'howler';
+
 
 const ScreenThree = () => {
-    const containerRef = useRef(null);
-    const colorInputRef = useRef(null);
-    const sizeInputRef = useRef(null);
-    const groupRef = useRef(null);
+	const containerRef = useRef(null);
+	const colorInputRef = useRef(null);
+	const sizeInputRef = useRef(null);
+	const groupRef = useRef(null);
 
-    const [currentColor, setCurrentColor] = useState('#0075ff');
-    const [currentSize, setCurrentSize] = useState(5);
-    const [svgWidth, setSvgWidth] = useState(500);
-    const [svgHeight, setSvgHeight] = useState(500);
-    const [initialX, setInitialX] = useState(0);
-    const [initialY, setInitialY] = useState(0);
-    const [circles, setCircles] = useState([]);
 
-    const handleColorChange = () => {
-        setCurrentColor(colorInputRef.current.value);
-    };
+	const [currentColor, setCurrentColor] = useState('#0075ff');
+	const [currentSize, setCurrentSize] = useState(5);
+	const [svgWidth, setSvgWidth] = useState(500);
+	const [svgHeight, setSvgHeight] = useState(500);
+	const [initialX, setInitialX] = useState(0);
+	const [initialY, setInitialY] = useState(0);
+	const [circles, setCircles] = useState([]);
+	const [drawing, setDrawing] = useState(false);
+	const handleColorChange = () => {
+		setCurrentColor(colorInputRef.current.value);
+	 };
 
-    const handleSizeChange = () => {
-        setCurrentSize(sizeInputRef.current.value);
-    };
+	const handleSizeChange = () => {
+		setCurrentSize(sizeInputRef.current.value);
+	};
 
-    const handleMouseDown = (e) => {
-        setInitialX(containerRef.current.clientWidth / svgWidth);
-        setInitialY(containerRef.current.clientHeight / svgHeight);
+	const handleMouseDown = (e) => {
+		if (containerRef.current) {
+			setInitialX(containerRef.current.clientWidth / svgWidth);
+			
+		 }
+		 setDrawing(true);
+		setInitialX(containerRef.current.clientWidth / svgWidth);
+		setInitialY(containerRef.current.clientHeight / svgHeight);
 
-        const mouseX = e.clientX || e.touches[0].clientX;
-        const mouseY = e.clientY || e.touches[0].clientY;
-        const relativeX = mouseX - containerRef.current.getBoundingClientRect().left;
-        const relativeY = mouseY - containerRef.current.getBoundingClientRect().top;
+		const mouseX = e.clientX || e.touches[0].clientX;
+		const mouseY = e.clientY || e.touches[0].clientY;
+		const relativeX = mouseX - containerRef.current.getBoundingClientRect().left;
+		const relativeY = mouseY - containerRef.current.getBoundingClientRect().top;
 
-        setCircles((prevCircles) => [
-            ...prevCircles,
-            {
-                cx: relativeX / initialX,
-                cy: relativeY / initialY,
-                fill: currentColor,
-                r: currentSize,
-            },
-        ]);
+		setCircles((prevCircles) => [
+			...prevCircles,
+			{
+				cx: relativeX / initialX,
+				cy: relativeY / initialY,
+				fill: currentColor,
+				r: currentSize,
+			},
+		]);
 
-        document.addEventListener('mousemove', handleMouseMove);
-        document.addEventListener('mouseup', handleMouseUp);
-    };
+		document.addEventListener('mousemove', handleMouseMove);
+		document.addEventListener('mouseup', handleMouseUp);
+	};
 
-    const handleMouseMove = (e) => {
-        const mouseX = e.clientX || e.touches[0].clientX;
-        const mouseY = e.clientY || e.touches[0].clientY;
-        const relativeX = mouseX - containerRef.current.getBoundingClientRect().left;
-        const relativeY = mouseY - containerRef.current.getBoundingClientRect().top;
+	const handleMouseMove = (e) => {
+		if (drawing) { }
+		const mouseX = e.clientX || e.touches[0].clientX;
+		const mouseY = e.clientY || e.touches[0].clientY;
+		const relativeX = mouseX - containerRef.current.getBoundingClientRect().left;
+		const relativeY = mouseY - containerRef.current.getBoundingClientRect().top;
 
-        setCircles((prevCircles) => [
-            ...prevCircles,
-            {
-                cx: relativeX / initialX,
-                cy: relativeY / initialY,
-                fill: currentColor,
-                r: currentSize,
-            },
-        ]);
-    };
+		setCircles((prevCircles) => [
+			...prevCircles,
+			{
+				cx: relativeX / initialX,
+				cy: relativeY / initialY,
+				fill: currentColor,
+				r: currentSize,
+			},
+		]);
+	};
 
-    const handleMouseUp = () => {
-        document.removeEventListener('mousemove', handleMouseMove);
-        document.removeEventListener('mouseup', handleMouseUp);
-    };
+	const handleMouseUp = () => {
+		document.removeEventListener('mousemove', handleMouseMove);
+		document.removeEventListener('mouseup', handleMouseUp);
+	};
+
+	useEffect(() => {
+		if (containerRef.current) {
+		   containerRef.current.addEventListener('mousedown', handleMouseDown);
+		}
+	 
+		return () => {
+		   if (containerRef.current) {
+			  containerRef.current.removeEventListener('mousedown', handleMouseDown);
+		   }
+		};
+	 }, [currentColor, currentSize, initialX, initialY]);
+
+	useEffect(() => {
+		setInitialX(containerRef.current.clientWidth / svgWidth);
+		setInitialY(containerRef.current.clientHeight / svgHeight);
+	}, [svgWidth, svgHeight]);
 
     useEffect(() => {
-        containerRef.current.addEventListener('mousedown', handleMouseDown);
-        return () => {
-            containerRef.current.removeEventListener('mousedown', handleMouseDown);
-        };
-    }, [currentColor, currentSize, initialX, initialY]);
-
-    useEffect(() => {
-        setInitialX(containerRef.current.clientWidth / svgWidth);
-        setInitialY(containerRef.current.clientHeight / svgHeight);
-    }, [svgWidth, svgHeight]);
+		// Reprodução automática de música ao carregar a página
+		const sound = new Howl({
+		  src: ['../Conhecendo-os-cachos.mp3'], // Substitua pelo caminho real do seu arquivo de música
+		  autoplay: true,
+		  loop: true,
+		});
+	
+		// Limpeza ao desmontar o componente
+		return () => {
+		  sound.stop();
+		};
+	  }, []); // O array vazio assegura que o efeito seja executado apenas uma vez, ao montar o componente
+	
+	
 
     return (
         <>
 
             <div className="screen-2-game-1">
-                <Link to="/jogo1tela2"><img className='back-game-draw' src="../public/icon-button-left.svg" alt="" /></Link>
+                <Link to="/jogo1tela2"><img className='back-game-draw' src="../icon-button-left.svg" alt="botão voltar" /></Link>
                 <h1>Cachinhos crespos</h1>
                 <div className="title-game1">
 

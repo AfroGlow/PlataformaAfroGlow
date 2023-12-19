@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Games from '../../Games/CoversGames/Game';
 import './CoverTwo.css';
-Link
+
 
 const CoverTwo = () => {
     return(

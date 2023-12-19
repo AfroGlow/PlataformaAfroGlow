@@ -3,13 +3,12 @@ import "./Payments.css"
 import Credit from './CreditDebit/Credit';
 import Debit from './CreditDebit/Debit';
 import { Link } from 'react-router-dom';
-
 import Pix from './Pix/Pix';
-import DetailsProductPlus from './DetailsProduct/DetailsProductPlus';
+import DetailsProductIaKids from './DetailsProduct/DetailsProductIaKids';
 
 
 
-const PaymentsFree = () => {
+const PaymentsIaKids = () => {
 
   const [page, setPage] = useState(<Credit />);
 
@@ -28,7 +27,7 @@ const PaymentsFree = () => {
   return (
     <div>
       <header className='paymentFormHeader'>
-      <Link to="/"><img src="botaoVoltar.svg" alt="" /></Link>
+      <Link to="/planosia"><img src="botaoVoltar.svg" alt="" /></Link>
         <h2>Voltar</h2>
       </header>
       <main>
@@ -62,7 +61,7 @@ const PaymentsFree = () => {
           {page}
         </div>
 
-      <DetailsProductPlus />
+      <DetailsProductIaKids />
       
       </div>
         
@@ -71,4 +70,4 @@ const PaymentsFree = () => {
   )
 }
 
-export default PaymentsFree
+export default PaymentsIaKids

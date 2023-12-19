@@ -19,7 +19,7 @@ function ModalReconhecimentoCapilar() {
 
 
    
-      <Modal  show={show} onHide={handleClose} animation={false} centered>
+      <Modal className='modal-general-ia'  show={show} onHide={handleClose} animation={false} centered>
       
         <Modal.Body className='modalCenter-ia'>
             <div className='align-center-modal-img-ia'>
@@ -31,7 +31,7 @@ function ModalReconhecimentoCapilar() {
             </div>
         <div className='align-btn-modal-ia'>
           
-          <Link to="/form1"> <Button className='btnmodal' onClick={handleClose}>
+          <Link to="/form1"> <Button className='btnmodal-ia' onClick={handleClose}>
           Preencher Formulario
           </Button>  </Link>
           </div>
