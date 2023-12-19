@@ -18,11 +18,9 @@ function ContactUs() {
       .then((result) => {
         console.log(result.text);
         window.alert('E-mail enviado com sucesso!');
-        // Aqui você pode fazer algo após o envio bem-sucedido, como exibir uma mensagem de sucesso
       }, (error) => {
         console.error(error.text);
         window.alert('Erro ao enviar o e-mail.');
-        // Trate erros aqui, como exibir uma mensagem de erro para o usuário
       });
   };
 
@@ -56,10 +54,12 @@ function ContactUs() {
       <div className='container-purple-contactUs'>
         <p>Fique por dentro das novidades nas nossas redes sociais</p>
         <div className='align-row-contactUs'>
-          <img src="./imgLogoInstagram.png" alt="" />
-          <img src="./imgLogoLinkedin.png" alt="" />
-          <img src="./imgLogoTiktok.png" alt="" />
-          <img src="./imgLogoYoutube.png" alt="" />
+          <div className='alignment-icones-contact-us'>
+            <img src="./imgLogoInstagram.png" alt="" />
+            <img src="./imgLogoLinkedin.png" alt="" />
+            <img src="./imgLogoTiktok.png" alt="" />
+            <img src="./imgLogoYoutube.png" alt="" />
+          </div>
         </div>
       </div>
       <Footer />

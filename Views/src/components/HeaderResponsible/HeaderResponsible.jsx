@@ -15,7 +15,7 @@ function HeaderResponsible() {
                     alt="Logo da AfroGlow (rosto com cabelo afro e um pente garfo)"
                 />
             </Link>
-            <h2>Olá, Lilian</h2>
+            <h2>Olá!</h2>
 
             <Link to="/perfil">
                 <div className="avatar-header">

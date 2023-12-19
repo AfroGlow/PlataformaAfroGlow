@@ -6,6 +6,9 @@
     margin-bottom: 30px;
     color: #000;
 }
+.adjustment-marcelo {
+    margin-right: 1.7rem;
+}
 .container-mvv {
     display: flex;
     flex-direction: column;
@@ -134,5 +137,21 @@
     }
     .missionVisionValues .text-spacing {
         gap: 7px;
+    }
+}
+@media screen and (max-width: 430px){
+    .adjustment-vitoria {
+        margin-left: 1.8rem;
+    }
+    .adjustment-fabricio {
+        margin-right: 1rem;
+    }
+    .adjustment-clara, .adjustment-lilian {
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 430px){
+    .adjustment-vitoria {
+        margin-left: 0.5rem;
     }
 }

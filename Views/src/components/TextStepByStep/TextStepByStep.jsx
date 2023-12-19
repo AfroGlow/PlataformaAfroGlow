@@ -68,7 +68,7 @@ function TextStepByStep({ props_img_title, props_alt_title, props_p_title, props
                 </div>
 
                 <div className="button-steps">
-                    <Link to={props_link_next}>
+                    <Link to={props_link_next} style={{ textDecoration: 'none' }}>
                         <ButtonSteps />
                     </Link>
 

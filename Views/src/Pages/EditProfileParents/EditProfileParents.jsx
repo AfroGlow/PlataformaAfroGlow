@@ -23,11 +23,10 @@ function EditProfileParents() {
                     <div className='img-edit-parents'>
                         <ImageHandlerParents defaultImage="/perfil-avt-adult-1.png" onImageChangeP={handleImageChangeParents} />
                         <Link to="/perfil" className='link-router'><UniversalButton propsBtn={'SALVAR ALTERAÇÕES'} /></Link>
-                        <img src="Icon-pen.svg" alt="Botão de editar avatar" className='img-pen' />
                     </div>
                     <div className="forms-edit">
-                        <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
                         <h2 className='subtitle-edit'>Dados da conta</h2>
+                        <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
                         <Input label={'Email'} labelFor={'name'} type={'text'} id={'userName'} />
                         <Input label={'CPF'} labelFor={'cpf'} type={'tel'} id={'tel'} />
                         <Input label={'Telefone'} labelFor={'tel'} type={'tel'} id={'tel'} />

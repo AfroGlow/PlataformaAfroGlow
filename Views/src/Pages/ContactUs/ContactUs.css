@@ -8,16 +8,17 @@
     color: #F2B705;
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10rem;
+    margin-left: 9rem;
     margin-top: 8rem;
+    font-weight: 700;
     
 }
 
 .subtitle-contactUs{
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    margin-left: 10rem;
-    font-weight: 700;
+    margin-left: 9rem;
+    
 }
 
 .align-row-contactUs{
@@ -25,10 +26,12 @@
     justify-content: space-around;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: 100%;
 }
 .align-column-contactUs{
     display: flex;
     flex-direction: column;
+    width: 39rem;
     
 }
 
@@ -65,7 +68,6 @@ margin-bottom: 5rem;
 .textField-contactUs{
     height: 10rem; 
     width: 100%;
-    margin-left: 0.5rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
     box-shadow: 2px 2px 4px 2px #F2B705;
@@ -94,7 +96,7 @@ margin-bottom: 5rem;
     height: 30rem;
 }
 .inputContactUs{
-    width: 37rem;
+    width: 100%;
     padding: 1rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
@@ -105,7 +107,7 @@ margin-bottom: 5rem;
     outline: none;
 }
 .inputSmallContactUs{
-    width: 18rem;
+    width: 50%;
     padding: 1rem;
     border-radius: 1rem;
     border: solid 2px #F2B705;
@@ -116,13 +118,31 @@ margin-bottom: 5rem;
     outline: none;
 }
 
+@media (max-width: 1200px) {
+    .title-yellow-contactUs{
+        color: #F2B705;
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 3.8rem;
+        margin-top: 8rem;
+        font-weight: 700;
+        
+    }
+    
+    .subtitle-contactUs{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        margin-left: 3.8rem;
+        
+    }
+    
+}
+
 
 
 @media(max-width:1000px)  {
     
-    .img-principal-contactUs{
-       display: none;
-    }
+   
 
     .title-yellow-contactUs{
         color: #F2B705;
@@ -162,28 +182,47 @@ margin-bottom: 5rem;
         }
 
         .textField-contactUs{
-            height: 7rem; 
+            height: 7rem;
+            width: 100%; 
             border-radius: 1rem;
             border: solid 2px #F2B705;
             box-shadow: 2px 2px 4px 2px #F2B705;
             margin-top: 1rem;
             resize: none;
         } 
+        .align-column-contactUs{
+            display: flex;
+            flex-direction: column;
+            width: 33rem;
+            
+        }
+        
     }
 
     @media(max-width:600px)  {
     
 
+        .img-principal-contactUs{
+            display: none;
+         }
+
+        .align-column-contactUs{
+            display: flex;
+            flex-direction: column;
+            width: 23rem;
+            
+        }
+
 
         .inputContactUs{
-            width: 23rem;
+            width: 100%;
             padding: 1rem;
             border-radius: 1rem;
             border: solid 2px #F2B705;
             box-shadow: 2px 2px 4px 2px #F2B705;
         }
         .inputSmallContactUs{
-            width: 11rem;
+            width: 50%;
             padding: 1rem;
             border-radius: 1rem;
             border: solid 2px #F2B705;
@@ -192,3 +231,9 @@ margin-bottom: 5rem;
     
     }
     
+    @media(max-width:600px)  {
+        .container-purple-contactUs p{
+            font-size: 1.3rem ;
+        }
+    
+    }

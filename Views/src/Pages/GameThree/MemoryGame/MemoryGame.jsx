@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './MemoryGame.css';
 import { Link } from 'react-router-dom';
+import { Howl } from 'howler';
 
 const MemoryGame = () => {
   const [openedCard, setOpenedCard] = useState([]);
@@ -54,6 +55,20 @@ const MemoryGame = () => {
 
     if (openedCard.length === 2) setTimeout(() => setOpenedCard([]), 1000);
   }, [openedCard, matched]);
+
+  useEffect(() => {
+		// Reprodução automática de música ao carregar a página
+		const sound = new Howl({
+		  src: ['../Cachinhos-definidos.mp3'],
+		  autoplay: true,
+		  loop: true,
+		});
+	
+		// Limpeza ao desmontar o componente
+		return () => {
+		  sound.stop();
+		};
+	  }, []); // O array vazio assegura que o efeito seja executado apenas uma vez
 
   return (
     <> 

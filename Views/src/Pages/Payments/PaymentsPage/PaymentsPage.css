@@ -1,0 +1,142 @@
+.custom-plans {
+    background-color: #F5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 3rem;
+}
+
+.custom-plans h2 {
+    color: #000000;
+    font-size: 3rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.custom-plans-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.custom-plans-card-content {
+    width: 19rem;
+    border: solid 1px #AD4AFF;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(5px 2px 6px #AD4AFF);
+    box-shadow: 1px 2px 2px 2px inset #e2bfff;
+    margin-top: 20px;
+}
+
+.custom-plans-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFBF00;
+    border: 2px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 7px 7px rgba(154, 16, 196, 0.712);
+    border-radius: 5px;
+    width: 240.56px;
+    height: 118.38px;
+    transform: translateY(-45px);
+    text-align: center;
+}
+
+.custom-plans-value-money {
+    font-size: 2rem;
+    color: #FFBF00;
+}
+
+.custom-plans-value-money span {
+    font-size: 16px;
+}
+
+.custom-plans-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-plans-content {
+    transform: translateY(-35px);
+}
+
+.custom-plans-content-option {
+    display: flex;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.custom-plans-content-option p {
+    color: #000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-plans-card-content button {
+    background-color: #F2B705;
+    border: none;
+    width: 166.97px;
+    height: 42.31px;
+    border-radius: 10px;
+    text-align: center;
+    transform: translateY(-35px);
+}
+
+.custom-plans-card-content button:hover {
+    background-color: rgba(255, 204, 51, 0.897);
+    transition: 1.3s;
+}
+
+.custom-plans-card-content button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.custom-plans-card-content button a:hover {
+    transition: 1.3s;
+    color: #000;
+}
+
+.btn-payments{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 385px) {
+      
+    .custom-plans h2{
+        text-align: center;
+    }
+    
+    
+}
+
+@media (max-width: 405px) {
+     .plansValueMoney {
+        font-size: 1.5rem;
+        color: #FFBF00;
+    }
+    
+    .plansValueMoney span {
+        font-size: 14px;
+    }
+    
+    .plansValue {
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+}

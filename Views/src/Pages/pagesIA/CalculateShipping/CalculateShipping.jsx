@@ -58,7 +58,7 @@ function CalculateShipping() {
         </div>
       </div>
       <div className="inputsGroup">
-        <img src="./imgTelaFinalMenino.svg" alt="Menino negro de cabelo cacheado sentado usando um notebook" />
+        <img src="./imgTelaFinalMenino.svg" className='img-calculate-shipping' alt="Menino negro de cabelo cacheado sentado usando um notebook" />
         <div className="align-flex">
           <div className="flex-row-small">
             <input type="text" className='inputTelaFinaSmall' placeholder={'Cep'} value={cep} onChange={handleInputChange}  />

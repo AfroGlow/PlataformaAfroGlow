@@ -1,6 +1,5 @@
 import Input from "../../components/Input/input"
 import './ChildRegistration.css'
-import LogoA from '/public/Logo.svg'
 import UniversalButton from "../../components/Button/Button"
 import { Link } from "react-router-dom"
 import InputSelect from "../../components/Input/InputSelect"
@@ -11,7 +10,7 @@ function CadastroC() {
             <section className="container-register">
                 <div className="info">
                     <Link to="/">
-                        <img src={LogoA} alt="" className="logo" />
+                        <img src="Logo.svg" alt="" className="logo" />
                     </Link>
                     <h2 className="subtitle">Para finalizar, preencha os dados da criança</h2>
                 </div>

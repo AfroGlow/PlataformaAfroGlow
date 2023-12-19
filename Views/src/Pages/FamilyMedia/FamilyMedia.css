@@ -64,6 +64,11 @@
     margin-left: 1rem;
 }
 
+.footer-medias{
+    max-width: 95%;
+    margin-left: 5.7rem;
+}
+
 @media (max-width: 560px) {
       
     .card-media-container{
@@ -122,6 +127,10 @@
     }
     .text-medias h1{
        margin-bottom: 1rem;
+    }
+    .footer-medias{
+        max-width: 100%;
+        margin-left: 0rem;
     }
 }
 

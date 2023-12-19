@@ -2,6 +2,7 @@ import './HairTypes.css';
 import { Link } from 'react-router-dom';
 
 const HairTypes = () => {
+    
     return(
         <body >
             <Link to="/jogo3"><img className='back-games' src="icon-button-left.svg" alt="" /></Link>

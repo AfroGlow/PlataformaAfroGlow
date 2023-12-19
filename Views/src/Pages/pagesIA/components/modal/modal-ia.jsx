@@ -19,7 +19,7 @@ function ModalReconhecimentoCapilar() {
 
 
    
-      <Modal  show={show} onHide={handleClose} animation={false} centered>
+      <Modal className='modal-general-ia'  show={show} onHide={handleClose} animation={false} centered>
       
         <Modal.Body className='modalCenter-ia'>
             <div className='align-center-modal-img-ia'>

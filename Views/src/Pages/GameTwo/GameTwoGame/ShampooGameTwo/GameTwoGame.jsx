@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useState  } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
 import AudioPlayer from '../../../../components/AudioPlayer/AudioPlayer';
+import { Howl } from 'howler';
 
 
 const GameTwoGame = () => {
@@ -232,7 +233,19 @@ const GameTwoGame = () => {
 
   }, [pressing, pressStartTime]);
 
-
+  useEffect(() => {
+		// Reprodução automática de música ao carregar a página
+		const sound = new Howl({
+		  src: ['../Bolinhas-de-diversao.mp3'],
+		  autoplay: true,
+		  loop: true,
+		});
+	
+		// Limpeza ao desmontar o componente
+		return () => {
+		  sound.stop();
+		};
+	  }, []); // O array vazio assegura que o efeito seja executado apenas uma vez
 
   return (
     <div className='areaGameTwo'>
@@ -269,7 +282,7 @@ const GameTwoGame = () => {
             <div className='modalGameContainerTwo'>
               <div>
                 <h2 className='modalTitleContainerOne'>Shampoo</h2>
-                <AudioPlayer LinkAudio={"shampooGameTwoAudio.mp3"}/>
+                <AudioPlayer LinkAudio={"../Audio1Shampoo.mp4"}/>
                 <p className="description-avatars">Passar shampoo no cabelo é como dar um abraço nos fios! Ele limpa e tira todas as sujeirinhas, deixando o cabelo feliz e saudável. É como uma festa para as madeixas, dando energia para brilhar e ficar macio. É um carinho especial que faz os cabelos se sentirem amados!</p>
               </div>
               <div className="description-avatars">

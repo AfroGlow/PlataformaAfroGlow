@@ -91,6 +91,62 @@
     }
    }
 
+   @media (max-width:830px){
+
+    .parents-profile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFFFFF;
+      width: 18rem;
+      height: 20rem;
+      border-radius: 40px;
+      border: 2px solid #AD4AFF;
+    }
+
+    .children-profile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFFFFF;
+      width: 18rem;
+      height: 20rem;
+      border-radius: 40px;
+      border: 2px solid #AD4AFF;
+    }
+
+    .profiles{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.3rem;
+      gap: 2em;
+    }
+
+    .icon-edit{
+        height: 2rem;
+        position: relative;
+        bottom: 1.4rem;
+    }
+     .name-profile{
+      font: 600 normal 1rem 'Poppins';
+      position: relative;
+      top: 1.3rem;
+    }
+  
+    .children-profile img{
+      width: 10rem;
+      
+    }
+  
+    .parents-profile img{
+      width: 10rem;
+  
+  }
+}
+
   @media (max-width:600px){
 
     .parents-profile{

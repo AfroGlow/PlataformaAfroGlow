@@ -23,6 +23,10 @@
     
 }
 
+.video-step-by-step iframe{
+    border-radius: 40px;
+}
+
 .text-step-by-step{
     display: flex;
     justify-content: center;
@@ -108,6 +112,8 @@
     margin-top: 1.5rem;
     gap: 28px;
     margin-bottom: 2rem;
+    text-decoration: none;
+    
 }
 
 
@@ -166,6 +172,9 @@
     .video-step-by-step iframe {
         width: 22rem; 
         height: 20rem; 
+      }
+      .content-steps{
+        text-align: left;
       }
 }
 

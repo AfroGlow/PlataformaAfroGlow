@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 import { Icon } from '@iconify/react';
 import ButtonArrow from "../../components/ButtonArrow/BtnArrow"
 import ImageHandlerChild from './ImageHandlerChild/ImageHandlerChild';
-import DarkModeSwitch from '../../components/DarkSwitch/DarkModeSwitch';
 
 const EditProfileChild = () => {
 
@@ -22,16 +21,14 @@ const EditProfileChild = () => {
                 <h2 className='title-edit-child'>Editar Perfil</h2>
                 <div className='edit-profile-child'>
                     <div className='img-edit-child'>
-
                         < ImageHandlerChild defaultImage="perfil-avt-1.png" onImageChange={handleImageChange} />
                         <Link to="/perfil">
                             <UniversalButton propsBtn={'SALVAR ALTERAÇÕES'} onClick={() => alert('Alterações salvas!')} />
                         </Link>
-                        <img src="Icon-pen.svg" alt="Botão de editar avatar" className='img-pen' />
                     </div>
                     <div className="forms-edit">
-                        <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
                         <h2 className='subtitle-edit'>Dados da conta</h2>
+                        <Input label={'Nome'} labelFor={'name'} type={'text'} id={'userName'} />
                         <Input label={'Data de Nascimento'} labelFor={'date'} type={'text'} id={'date'} />
                         <Input label={'Genero'} labelFor={'genero'} type={'text'} id={'genero'} />
                     </div>

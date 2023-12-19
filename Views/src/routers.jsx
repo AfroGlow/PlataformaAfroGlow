@@ -16,7 +16,7 @@ import Form3 from './Pages/pagesIA/Form3/Form3.jsx'
 import Form1 from './Pages/pagesIA/Form1/Form1.jsx'
 import ContactUs from './Pages/ContactUs/ContactUs.jsx'
 import CalculateShipping from './Pages/pagesIA/CalculateShipping/CalculateShipping.jsx'
-import ImageClassification from './Pages/pagesIA/components/ImageClassification/index.jsx';
+import ImageClassification from './Pages/ImageClassification/ImageClassification.jsx'
 import ChildRegistration from "./Pages/ChildRegistration/ChildRegistration";
 import ParentRegistration from "./Pages/ParentRegistration/ParentRegistration";
 import Login from "./Pages/Login/Login";
@@ -45,7 +45,6 @@ import TutorialOne from './Pages/GameOne/TutorialOne/TutorialOne.jsx'
 import Game from './Pages/Games/CoversGames/Game.jsx'
 import Tutorials from './Pages/Games/TutorialsGames/Tutorials.jsx'
 import AllPartners from './Pages/Partners/AllPartners/AllPartners.jsx'
-import BoxPlans from './Pages/BoxPlans/BoxPlans.jsx'
 import ScreenOne from './Pages/GameOne/ScreenOne/ScreenOne.jsx'
 import ScreenTwo from './Pages/GameOne/ScreenTwo/ScreenTwo.jsx'
 import ScreenThree from './Pages/GameOne/ScreenThree/ScreenThree.jsx'
@@ -60,6 +59,10 @@ import PaymentsPremium from './Pages/Payments/PaymentsPremium.jsx'
 import FinishGameThree from './Pages/GameThree/FinishGameThree/FinishGameThree.jsx'
 import MemoryGame from './Pages/GameThree/MemoryGame/MemoryGame.jsx'
 import PlanesIaScreen from './Pages/pagesIA/PlanesIa/PlanesIaScreen.jsx'
+import PaymentsPage from './Pages/Payments/PaymentsPage/PaymentsPage.jsx'
+import PaymentsPlus from './Pages/Payments/PaymentsYearly.jsx'
+import PaymentsIa from './Pages/Payments/PaymentsIa.jsx'
+import PaymentsIaKids from './Pages/Payments/PaymentsIaKids.jsx'
 
 function RouterApp() {
 
@@ -125,6 +128,9 @@ function RouterApp() {
         <Route path='/jogo3tela2' element={<HairTypes />}></Route> 
         <Route path='/jogo3-conclusao' element={<FinishGameThree />}></Route> 
         <Route path='/paginadepagamento' element={< PaymentsPage />}>Pagamento</Route>
+        <Route path="/pagamentoplanoanual" element={<PaymentsPlus />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoGlow" element={<PaymentsIa />}>Tela de Pagamento</Route>
+        <Route path="/pagamentoGlowKids" element={<PaymentsIaKids />}>Tela de Pagamento</Route>
       </Routes>
     </Router>
 

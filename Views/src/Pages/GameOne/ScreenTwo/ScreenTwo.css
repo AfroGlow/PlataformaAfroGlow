@@ -157,6 +157,12 @@ margin-top: 0.5rem;
 .container-draw2 svg{
   margin-left: 2.7rem;
 }
+
+.screen-2-game-1 h1{
+  font-size: 1.5rem;
+  }
+
+
 }
 @media (max-width: 410px) {
 .back-game-draw {
@@ -166,12 +172,12 @@ margin-top: 0.5rem;
 
 }
 .options-game2 {
-    padding: 0em;
-    text-align: center;
-    margin-left: 0;
-    max-width: 70%;
-    position: relative;
-    left: 4rem;
+  padding: 1rem;
+  text-align: center;
+  margin-left: 0;
+  max-width: 75%;
+  position: relative;
+  left: 4rem;
 }
 .container-draw2 svg{
  width: 70%;

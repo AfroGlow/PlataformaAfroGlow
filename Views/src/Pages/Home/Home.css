@@ -595,4 +595,26 @@
     .identifyImg {
         display: none;
      }
+
+     .plansValueMoney {
+        font-size: 1.5rem;
+        color: #FFBF00;
+    }
+    
+    .plansValueMoney span {
+        font-size: 14px;
+    }
+    
+    .plansValue {
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    .plans h2{
+        text-align: center;
+    }
+
+    .AIscpaceText{
+        margin-left: 1rem;
+    }
 }

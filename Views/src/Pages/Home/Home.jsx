@@ -6,7 +6,6 @@ import CarouselComent from '../../components/CarouselComent/CarouselComent'
 import Partners from '../../components/PartnersCarousel/Partners'
 import CareCard from '../../components/CareCard/CareCard'
 import { Link } from 'react-router-dom'
-import ModalFreePlan from '../Payments/ModalFreePlan/ModalFreePlan'
 import '../Payments/ModalFreePlan/ModalFreePlan.css'
 
 
@@ -80,7 +79,7 @@ const Home = () => {
               <li>Nos conte mais sobre o seu cabelo e as necessidades</li>
               <li>Receba uma box personalizada para seu tratamento</li>
             </ul>
-            <Link to="/planosia"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
+            <Link to="/cadastro"><button className='buttonIA'><a href="#">Acesse Nossa IA</a></button></Link>
           </div>
           <img src="ImagemIA.png" alt="imagem card" className='identifyImg'/>
         </div>

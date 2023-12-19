@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useState  } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
 import AudioPlayer from '../../../../components/AudioPlayer/AudioPlayer';
+import { Howl } from 'howler';
 
 
 const GameTwoGame = () => {
@@ -232,7 +233,19 @@ const GameTwoGame = () => {
 
   }, [pressing, pressStartTime]);
 
-
+  useEffect(() => {
+		// Reprodução automática de música ao carregar a página
+		const sound = new Howl({
+		  src: ['../Bolinhas-de-diversao.mp3'],
+		  autoplay: true,
+		  loop: true,
+		});
+	
+		// Limpeza ao desmontar o componente
+		return () => {
+		  sound.stop();
+		};
+	  }, []); // O array vazio assegura que o efeito seja executado apenas uma vez
 
   return (
     <div className='areaGameTwo'>
@@ -268,7 +281,7 @@ const GameTwoGame = () => {
             <div className='modalGameContainerTwo'>
               <div>
                 <h2 className='modalTitleContainerOne'>Condicionador</h2>
-                <AudioPlayer LinkAudio={"condicionadorGameTwoAudio.mp3"}/>
+                <AudioPlayer LinkAudio={"../Audio2condicionador.mp4"}/>
                 <p className="description-avatars">O condicionador é como um abraço mágico para os cabelos! Ele deixa os fios supermacios e desembaraçados, como se fossem abraçados por nuvens fofinhas. Além disso, o condicionador protege o cabelo, deixando-o forte e brilhante, como uma capa de super-herói para os nossos queridos fios!</p>
               </div>
               <div className="description-avatars">

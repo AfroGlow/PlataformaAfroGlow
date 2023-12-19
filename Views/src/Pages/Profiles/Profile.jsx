@@ -13,7 +13,7 @@ function Perfil() {
           <LeaveButton props_leave={'Sair'} />
         </Link>
         <div className='info-edit'>
-          <h2 className='title-page'>Quem está acessando?</h2>
+          <h2 className='title-page-edit'>Quem está acessando?</h2>
           <Link to="/editar" className='router'><EditButton /></Link>
         </div>
         <div className="profiles card-1">
@@ -35,5 +35,4 @@ function Perfil() {
   )
 
 }
-
 export default Perfil

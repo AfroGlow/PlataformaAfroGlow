@@ -12,7 +12,9 @@
   }
 
   
-   .title-page{
+   .title-page-edit{
+    font-size: 1.7rem;
+    font-weight: 800;
     color: #FFFFFF;
   }
   
@@ -95,6 +97,7 @@
       position: relative;
       top: 2px;
     }
+    
    }
 
 
